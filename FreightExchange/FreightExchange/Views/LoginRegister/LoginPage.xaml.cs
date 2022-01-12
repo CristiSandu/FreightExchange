@@ -18,9 +18,9 @@ namespace FreightExchange.Views.LoginRegister
             BindingContext = new ViewModel.LoginRegister.LoginPageViewModel();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private async void Button_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new Views.LoginRegister.RegisterPage());
         }
     }
 }

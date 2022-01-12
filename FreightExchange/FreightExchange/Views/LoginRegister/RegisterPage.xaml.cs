@@ -15,6 +15,11 @@ namespace FreightExchange.Views.LoginRegister
         public RegisterPage()
         {
             InitializeComponent();
+            BindingContext = new ViewModel.LoginRegister.RegisterPageViewModel();
+        }
+
+        private async void CancelBtn_Clicked(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -15,36 +15,9 @@ namespace FreightExchange.ViewModel.LoginRegister
         public string Password { get; set; }
 
         public ICommand LoginCommand { get; set; }
-        public ICommand RegisterCommand { get; set; }
 
         public LoginPageViewModel()
         {
-            RegisterCommand = new Command(async () =>
-            {
-                if (string.IsNullOrEmpty(Email) ||
-                    string.IsNullOrEmpty(Password) ||
-                    Password.Length <= 6)
-                {
-                    await App.Current.MainPage.DisplayAlert("Error", "Some fields are empty", "Ok", "Cancel");
-                }
-                else
-                {
-                    try
-                    {
-                        var authProvider = new FirebaseAuthProvider(new FirebaseConfig(APIKey));
-                        var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(Email, Password);
-                        string getToken = auth.FirebaseToken;
-                        var user = auth.User;
-
-                        await App.Current.MainPage.DisplayAlert("Error", getToken, "Ok", "Cancel");
-                    }
-                    catch (Exception ex)
-                    {
-                        await App.Current.MainPage.DisplayAlert("Error", "Some Error, retry", "Ok", "Cancel");
-                    }
-                }
-            });
-
             LoginCommand = new Command(async () =>
             {
                 if (string.IsNullOrEmpty(Email) ||
@@ -64,7 +37,8 @@ namespace FreightExchange.ViewModel.LoginRegister
 
                         var user = auth.User;
                         Xamarin.Essentials.Preferences.Set("FirebaseRefreshToken", serializer);
-                        await Application.Current.MainPage.Navigation.PushAsync(new Views.MainPage());
+                        Application.Current.MainPage = new NavigationPage(new Views.MainPage());
+
                     }
                     catch (Exception ex)
                     {

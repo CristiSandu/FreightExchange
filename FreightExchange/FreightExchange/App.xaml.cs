@@ -10,7 +10,14 @@ namespace FreightExchange
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Views.LoginRegister.LoginPage());
+            if (!string.IsNullOrEmpty(Xamarin.Essentials.Preferences.Get("FirebaseRefreshToken", "")))
+            {
+                MainPage = new NavigationPage(new Views.MainPage());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new Views.LoginRegister.LoginPage());
+            }
         }
 
         protected override void OnStart()

@@ -15,6 +15,7 @@ namespace FreightExchange.Views
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new ViewModel.LoginRegister.MainPageViewModel();
         }
     }
 }

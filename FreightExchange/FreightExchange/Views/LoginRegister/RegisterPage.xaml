@@ -3,10 +3,92 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FreightExchange.Views.LoginRegister.RegisterPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <ScrollView Padding="4,16,4,16" Grid.ColumnSpan="3" Grid.RowSpan="3">
+                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Padding="16,4,16,4" Spacing="56">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Register Users" Style="{StaticResource InfoTextSy}" FontFamily="FAS" FontSize="40" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                    <Grid ColumnSpacing="10" RowSpacing="15" Padding="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".5*" />
+                            <ColumnDefinition Width=".5*" />
+                        </Grid.ColumnDefinitions>
+                        
+                        <Frame Style="{StaticResource FrameAddNews}">
+                            <StackLayout Spacing="-8" >
+                                <StackLayout  Style="{StaticResource StackEntry}">
+                                    <Label Text="Name" Style="{StaticResource InfoTextSy}"/>
+                                    <Label Text="*" Style="{StaticResource RequierSy}"/>
+                                </StackLayout>
+                                <Entry x:Name="FirstNameEntry" Placeholder="ex:Ionescu" Style="{StaticResource EntryStyle}" Text="{Binding User.Name}"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.Column="1" Style="{StaticResource FrameAddNews}">
+                            <StackLayout Spacing="-8" >
+                                <StackLayout  Style="{StaticResource StackEntry}">
+                                    <Label Text="SureName" Style="{StaticResource InfoTextSy}"/>
+                                    <Label Text="*" Style="{StaticResource RequierSy}"/>
+                                </StackLayout>
+                                <Entry Grid.Column="1" x:Name="LasttNameEntry" Placeholder="ex:Mihai" Style="{StaticResource EntryStyle}" Text="{Binding User.SurName}"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.ColumnSpan="2" Grid.Row="1" Style="{StaticResource FrameAddNews}">
+                            <StackLayout Spacing="-8" Grid.ColumnSpan="2" Grid.Row="1" >
+                                <StackLayout  Style="{StaticResource StackEntry}">
+                                    <Label Text="Email" Style="{StaticResource InfoTextSy}"/>
+                                    <Label Text="*" Style="{StaticResource RequierSy}"/>
+                                </StackLayout>
+                                <Entry Grid.ColumnSpan="2" Grid.Row="1" x:Name="EmailEntry" Placeholder="ex:ldap@stud.acs.upb.ro" Style="{StaticResource EntryStyle}" Text="{Binding User.Email}" />
+                            </StackLayout>
+                        </Frame>
+                        <Frame Grid.ColumnSpan="2"  Grid.Row="2" Style="{StaticResource FrameAddNews}">
+                            <StackLayout Padding="0,4,0,0" >
+                                <Label Text="Select Role" Style="{StaticResource InfoTextSy}"/>
+                                <Picker x:Name="PathPicker" Grid.Row="2" 
+                                        Title="Role"
+                                        TextColor="{AppThemeBinding Light={StaticResource BackgroundDark}, Dark={StaticResource BackgroundLight}}"
+                                        ItemsSource="{Binding Roles}"
+                                        ItemDisplayBinding="{Binding .}"
+                                        SelectedItem="{Binding User.Role}" />
+                            </StackLayout>
+                        </Frame>
+                        <Frame  Grid.ColumnSpan="2" Grid.Row="3" IsVisible="{Binding Verify}" Style="{StaticResource FrameAddNews}" >
+                            <StackLayout  Spacing="-8">
+                                <StackLayout  Style="{StaticResource StackEntry}">
+                                    <Label Text="Password" Style="{StaticResource InfoTextSy}"/>
+                                    <Label Text="*" Style="{StaticResource RequierSy}"/>
+                                </StackLayout>
+                                <Entry Grid.ColumnSpan="2" Grid.Row="3"  x:Name="PasswordEntry" Style="{StaticResource EntryStyle}"  IsPassword="True" Text="{Binding Password}"/>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+
+                    <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Center">
+                        <Button x:Name="SaveBtn" Text="Save" Style="{StaticResource ButtonCheckedStyle}" Command="{Binding RegisterCommand}"/>
+                        <Button x:Name="CancelBtn" Text="Cancel" Style="{StaticResource ButtonUnCheckStyle}" Clicked="CancelBtn_Clicked" />
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+            <ActivityIndicator x:Name="loading" IsRunning="False" Grid.Column="1" Grid.Row="1" HeightRequest="5" WidthRequest="5" />
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
