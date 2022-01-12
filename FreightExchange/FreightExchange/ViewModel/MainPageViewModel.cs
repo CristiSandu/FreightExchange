@@ -17,6 +17,7 @@ namespace FreightExchange.ViewModel
         public string UID { get; set; }
         public string Email { get; set; }
 
+        public Models.UserModel User { get; set; }
         public MainPageViewModel()
         {
             GetRefreshToken();
@@ -50,7 +51,13 @@ namespace FreightExchange.ViewModel
                 UID = savedfirebaseAuth.User.LocalId;
                 Email = savedfirebaseAuth.User.Email;
 
+                User = await Services.FirestoreServiceProvider.GetFirestoreUser(UID);
+
+
+
                 OnPropertyChanged(nameof(UID));
+                OnPropertyChanged(nameof(User));
+
                 OnPropertyChanged(nameof(Email));
             }
             catch (Exception ex)

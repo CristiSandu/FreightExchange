@@ -10,8 +10,11 @@ namespace FreightExchange.Services
     {
         public static async Task<bool> CreateUserFirestore(Models.UserModel user)
         {
-            await CrossCloudFirestore.Current.Instance.
-                    Collection(Models.UserModel.CollectionPath).AddAsync(user);
+            await CrossCloudFirestore
+                .Current
+                .Instance
+                .Collection(Models.UserModel.CollectionPath)
+                .Document(user.Id).SetAsync(user);
             return true;
         }
 
