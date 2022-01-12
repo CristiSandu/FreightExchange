@@ -8,12 +8,14 @@ using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
-namespace FreightExchange.ViewModel.LoginRegister
+namespace FreightExchange.ViewModel
 {
     public class MainPageViewModel : BaseViewModel
     {
         public string APIKey = "AIzaSyDnIz9wcDVHpA-lYDiqIx_O840pjs264Ps";
         public ICommand LogOutCommand { get; set; }
+        public string UID { get; set; }
+        public string Email { get; set; }
 
         public MainPageViewModel()
         {
@@ -43,6 +45,13 @@ namespace FreightExchange.ViewModel.LoginRegister
                 var savedfirebaseAuth = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Xamarin.Essentials.Preferences.Get("FirebaseRefreshToken", ""));
                 var RefreshContent = await authProvider.RefreshAuthAsync(savedfirebaseAuth);
                 Xamarin.Essentials.Preferences.Set("FirebaseRefreshToken", JsonConvert.SerializeObject(RefreshContent));
+                var user = savedfirebaseAuth.User;
+
+                UID = savedfirebaseAuth.User.LocalId;
+                Email = savedfirebaseAuth.User.Email;
+
+                OnPropertyChanged(nameof(UID));
+                OnPropertyChanged(nameof(Email));
             }
             catch (Exception ex)
             {

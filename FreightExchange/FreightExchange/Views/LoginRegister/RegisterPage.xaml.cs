@@ -20,6 +20,7 @@ namespace FreightExchange.Views.LoginRegister
 
         private async void CancelBtn_Clicked(object sender, EventArgs e)
         {
+            await Navigation.PopAsync();
         }
     }
 }

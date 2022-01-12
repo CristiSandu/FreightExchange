@@ -4,6 +4,12 @@
              x:Class="FreightExchange.App">
     <Application.Resources>
         <ResourceDictionary>
+            <Color x:Key="PaleSpringBud">#F2F3AE</Color>
+            <Color x:Key="Buff">#EDD382</Color>
+            <Color x:Key="SandyBrown">#FC9E4F</Color>
+            <Color x:Key="RedRYB">#F4442E</Color>
+            <Color x:Key="Xiketic">#020122</Color>
+
             <Color x:Key="BackgroundDark">#2E2E2E</Color>
             <Color x:Key="BackgroundLight">#FAFAFA</Color>
 
@@ -36,17 +42,17 @@
             <Style x:Key="ButtonUnCheckStyle" TargetType="Button">
                 <Setter Property="CornerRadius" Value="20" />
                 <Setter Property="BackgroundColor" Value="Transparent" />
-                <Setter Property="TextColor" Value="LightBlue"/>
-                <Setter Property="BorderColor" Value="LightBlue"/>
+                <Setter Property="TextColor" Value="{StaticResource Buff}"/>
+                <Setter Property="BorderColor" Value="{StaticResource Buff}"/>
                 <Setter Property="BorderWidth" Value="2"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
             </Style>
 
             <Style x:Key="ButtonCheckedStyle" TargetType="Button">
                 <Setter Property="CornerRadius" Value="20" />
-                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundDark}}"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="BackgroundColor" Value="LightBlue"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource Buff}"/>
                 <Setter Property="BorderWidth" Value="2"/>
             </Style>
 
