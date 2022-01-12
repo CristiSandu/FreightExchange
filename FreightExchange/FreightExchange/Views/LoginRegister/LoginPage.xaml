@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.LoginRegister.LoginPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+
+            <StackLayout Padding="16,40,16,16" Grid.ColumnSpan="3" Grid.RowSpan="3">
+                <Image Source="login.png" VerticalOptions="StartAndExpand"/>
+
+                <StackLayout VerticalOptions="CenterAndExpand" Spacing="80">
+                    <Label Text="Login Page"
+                                FontAttributes="Bold"
+                                FontSize="24"   
+                                HorizontalOptions="CenterAndExpand"
+                                TextColor="{AppThemeBinding Dark={StaticResource BackgroundLight}, Light={StaticResource BackgroundDark}}"/>
+
+                    <StackLayout Spacing="12">
+                        <Frame Style="{StaticResource FrameAddNews}" Padding="12,4,12,4" CornerRadius="10" >
+                            <Entry Placeholder="User  Email" 
+                                       Text="{Binding Email}"
+                                       FontFamily="FAR" Keyboard="Email"
+                                       ClearButtonVisibility="WhileEditing" 
+                                       IsSpellCheckEnabled="True" 
+                                       TextColor="{AppThemeBinding Dark={StaticResource BackgroundLight}, Light={StaticResource BackgroundDark}}" 
+                                       PlaceholderColor="{AppThemeBinding Dark={StaticResource BackgroundLight}, Light=LightGray}"/>
+                        </Frame>
+                        <Frame Style="{StaticResource FrameAddNews}" Padding="12,4,12,4" CornerRadius="10" >
+                            <Entry Placeholder="ellipsis-h  Password" FontFamily="FAS" 
+                                       Text="{Binding Password}"
+                                       IsPassword="True" 
+                                       ClearButtonVisibility="WhileEditing" 
+                                       TextColor="{AppThemeBinding Dark={StaticResource BackgroundLight}, Light={StaticResource BackgroundDark}}"
+                                       PlaceholderColor="{AppThemeBinding Dark={StaticResource BackgroundLight}, Light=LightGray}"/>
+                        </Frame>
+                    </StackLayout>
+                    <StackLayout Padding="20,0,20,0">
+                        <Button Text="Login" Style="{StaticResource ButtonCheckedStyle}" TextTransform="None" FontSize="Medium" HeightRequest="52" Command="{Binding LoginCommand}"/>
+                        <Button Text="Register" Style="{StaticResource ButtonUnCheckStyle}" TextTransform="None" FontSize="Medium" HeightRequest="52" Clicked="Button_Clicked"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <ActivityIndicator x:Name="loading" IsRunning="False" Grid.Column="1" Grid.Row="1" HeightRequest="5" WidthRequest="5" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

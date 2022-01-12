@@ -3,6 +3,57 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FreightExchange.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="BackgroundDark">#2E2E2E</Color>
+            <Color x:Key="BackgroundLight">#FAFAFA</Color>
 
+            <Style x:Key="FrameAddNews" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="5"/>
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource BackgroundDark}, Dark={StaticResource BackgroundLight}}"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="Padding" Value="16,4,16,4"/>
+            </Style>
+
+            <Style x:Key="StackEntry" TargetType="StackLayout">
+                <Setter Property="Orientation" Value="Horizontal"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+            </Style>
+
+            <Style x:Key="InfoTextSy" TargetType="Label">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource BackgroundDark}, Dark={StaticResource BackgroundLight}}"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
+            <Style x:Key="RequierSy" TargetType="Label">
+                <Setter Property="TextColor" Value="Red"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
+            <Style x:Key="ButtonUnCheckStyle" TargetType="Button">
+                <Setter Property="CornerRadius" Value="20" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="TextColor" Value="LightBlue"/>
+                <Setter Property="BorderColor" Value="LightBlue"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
+            <Style x:Key="ButtonCheckedStyle" TargetType="Button">
+                <Setter Property="CornerRadius" Value="20" />
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="BackgroundColor" Value="LightBlue"/>
+                <Setter Property="BorderWidth" Value="2"/>
+            </Style>
+
+            <Style x:Key="EntryStyle" TargetType="Entry">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource BackgroundDark}, Dark={StaticResource BackgroundLight}}"/>
+                <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light=LightGray, Dark=LightGray}"/>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
