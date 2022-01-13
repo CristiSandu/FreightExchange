@@ -37,8 +37,11 @@ namespace FreightExchange.ViewModel.LoginRegister
 
                         var user = auth.User;
                         Xamarin.Essentials.Preferences.Set("FirebaseRefreshToken", serializer);
-                        Application.Current.MainPage = new NavigationPage(new Views.MainPage());
+                        
+                        Models.UserModel User = await Services.FirestoreServiceProvider.GetFirestoreUser(user.LocalId);
+                        Xamarin.Essentials.Preferences.Set("Role", User.Role);
 
+                        Application.Current.MainPage = new NavigationPage(new Views.MainPage());
                     }
                     catch (Exception ex)
                     {

@@ -60,6 +60,23 @@
                 <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource BackgroundDark}, Dark={StaticResource BackgroundLight}}"/>
                 <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light=LightGray, Dark=LightGray}"/>
             </Style>
+            
+            <Style x:Key="TitleStyle" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundDark}}"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+            </Style>
+
+            <Style x:Key="FrameList" TargetType="Frame">
+                <Setter Property="BorderColor" Value="{AppThemeBinding Dark={StaticResource Xiketic}, Light={StaticResource Xiketic}}" />
+                <Setter Property="Padding" Value="10,10,10,10" />
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Dark={StaticResource Xiketic}, Light={StaticResource Xiketic}}" />
+                <Setter Property="Opacity" Value="1"/>
+                <Setter Property="HasShadow" Value="True"/>
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>
