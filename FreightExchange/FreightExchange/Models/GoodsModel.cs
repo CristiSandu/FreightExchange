@@ -13,6 +13,17 @@ namespace FreightExchange.Models
         [MapTo("type")]
         public string Name { get; set; }
 
-        public string MainTitle => $"{Name}";
+        private string _mainTitle;
+        public string MainTitle
+        {
+            get { return $"{Name}"; }
+            set
+            {
+                if (value != _mainTitle)
+                {
+                    _mainTitle = $"{Name}";
+                }
+            }
+        }
     }
 }

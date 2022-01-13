@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.AdminViews.AddGoodsCategoryPage"
+             Title="Add New Goods Category"
+             >
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="CenterAndExpand" Padding="16" Spacing="24"
+                >
+            <Label Text="Goods" Style="{StaticResource InfoTextSy}" HorizontalOptions="CenterAndExpand"/>
+            <Entry Placeholder="ex: Pene" Text="{Binding Name}"/>
+            <Button Text="Save" TextTransform="None" Command="{Binding SaveCommand}" Style="{StaticResource ButtonCheckedStyle}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -21,5 +21,10 @@ namespace FreightExchange.Views.AdminViews
             InitializeComponent();
             BindingContext = this;
         }
+
+        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new Views.LoginRegister.LoginPage());
+        }
     }
 }

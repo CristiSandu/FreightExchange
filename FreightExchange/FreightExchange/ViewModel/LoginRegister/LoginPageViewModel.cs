@@ -41,7 +41,21 @@ namespace FreightExchange.ViewModel.LoginRegister
                         Models.UserModel User = await Services.FirestoreServiceProvider.GetFirestoreUser(user.LocalId);
                         Xamarin.Essentials.Preferences.Set("Role", User.Role);
 
-                        Application.Current.MainPage = new NavigationPage(new Views.MainPage());
+                        switch (User.Role)
+                        {
+                            case "Transportator":
+                                Application.Current.MainPage = new NavigationPage(new Views.MainPage());
+                                break;
+                            case "Expeditor":
+                                Application.Current.MainPage = new NavigationPage(new Views.MainPage());
+                                break;
+                            case "Admin":
+                                Application.Current.MainPage = new NavigationPage(new Views.AdminViews.AdminTabbedPage());
+                                break;
+                            default:
+                                Application.Current.MainPage = new NavigationPage(new Views.MainPage());
+                                break;
+                        }
                     }
                     catch (Exception ex)
                     {

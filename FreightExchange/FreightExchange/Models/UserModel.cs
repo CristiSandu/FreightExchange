@@ -23,7 +23,7 @@ namespace FreightExchange.Models
         [MapTo("MainTitle")]
         public string MainTitle
         {
-            get { return _mainTitle; }
+            get { return $"{Name} {SurName}"; }
             set
             {
                 if (value != _mainTitle)
@@ -37,7 +37,7 @@ namespace FreightExchange.Models
         [MapTo("SecondTitle")]
         public string SecondTitle
         {
-            get { return _secondTitle; }
+            get { return $"{Email}"; }
             set
             {
                 if (value != _secondTitle)
@@ -51,7 +51,7 @@ namespace FreightExchange.Models
         [MapTo("EndTitle")]
         public string EndTitle
         {
-            get { return _endTitle; }
+            get { return $"{Role}"; }
             set
             {
                 if (value != _endTitle)
@@ -65,7 +65,7 @@ namespace FreightExchange.Models
         [MapTo("Icon2")]
         public string Icon2
         {
-            get { return _icon2; }
+            get { return "envelope-open-text"; }
             set
             {
                 if (value != _icon2)

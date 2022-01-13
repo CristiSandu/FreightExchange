@@ -33,10 +33,13 @@ namespace FreightExchange.ViewModel.Admin
                 }
             }
         }
+        public bool IsAddVisible { get; set; } = false;
 
 
         public ListOfExpeditor()
         {
+            GetData();
+
             Delete = new Command<Models.UserModel>(async user =>
             {
                 if (await Services.FirestoreServiceProvider.DeleteUser(user))
@@ -57,6 +60,16 @@ namespace FreightExchange.ViewModel.Admin
                 OnPropertyChanged(nameof(PageTitle));
                 IsRefreshing = false;
             });
+        }
+
+
+        public async void GetData()
+        {
+            List<Models.UserModel> users = await Services.FirestoreServiceProvider.GetFirestoreAllUser("Expeditor");
+            ListOf = new ObservableCollection<UserModel>(users);
+            OnPropertyChanged(nameof(ListOf));
+            PageTitle = $"Count {ListOf.Count}";
+            OnPropertyChanged(nameof(PageTitle));
         }
     }
 }

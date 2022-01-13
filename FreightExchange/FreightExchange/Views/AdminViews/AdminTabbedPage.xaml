@@ -6,9 +6,14 @@
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.ToolbarPlacement="Top" 
             android:TabbedPage.IsSwipePagingEnabled="False"
-            NavigationPage.HasNavigationBar="False"
-            SelectedTabColor="{StaticResource RedRYB}"
+            NavigationPage.HasNavigationBar="True"
+            Title="Admin Dashboard"
+            SelectedTabColor="{StaticResource Xiketic}"
             >
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="LogOut" Clicked="ToolbarItem_Clicked"/>
+    </TabbedPage.ToolbarItems>
+    
     <NavigationPage Title="Transportatori" >
         <x:Arguments>
             <adminPage:GenericElementsListPage BindingContext="{Binding ListOfTransportators}"/>
