@@ -9,8 +9,12 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" >
-            <Label Text="{Binding UID}" />
-            <Label Text="{Binding Email}" />
+            <Label Text="{Binding User.Id}" />
+            <Label Text="{Binding User.Name}" />
+            <Label Text="{Binding User.SurName}" />
+            <Label Text="{Binding User.Role}" />
+            <Label Text="{Binding User.Email}" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

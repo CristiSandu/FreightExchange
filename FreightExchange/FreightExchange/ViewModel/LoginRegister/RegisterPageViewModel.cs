@@ -40,7 +40,16 @@ namespace FreightExchange.ViewModel.LoginRegister
 
                         var user = auth.User;
 
-                        await App.Current.MainPage.DisplayAlert("Error", getToken, "Ok", "Cancel");
+                        User.Id = auth.User.LocalId;
+
+                        if (await Services.FirestoreServiceProvider.CreateUserFirestore(User))
+                        {
+                            await App.Current.MainPage.DisplayAlert("Suc", getToken, "Ok", "Cancel");
+                        }
+                        else
+                        {
+                            await App.Current.MainPage.DisplayAlert("Error", "Error", "Ok", "Cancel");
+                        }
                     }
                     catch (Exception ex)
                     {

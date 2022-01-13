@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "814535460416",
+    "project_id": "transportapp-94779",
+    "storage_bucket": "transportapp-94779.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814535460416:android:6641dbbf96f307bc9401a5",
+        "android_client_info": {
+          "package_name": "com.companyname.freightexchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814535460416-o3jd88fm9ukeb5v1n2kc5smojo74bogs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaFzpRHHhk6NvjGNYp9595Ws4H1SyS5S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814535460416-o3jd88fm9ukeb5v1n2kc5smojo74bogs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "814535460416-3f6keqta0vd2e4u3ilsr0srvkksffd0f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.companyname.freighttransport"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814535460416:android:87877134a085e7279401a5",
+        "android_client_info": {
+          "package_name": "com.companyname.freighttransport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814535460416-o3jd88fm9ukeb5v1n2kc5smojo74bogs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaFzpRHHhk6NvjGNYp9595Ws4H1SyS5S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814535460416-o3jd88fm9ukeb5v1n2kc5smojo74bogs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "814535460416-3f6keqta0vd2e4u3ilsr0srvkksffd0f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.companyname.freighttransport"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

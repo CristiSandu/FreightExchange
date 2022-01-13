@@ -138,4 +138,7 @@
       <Name>FreightExchange</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="GoogleService-Info.plist.xml" />
+  </ItemGroup>
 </Project>
