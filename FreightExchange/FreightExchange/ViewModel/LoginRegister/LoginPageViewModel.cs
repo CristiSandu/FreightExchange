@@ -47,7 +47,7 @@ namespace FreightExchange.ViewModel.LoginRegister
                                 Application.Current.MainPage = new NavigationPage(new Views.MainPage());
                                 break;
                             case "Expeditor":
-                                Application.Current.MainPage = new NavigationPage(new Views.MainPage());
+                                Application.Current.MainPage = new NavigationPage(new Views.MapPage());
                                 break;
                             case "Admin":
                                 Application.Current.MainPage = new NavigationPage(new Views.AdminViews.AdminTabbedPage());
