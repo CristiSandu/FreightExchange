@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="FreightExchange.Views.AdminViews.AdminTabbedPage"
+            xmlns:adminPage ="clr-namespace:FreightExchange.Views.AdminViews"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Top" 
+            android:TabbedPage.IsSwipePagingEnabled="False"
+            NavigationPage.HasNavigationBar="True"
+            Title="Admin Dashboard"
+            SelectedTabColor="{StaticResource Xiketic}"
+            >
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="LogOut" Clicked="ToolbarItem_Clicked"/>
+    </TabbedPage.ToolbarItems>
+    
+    <NavigationPage Title="Transportatori" >
+        <x:Arguments>
+            <adminPage:GenericElementsListPage BindingContext="{Binding ListOfTransportators}"/>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Expeditor" >
+        <x:Arguments>
+            <adminPage:GenericElementsListPage BindingContext="{Binding ListOfExpeditor}"/>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="GoodsType" >
+        <x:Arguments>
+            <adminPage:GenericElementsListPage BindingContext="{Binding ListOfGoods}"/>
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>

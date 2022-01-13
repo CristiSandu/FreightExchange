@@ -10,9 +10,24 @@ namespace FreightExchange
         {
             InitializeComponent();
 
+
             if (!string.IsNullOrEmpty(Xamarin.Essentials.Preferences.Get("FirebaseRefreshToken", "")))
             {
-                MainPage = new NavigationPage(new Views.MainPage());
+                switch (Xamarin.Essentials.Preferences.Get("Role", ""))
+                {
+                    case "Transportator":
+                        MainPage = new NavigationPage(new Views.MainPage());
+                        break;
+                    case "Expeditor":
+                        MainPage = new NavigationPage(new Views.MainPage());
+                        break;
+                    case "Admin":
+                        MainPage = new NavigationPage(new Views.AdminViews.AdminTabbedPage());
+                        break;
+                    default:
+                        MainPage = new NavigationPage(new Views.MainPage());
+                        break;
+                }
             }
             else
             {

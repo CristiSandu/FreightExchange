@@ -24,7 +24,6 @@ namespace FreightExchange.ViewModel
 
             LogOutCommand = new Command(async () =>
             {
-
                 var authProvider = new FirebaseAuthProvider(new FirebaseConfig(APIKey));
                 try
                 {
@@ -52,12 +51,12 @@ namespace FreightExchange.ViewModel
                 Email = savedfirebaseAuth.User.Email;
 
                 User = await Services.FirestoreServiceProvider.GetFirestoreUser(UID);
+                Xamarin.Essentials.Preferences.Set("Role", User.Role);
 
 
 
                 OnPropertyChanged(nameof(UID));
                 OnPropertyChanged(nameof(User));
-
                 OnPropertyChanged(nameof(Email));
             }
             catch (Exception ex)
