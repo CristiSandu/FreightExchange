@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 using Esri.ArcGISRuntime.Geometry;
 using Esri.ArcGISRuntime.Mapping;
 using Xamarin.Essentials;
+using FreightExchange.ViewModel.MapViewModel;
 
 namespace FreightExchange.Views
 {
@@ -21,6 +22,7 @@ namespace FreightExchange.Views
         public MapPage()
         {
             InitializeComponent();
+            BindingContext = new MapViewModel();
 
             MapPoint mapCenterPoint = new MapPoint(-118.805, 34.027, SpatialReferences.Wgs84);
             MainMapView.SetViewpoint(new Viewpoint(mapCenterPoint, 100000));
@@ -65,6 +67,21 @@ namespace FreightExchange.Views
             catch (Exception ex)
             {
                 // Unable to get location
+            }
+        }
+
+        private async void SearchAddressButton_Clicked(object sender, EventArgs e)
+        {
+            // Get the MapViewModel from the page (defined as a static resource).
+            MapViewModel viewModel =  BindingContext as MapViewModel;
+
+            // Call SearchAddress on the view model, pass the address text and the map view's spatial reference.
+            Esri.ArcGISRuntime.Geometry.MapPoint addressPoint = await viewModel.SearchAddress(AddressTextBox.Text, MainMapView.SpatialReference);
+
+            // If a result was found, center the display on it.
+            if (addressPoint != null)
+            {
+                await MainMapView.SetViewpointCenterAsync(addressPoint);
             }
         }
     }

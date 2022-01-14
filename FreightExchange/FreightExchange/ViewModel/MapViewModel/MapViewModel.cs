@@ -10,6 +10,9 @@ using Esri.ArcGISRuntime.UI;
 using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Essentials;
+using System.Threading.Tasks;
+using System.Linq;
+using Esri.ArcGISRuntime.Tasks.Geocoding;
 
 namespace FreightExchange.ViewModel.MapViewModel
 {
@@ -20,7 +23,7 @@ namespace FreightExchange.ViewModel.MapViewModel
         public MapViewModel()
         {
             SetupMap();
-            CreateGraphics(-118.8066, 34.0006);
+            //CreateGraphics(-118.8066, 34.0006);
 
             GetYourLocationCommand = new Command(async () =>
             {
@@ -29,7 +32,7 @@ namespace FreightExchange.ViewModel.MapViewModel
                     var location = await Geolocation.GetLastKnownLocationAsync();
                     if (location != null)
                     {
-                        CreateGraphics(location.Latitude, location.Longitude);
+                        //CreateGraphics(location.Latitude, location.Longitude);
                     }
                 }
                 catch (FeatureNotSupportedException fnsEx)
@@ -77,6 +80,62 @@ namespace FreightExchange.ViewModel.MapViewModel
         {
             // Create a new map with a 'topographic vector' basemap.
             Map = new Esri.ArcGISRuntime.Mapping.Map(BasemapStyle.ArcGISTopographic);
+            // Set the view model "GraphicsOverlays" property.
+            GraphicsOverlay overlay = new GraphicsOverlay();
+            GraphicsOverlayCollection overlayCollection = new GraphicsOverlayCollection
+            {
+                overlay
+            };
+            this.GraphicsOverlays = overlayCollection;
+        }
+
+        public async Task<MapPoint> SearchAddress(string address, SpatialReference spatialReference)
+        {
+            MapPoint addressLocation = null;
+
+            try
+            {
+                // Get the first graphics overlay from the GraphicsOverlays and remove any previous result graphics.
+                GraphicsOverlay graphicsOverlay = this.GraphicsOverlays.FirstOrDefault();
+                graphicsOverlay.Graphics.Clear();
+
+                // Create a locator task.
+                LocatorTask locatorTask = new LocatorTask(new Uri("https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"));
+
+                // Define geocode parameters: limit the results to one and get all attributes.
+                GeocodeParameters geocodeParameters = new GeocodeParameters();
+                geocodeParameters.ResultAttributeNames.Add("*");
+                geocodeParameters.MaxResults = 1;
+                geocodeParameters.OutputSpatialReference = spatialReference;
+
+                // Geocode the address string and get the first (only) result.
+                IReadOnlyList<GeocodeResult> results = await locatorTask.GeocodeAsync(address, geocodeParameters);
+                GeocodeResult geocodeResult = results.FirstOrDefault();
+                if (geocodeResult == null) { throw new Exception("No matches found."); }
+
+                // Create a graphic to display the result location.
+                SimpleMarkerSymbol markerSymbol = new SimpleMarkerSymbol(SimpleMarkerSymbolStyle.Square, Color.Blue, 12);
+                Graphic markerGraphic = new Graphic(geocodeResult.DisplayLocation, geocodeResult.Attributes, markerSymbol);
+
+                // Create a graphic to display the result address label.
+                TextSymbol textSymbol = new TextSymbol(geocodeResult.Label, Color.Red, 18, HorizontalAlignment.Center, VerticalAlignment.Bottom);
+                Graphic textGraphic = new Graphic(geocodeResult.DisplayLocation, textSymbol);
+
+                // Add the location and label graphics to the graphics overlay.
+                graphicsOverlay.Graphics.Add(markerGraphic);
+                graphicsOverlay.Graphics.Add(textGraphic);
+
+                // Set the address location to return from the function.
+                addressLocation = geocodeResult.DisplayLocation;
+
+            }
+            catch (Exception ex)
+            {
+                await App.Current.MainPage.DisplayAlert("Error", "Couldn't find address: " + ex.Message, "Ok", "Cancel");
+            }
+
+            // Return the location of the geocode result.
+            return addressLocation;
         }
 
         private void CreateGraphics(double latitude, double logitude)

@@ -36,7 +36,7 @@ namespace FreightExchange.ViewModel.LoginRegister
                         var serializer = JsonConvert.SerializeObject(content);
 
                         var user = auth.User;
-                        Xamarin.Essentials.Preferences.Set("FirebaseRefreshToken", serializer);
+                         Xamarin.Essentials.Preferences.Set("FirebaseRefreshToken", serializer);
                         
                         Models.UserModel User = await Services.FirestoreServiceProvider.GetFirestoreUser(user.LocalId);
                         Xamarin.Essentials.Preferences.Set("Role", User.Role);
