@@ -31,7 +31,7 @@
                           Map="{Binding Map }"
                           GraphicsOverlays="{Binding GraphicsOverlays }"/>
 
-            <Frame BackgroundColor="LightBlue"
+            <Frame BackgroundColor="Transparent"
                     Grid.ColumnSpan="3"
                     Grid.RowSpan="3"
                     Padding="0"
@@ -50,6 +50,7 @@
                     <Entry x:Name="AddressTextBox"
                          Grid.Row="0" Grid.Column="0"
                          Margin="5"
+                           TextColor="Black"
                          Text="380 New York Street, Redlands CA"/>
                     <Button x:Name="SearchAddressButton"
                         Grid.Row="0" Grid.Column="1"

@@ -79,7 +79,7 @@ namespace FreightExchange.ViewModel.MapViewModel
         private void SetupMap()
         {
             // Create a new map with a 'topographic vector' basemap.
-            Map = new Esri.ArcGISRuntime.Mapping.Map(BasemapStyle.ArcGISTopographic);
+            Map = new Esri.ArcGISRuntime.Mapping.Map(BasemapStyle.ArcGISStreets);
             // Set the view model "GraphicsOverlays" property.
             GraphicsOverlay overlay = new GraphicsOverlay();
             GraphicsOverlayCollection overlayCollection = new GraphicsOverlayCollection
