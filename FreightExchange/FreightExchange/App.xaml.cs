@@ -13,13 +13,13 @@ namespace FreightExchange
 
             if (!string.IsNullOrEmpty(Xamarin.Essentials.Preferences.Get("FirebaseRefreshToken", "")))
             {
-                switch (Xamarin.Essentials.Preferences.Get("Role", ""))
+               switch (Xamarin.Essentials.Preferences.Get("Role", ""))
                 {
                     case "Transportator":
                         MainPage = new NavigationPage(new Views.MainPage());
                         break;
                     case "Expeditor":
-                        MainPage = new NavigationPage(new Views.MainPage());
+                        MainPage = new NavigationPage(new Views.MapPage());
                         break;
                     case "Admin":
                         MainPage = new NavigationPage(new Views.AdminViews.AdminTabbedPage());
@@ -37,6 +37,7 @@ namespace FreightExchange
 
         protected override void OnStart()
         {
+            Esri.ArcGISRuntime.ArcGISRuntimeEnvironment.ApiKey = "AAPKde6098c66c264fbaa5a7b5db9cc112f9FhU7-0GD2XVloSUUrOESUX3aFNOrQTgHGiHl8oCJqy-P-XgqhCMwqezY7soC6wrf";
         }
 
         protected override void OnSleep()
