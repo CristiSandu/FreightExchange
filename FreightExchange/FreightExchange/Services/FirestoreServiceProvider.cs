@@ -95,5 +95,29 @@ namespace FreightExchange.Services
             return new List<Models.GoodsModel>(users);
         }
         #endregion
+
+        #region Carrier
+        public static async Task<bool> CreateCarrierOffertAsync(Models.CarrierModel offert)
+        {
+            await CrossCloudFirestore
+                .Current
+                .Instance
+                .Collection(Models.CarrierModel.CollectionPath)
+                .Document().SetAsync(offert);
+            return true;
+        }
+        #endregion
+
+        #region Order
+        public static async Task<bool> CreateOrderAsync(Models.OrderModel order)
+        {
+            await CrossCloudFirestore
+                .Current
+                .Instance
+                .Collection(Models.OrderModel.CollectionPath)
+                .Document().SetAsync(order);
+            return true;
+        }
+        #endregion
     }
 }

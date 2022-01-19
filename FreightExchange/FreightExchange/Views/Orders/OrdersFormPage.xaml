@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.Orders.OrdersFormPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="8" Spacing="18">
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Start Date/Place"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <DatePicker Grid.Column="0" Date="{Binding CarrierModel.StartDate}"/>
+                            <Entry Grid.Column="1" Placeholder="StartPlace" Text="{Binding CarrierModel.StartPlace}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="End Date/Place"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <DatePicker Grid.Column="0" Date="{Binding CarrierModel.EndDate}"/>
+                            <Entry Grid.Column="1" Placeholder="EndPlace" Text="{Binding CarrierModel.EndPlace}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="MaxEnd Date/Place"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <DatePicker Grid.Column="0" Date="{Binding CarrierModel.MaxStartDate}"/>
+                            <DatePicker Grid.Column="1" Date="{Binding CarrierModel.MaxEndDate}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Truck Informations" />
+                        <Entry Placeholder="Merch Type ex:Lemne" Text="{Binding CarrierModel.MerchType}" />
+
+                        <Entry Placeholder="Volume in m^3" Keyboard="Numeric" Text="{Binding CarrierModel.Volume}"/>
+
+                        <Entry Placeholder="Greutate(T): 100T" Keyboard="Numeric" Text="{Binding CarrierModel.Weight}"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Prices Lei/Kg"/>
+                        <Entry Grid.Column="1" Placeholder="Price Range :" Keyboard="Numeric" Text="{Binding CarrierModel.PriceRange}"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Carrier Informations"/>
+                        <Grid RowSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Entry Placeholder="Telefon: 0775592485" Keyboard="Numeric" Text="{Binding CarrierModel.Phone}"/>
+                            <Entry Grid.Row="1" Placeholder="Email: crystisasndu3@gmail.com" Keyboard="Email" Text="{Binding CarrierModel.Email}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="44">
+                    <Button Text="Save" TextTransform="None" Style="{StaticResource ButtonCheckedStyle}" Command="{Binding SaveCommand}"/>
+                    <Button Text="Cancel" TextTransform="None" Style="{StaticResource ButtonUnCheckStyle}" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

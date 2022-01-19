@@ -40,6 +40,7 @@ namespace FreightExchange.ViewModel.LoginRegister
                         
                         Models.UserModel User = await Services.FirestoreServiceProvider.GetFirestoreUser(user.LocalId);
                         Xamarin.Essentials.Preferences.Set("Role", User.Role);
+                        Xamarin.Essentials.Preferences.Set("IdUser", User.Id);
 
                         switch (User.Role)
                         {
