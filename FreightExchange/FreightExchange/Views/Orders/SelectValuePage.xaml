@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.Orders.SelectValuePage">
+    <ContentPage.Content>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0"  Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.StartPlace}" />
+                <Label Grid.Column="1" Style="{StaticResource TitleStyle}" TextColor="Azure"  Text="{Binding Order.EndPlace}" />
+
+                <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.StartDate}" />
+                <Label Grid.Row="1" Grid.Column="1" Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.EndDate}" />
+
+                <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.MaxStartDate}" />
+                <Label Grid.Row="2" Grid.Column="1" Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.MaxEndDate}" />
+            </Grid>
+
+            <RefreshView  Grid.Row="1"
+                         IsRefreshing="{Binding IsRefreshing}"
+                         Command="{Binding RefreshCommand}">
+                <CollectionView x:Name="ordersList"
+                                SelectionMode="Single"
+                                SelectedItem="{Binding SelectedElement}"
+                                SelectionChangedCommand="{Binding SelectionOrderChanges}"
+                                SelectionChanged="ordersList_SelectionChanged"
+                                ItemsSource="{Binding ListOf}">
+
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="1" HorizontalItemSpacing="7" VerticalItemSpacing="7"/>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+
+                            <Grid Padding="4,4,0,8" RowSpacing="4">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto" />
+                                    <ColumnDefinition Width="1.5*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="StartAndExpand" Spacing="8">
+                                    <Label Text="{Binding StartPlace, StringFormat='F: {0}'}"
+                                                   FontAttributes="Bold"
+                                                   FontSize="Medium"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                    <Label Text="{Binding EndPlace, StringFormat='T: {0}'}"
+                                                   FontAttributes="Bold"
+                                                   FontSize="Medium"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                </StackLayout>
+
+                                <StackLayout Grid.Row="1" Grid.Column="1" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="StartAndExpand" Spacing="8">
+                                    <Label Text="{Binding StartDate, StringFormat='S: {0:dd.MM.yyyy}'}"
+                                                   Grid.Row="1"
+                                                   FontAttributes="Italic"
+                                                   FontSize="Small"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                    <Label Text="{Binding EndDate ,StringFormat='E: {0:dd.MM.yyyy}'}"
+                                                   Grid.Row="1"
+                                                   FontAttributes="Italic"
+                                                   FontSize="Small"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                </StackLayout>
+
+                                <Label Grid.Column="1"
+                                               Grid.Row="1"
+                                               HorizontalOptions="EndAndExpand"
+                                               Text="{Binding Id}"
+                                               TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                               FontAttributes="Bold"
+                                               FontSize="Medium"
+                                               Style="{StaticResource TitleStyle}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

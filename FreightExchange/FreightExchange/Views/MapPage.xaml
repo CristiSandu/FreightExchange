@@ -64,7 +64,7 @@
             <Button Text="arrow-left" FontFamily="FAS" Padding="0" HeightRequest="50" WidthRequest="50" CornerRadius="90" Margin="4,4,0,0" FontSize="Large" BackgroundColor="Transparent" TextColor="Black" Clicked="Button_Clicked"/>
 
             <Button Text="plus" Grid.Column="3" FontFamily="FAS" Padding="0" HeightRequest="50" WidthRequest="50" CornerRadius="90" Margin="4,4,0,0" FontSize="Large" BackgroundColor="Transparent" TextColor="Black" Clicked="Button_Clicked_2"/>
-            <Button Text="clipboard-list" Grid.Column="3" Grid.Row="1" FontFamily="FAS" Padding="0" HeightRequest="50" WidthRequest="50" CornerRadius="90" Margin="4,4,0,0" FontSize="Large" BackgroundColor="Transparent" TextColor="Black" Clicked="Button_Clicked_2"/>
+            <Button Text="clipboard-list" Grid.Column="3" Grid.Row="1" FontFamily="FAS" Padding="0" HeightRequest="50" WidthRequest="50" CornerRadius="90" Margin="4,4,0,0" FontSize="Large" BackgroundColor="Transparent" TextColor="Black" Clicked="Button_Clicked_3"/>
 
             <Button Grid.Column="3" Grid.Row="3" Text="compass" FontFamily="FAS" Padding="0" HeightRequest="80" WidthRequest="80" CornerRadius="90" Margin="4,4,0,0" FontSize="50" BackgroundColor="Transparent" TextColor="Black"  
                     Command="{Binding GetYourLocationCommand}"

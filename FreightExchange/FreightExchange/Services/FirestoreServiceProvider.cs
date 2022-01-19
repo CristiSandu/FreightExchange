@@ -106,6 +106,39 @@ namespace FreightExchange.Services
                 .Document().SetAsync(offert);
             return true;
         }
+
+        public static async Task<List<Models.CarrierModel>> GetFirestoreAllCarrierOffertsForUserAsync(string user_id)
+        {
+            IQuerySnapshot query = await CrossCloudFirestore.Current
+                                     .Instance
+                                     .Collection(Models.CarrierModel.CollectionPath)
+                                     .WhereEqualsTo("carrier_id", user_id)
+                                     .GetAsync();
+
+            IEnumerable<Models.CarrierModel> orders = query.ToObjects<Models.CarrierModel>();
+            return new List<Models.CarrierModel>(orders);
+        }
+
+        public static async Task<List<Models.CarrierModel>> GetFirestoreAllCarrierOffertsAsync()
+        {
+            IQuerySnapshot query = await CrossCloudFirestore.Current
+                                     .Instance
+                                     .Collection(Models.CarrierModel.CollectionPath)
+                                     .GetAsync();
+
+            IEnumerable<Models.CarrierModel> orders = query.ToObjects<Models.CarrierModel>();
+            return new List<Models.CarrierModel>(orders);
+        }
+
+        public static async Task<bool> DeleteCarrierOffAsync(Models.CarrierModel order)
+        {
+            await _cloud.Collection(Models.CarrierModel.CollectionPath)
+                        .Document(order.Id)
+                        .DeleteAsync();
+
+            return true;
+        }
+      
         #endregion
 
         #region Order
@@ -117,6 +150,39 @@ namespace FreightExchange.Services
                 .Collection(Models.OrderModel.CollectionPath)
                 .Document().SetAsync(order);
             return true;
+        }
+
+        public static async Task<List<Models.OrderModel>> GetFirestoreAllOrdersForUserAsync(string user_id)
+        {
+            IQuerySnapshot query = await CrossCloudFirestore.Current
+                                     .Instance
+                                     .Collection(Models.OrderModel.CollectionPath)
+                                     .WhereEqualsTo("client_id", user_id)
+                                     .GetAsync();
+
+            IEnumerable<Models.OrderModel> orders = query.ToObjects<Models.OrderModel>();
+            return new List<Models.OrderModel>(orders);
+        }
+
+        public static async Task<bool> DeleteOrderAsync(Models.OrderModel order)
+        {
+            await _cloud.Collection(Models.OrderModel.CollectionPath)
+                        .Document(order.Id)
+                        .DeleteAsync();
+
+            return true;
+        }
+
+        public static async Task<List<Models.OrderModel>> GetFirestoreAllOrdersForCarrierAsync(List<string> carrier_id)
+        {
+            IQuerySnapshot query = await CrossCloudFirestore.Current
+                                     .Instance
+                                     .Collection(Models.OrderModel.CollectionPath)
+                                     .WhereArrayContainsAny("reservedList", carrier_id)
+                                     .GetAsync();
+
+            IEnumerable<Models.OrderModel> orders = query.ToObjects<Models.OrderModel>();
+            return new List<Models.OrderModel>(orders);
         }
         #endregion
     }

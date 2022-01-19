@@ -54,7 +54,7 @@ namespace FreightExchange.Models
 
         [MapTo("reservedList")]
         // id comanda 
-        public List<string> IsReserved { get; set; }
+        public List<string> ReservedList { get; set; }
 
     }
 }

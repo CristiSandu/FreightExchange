@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FreightExchange.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
@@ -9,11 +10,12 @@ namespace FreightExchange.ViewModel.Carriers
     public class OrderFormPageViewModel : BaseViewModel
     {
         public Models.OrderModel Order { get; set; } = new Models.OrderModel { StartDate = DateTime.Now, EndDate = DateTime.Now, MaxStartDate = DateTime.Now, MaxEndDate = DateTime.Now };
-
         public ICommand SaveCommand { get; set; }
+        public List<GoodsModel> MerchTypeList { get; set; }
 
         public OrderFormPageViewModel()
         {
+            GetGoods();
             SaveCommand = new Command(async () =>
             {
                 try
@@ -29,6 +31,12 @@ namespace FreightExchange.ViewModel.Carriers
                     await App.Current.MainPage.DisplayAlert("Error", "Some error occured", "Ok", "Cancel");
                 }
             });
+        }
+
+        private async void GetGoods()
+        {
+            MerchTypeList = await Services.FirestoreServiceProvider.GetFirestoreAllGoodsAsync();
+            OnPropertyChanged(nameof(MerchTypeList));
         }
     }
 }

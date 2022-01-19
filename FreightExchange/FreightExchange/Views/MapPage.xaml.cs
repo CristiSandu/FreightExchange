@@ -16,7 +16,7 @@ namespace FreightExchange.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MapPage : ContentPage
     {
-        public double Latitude { get; set; }       
+        public double Latitude { get; set; }
         public double Longitude { get; set; }
 
         public MapPage()
@@ -73,7 +73,7 @@ namespace FreightExchange.Views
         private async void SearchAddressButton_Clicked(object sender, EventArgs e)
         {
             // Get the MapViewModel from the page (defined as a static resource).
-            MapViewModel viewModel =  BindingContext as MapViewModel;
+            MapViewModel viewModel = BindingContext as MapViewModel;
 
             // Call SearchAddress on the view model, pass the address text and the map view's spatial reference.
             Esri.ArcGISRuntime.Geometry.MapPoint addressPoint = await viewModel.SearchAddress(AddressTextBox.Text, MainMapView.SpatialReference);
@@ -87,7 +87,12 @@ namespace FreightExchange.Views
 
         private async void Button_Clicked_2(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Views.Carriers.CarrierFormPage());
+            await Navigation.PushAsync(new Views.Orders.OrdersFormPage());
+        }
+
+        private async void Button_Clicked_3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Views.Orders.OrdersOffertsList { BindingContext = new ViewModel.Carriers.OrdersOffertsListViewModel() });
         }
     }
 }

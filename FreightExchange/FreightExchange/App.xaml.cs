@@ -15,10 +15,10 @@ namespace FreightExchange
                 switch (Xamarin.Essentials.Preferences.Get("Role", ""))
                 {
                     case "Transportator":
-                        MainPage = new NavigationPage(new Views.MainPage());
+                        MainPage = new NavigationPage(new Views.MapPage());
                         break;
                     case "Expeditor":
-                        MainPage = new NavigationPage(new Views.MapPage());
+                        MainPage = new NavigationPage(new Views.MainPage());
                         break;
                     case "Admin":
                         MainPage = new NavigationPage(new Views.AdminViews.AdminTabbedPage());

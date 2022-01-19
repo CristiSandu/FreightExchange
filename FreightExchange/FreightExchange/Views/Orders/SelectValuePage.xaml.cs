@@ -10,17 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace FreightExchange.Views.Orders
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class OrdersFormPage : ContentPage
+    public partial class SelectValuePage : ContentPage
     {
-        public OrdersFormPage()
+        public SelectValuePage()
         {
             InitializeComponent();
-            BindingContext = new ViewModel.Carriers.OrderFormPageViewModel();
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
+        private void ordersList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            await Navigation.PopAsync();
+
         }
     }
 }

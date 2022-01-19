@@ -35,7 +35,7 @@ namespace FreightExchange.Models
         public DateTime MaxEndDate { get; set; }
 
         [MapTo("MerchType")]
-        public string MerchType { get; set; }
+        public GoodsModel MerchType { get; set; }
 
         [MapTo("Weight")]
         public double Weight { get; set; }
