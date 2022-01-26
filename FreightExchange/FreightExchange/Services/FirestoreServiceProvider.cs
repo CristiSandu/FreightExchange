@@ -107,6 +107,17 @@ namespace FreightExchange.Services
             return true;
         }
 
+        public static async Task<bool> UpdateCarrierOffertAsync(Models.CarrierModel offert)
+        {
+            await CrossCloudFirestore
+                .Current
+                .Instance
+                .Collection(Models.CarrierModel.CollectionPath)
+                .Document(offert.Id)
+                .UpdateAsync(offert);
+            return true;
+        }
+
         public static async Task<List<Models.CarrierModel>> GetFirestoreAllCarrierOffertsForUserAsync(string user_id)
         {
             IQuerySnapshot query = await CrossCloudFirestore.Current
@@ -152,6 +163,19 @@ namespace FreightExchange.Services
             return true;
         }
 
+        public static async Task<bool> UpdateOrderAsync(Models.OrderModel order)
+        {
+            
+            order.Id = order.Id == null ? order.Id_value : order.Id;
+            await CrossCloudFirestore
+                .Current
+                .Instance
+                .Collection(Models.OrderModel.CollectionPath)
+                .Document(order.Id )
+                .UpdateAsync(order);
+            return true;
+        }
+
         public static async Task<List<Models.OrderModel>> GetFirestoreAllOrdersForUserAsync(string user_id)
         {
             IQuerySnapshot query = await CrossCloudFirestore.Current
@@ -178,7 +202,7 @@ namespace FreightExchange.Services
             IQuerySnapshot query = await CrossCloudFirestore.Current
                                      .Instance
                                      .Collection(Models.OrderModel.CollectionPath)
-                                     .WhereArrayContainsAny("reservedList", carrier_id)
+                                     .WhereIn("id", carrier_id)
                                      .GetAsync();
 
             IEnumerable<Models.OrderModel> orders = query.ToObjects<Models.OrderModel>();

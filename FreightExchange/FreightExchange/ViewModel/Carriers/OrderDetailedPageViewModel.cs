@@ -14,9 +14,9 @@ namespace FreightExchange.ViewModel.Carriers
         private CarrierModel _selectedElement;
         public CarrierModel SelectedElement
         {
-            get 
-            { 
-                return _selectedElement; 
+            get
+            {
+                return _selectedElement;
             }
             set
             {
@@ -32,6 +32,7 @@ namespace FreightExchange.ViewModel.Carriers
         public Command RefreshCommand { get; set; }
         public Command SelectionOrderChanges { get; set; }
 
+        public Command SaveOffertValueCommand { get; set; }
 
         private bool _isRefreshing;
         public bool IsRefreshing
@@ -72,6 +73,27 @@ namespace FreightExchange.ViewModel.Carriers
             {
                 var selected = SelectedElement;
                 int i = 0;
+            });
+
+            SaveOffertValueCommand = new Command(async () =>
+            {
+                Order.Id_value = Order.Id;
+                if (SelectedElement.ReservedList != null)
+                {
+                    SelectedElement.ReservedList.Add(Order);
+                }
+                else
+                {
+                    SelectedElement.ReservedList = new List<OrderModel> { Order};
+                }
+
+                if (!await Services.FirestoreServiceProvider.UpdateCarrierOffertAsync(SelectedElement))
+                {
+                    await Application.Current.MainPage.DisplayAlert("Error on save", "A error occured", "Ok");
+                    return;
+                }
+
+                await Application.Current.MainPage.Navigation.PopAsync();
             });
         }
 

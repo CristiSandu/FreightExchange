@@ -24,12 +24,16 @@ namespace FreightExchange.ViewModel.Carriers
                 {
                     _selectedElement = value;
                     OnPropertyChanged(nameof(SelectedElement));
+
+
                 }
             }
         }
 
         public string PageTitle { get; set; }
         public Command RefreshCommand { get; set; }
+        public Command SaveOffertValueCommand { get; set; }
+
 
         private bool _isRefreshing;
         public bool IsRefreshing
@@ -48,28 +52,40 @@ namespace FreightExchange.ViewModel.Carriers
             }
         }
 
-        public CarrierModel Carrier { get; set; }
+        public CarrierModel Order { get; set; }
 
         public CarrierDetailedPageViewModel(CarrierModel carrierModel)
         {
-            Carrier = carrierModel;
+            Order = carrierModel;
             GetData();
 
             RefreshCommand = new Command(async () =>
             {
                 IsRefreshing = true;
-                List<Models.OrderModel> orders = await Services.FirestoreServiceProvider.GetFirestoreAllOrdersForCarrierAsync(Carrier.ReservedList != null ? Carrier.ReservedList : new List<string>());
+                List<Models.OrderModel> orders = Order.ReservedList != null ? Order.ReservedList : new List<OrderModel>();
                 ListOf = new ObservableCollection<OrderModel>(orders);
                 OnPropertyChanged(nameof(ListOf));
                 PageTitle = $"List of Transporter Offers - {ListOf.Count}";
                 OnPropertyChanged(nameof(PageTitle));
                 IsRefreshing = false;
             });
+
+            SaveOffertValueCommand = new Command(async () =>
+            {
+                SelectedElement.Transport = Order;
+                if (!await Services.FirestoreServiceProvider.UpdateOrderAsync(SelectedElement))
+                {
+                    await Application.Current.MainPage.DisplayAlert("Error on save", "A error occured", "Ok");
+                    return;
+                }
+
+                await Application.Current.MainPage.Navigation.PopAsync();
+            });
         }
 
         public async void GetData()
         {
-            List<Models.OrderModel> orders = await Services.FirestoreServiceProvider.GetFirestoreAllOrdersForCarrierAsync(Carrier.ReservedList != null ? Carrier.ReservedList : new List<string>());
+            List<Models.OrderModel> orders = Order.ReservedList != null ? Order.ReservedList : new List<OrderModel>();
             ListOf = new ObservableCollection<OrderModel>(orders);
             OnPropertyChanged(nameof(ListOf));
 

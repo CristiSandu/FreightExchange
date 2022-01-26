@@ -13,8 +13,11 @@ namespace FreightExchange.Models
         [MapTo("id")]
         public string Id { get; set; }
 
+        [MapTo("id_value")]
+        public string Id_value { get; set; }
+
         [MapTo("client_id")]
-        public string IdClient{ get; set; }
+        public string IdClient { get; set; }
 
         [MapTo("StartPlace")]
         public string StartPlace { get; set; }
@@ -39,7 +42,7 @@ namespace FreightExchange.Models
 
         [MapTo("Weight")]
         public double Weight { get; set; }
-       
+
         [MapTo("Volume")]
         public double Volume { get; set; }
 
@@ -56,6 +59,12 @@ namespace FreightExchange.Models
         public bool IsAssigned { get; set; }
 
         [MapTo("IdTransport")]
-        public string IdTransport { get; set; }
+        public CarrierModel Transport { get; set; }
+
+        [Ignored]
+        public string ShowValue
+        {
+            get { return $"{StartPlace} - {EndPlace}: \n{StartDate} {EndDate}"; }
+        }
     }
 }

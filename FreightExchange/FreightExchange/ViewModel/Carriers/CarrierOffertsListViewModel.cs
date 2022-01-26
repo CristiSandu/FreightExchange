@@ -22,7 +22,7 @@ namespace FreightExchange.ViewModel.Carriers
                 {
                     _selectedElement = value;
                     OnPropertyChanged(nameof(SelectedElement));
-                    OpenPage.Execute(_selectedElement);
+                    OpenPage.Execute(SelectedElement);
                 }
             }
         }

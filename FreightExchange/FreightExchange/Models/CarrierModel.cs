@@ -13,6 +13,9 @@ namespace FreightExchange.Models
         [MapTo("id")]
         public string Id { get; set; }
 
+        [MapTo("id_value")]
+        public string Id_value { get; set; }
+
         [MapTo("carrier_id")]
         public string IdCarrier { get; set; }
 
@@ -54,7 +57,12 @@ namespace FreightExchange.Models
 
         [MapTo("reservedList")]
         // id comanda 
-        public List<string> ReservedList { get; set; }
+        public List<OrderModel> ReservedList { get; set; }
 
+        [Ignored]
+        public string ShowValue
+        {
+            get { return $"{StartPlace} - {EndPlace}\n{Id}\n{StartDate.ToString("dd.MM.yyyy")} - {EndDate.ToString("dd.MM.yyyy")}"; }
+        }
     }
 }

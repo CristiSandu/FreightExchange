@@ -82,7 +82,7 @@
                                                Text="{Binding Id}"
                                                TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
                                                FontAttributes="Bold"
-                                               FontSize="Medium"
+                                               FontSize="Small"
                                                Style="{StaticResource TitleStyle}"/>
                                     </Grid>
                                 </Frame>
