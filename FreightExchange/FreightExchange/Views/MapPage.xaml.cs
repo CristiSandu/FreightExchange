@@ -10,22 +10,61 @@ using Esri.ArcGISRuntime.Geometry;
 using Esri.ArcGISRuntime.Mapping;
 using Xamarin.Essentials;
 using FreightExchange.ViewModel.MapViewModel;
+using Esri.ArcGISRuntime.Xamarin.Forms;
+using Esri.ArcGISRuntime.Data;
+using Esri.ArcGISRuntime.Mapping.Popups;
 
 namespace FreightExchange.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MapPage : ContentPage
     {
-        public double Latitude { get; set; }
-        public double Longitude { get; set; }
+        public double Latitude { get; set; } = 26.10;
+        public double Longitude { get; set; } = 44.42;
 
-        public MapPage()
+        public string Role { get; set; }
+
+        public MapPage(string role)
         {
             InitializeComponent();
-            BindingContext = new MapViewModel();
 
-            MapPoint mapCenterPoint = new MapPoint(-118.805, 34.027, SpatialReferences.Wgs84);
-            MainMapView.SetViewpoint(new Viewpoint(mapCenterPoint, 100000));
+            Role = role;
+            MapPoint mapCenterPoint = new MapPoint(Latitude, Longitude, SpatialReferences.Wgs84);
+            MainMapView.SetViewpoint(new Viewpoint(mapCenterPoint, 144_447.638572));
+            BindingContext = new MapViewModel(MainMapView);
+        }
+
+        public async void MainMapView_GeoViewTapped(object sender, GeoViewInputEventArgs e)
+        {
+            try
+            {
+                // Get the feature layer from the map.
+                FeatureLayer incidentLayer = MainMapView.Map.OperationalLayers.First() as FeatureLayer;
+
+                // Identify the tapped on feature.
+                IdentifyLayerResult result = await MainMapView.IdentifyLayerAsync(incidentLayer, e.Position, 12, true);
+
+                if (result?.Popups?.FirstOrDefault() is Popup popup)
+                {
+                    // Remove the instructions label.
+                    MyPopupViewer.IsVisible = true;
+
+                    // Create a new popup manager for the popup.
+                    MyPopupViewer.PopupManager = new PopupManager(popup);
+
+                    QueryParameters queryParams = new QueryParameters
+                    {
+                        // Set the geometry to selection envelope for selection by geometry.
+                        Geometry = new Envelope((MapPoint)popup.GeoElement.Geometry, 6, 6)
+                    };
+
+                    // Select the features based on query parameters defined above.
+                    await incidentLayer.SelectFeaturesAsync(queryParams, Esri.ArcGISRuntime.Mapping.SelectionMode.New);
+                }
+            }
+            catch (Exception ex)
+            {
+            }
         }
 
         protected override void OnAppearing()
@@ -33,6 +72,7 @@ namespace FreightExchange.Views
             base.OnAppearing();
             MapPoint mapCenterPoint = new MapPoint(Longitude, Latitude, SpatialReferences.Wgs84);
             MainMapView.SetViewpoint(new Viewpoint(mapCenterPoint, 100000));
+           
         }
 
         private void Button_Clicked(object sender, EventArgs e)
@@ -87,12 +127,26 @@ namespace FreightExchange.Views
 
         private async void Button_Clicked_2(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Views.Orders.OrdersFormPage());
+            if (Role == "Transportator")
+                await Navigation.PushAsync(new Views.Carriers.CarrierFormPage());
+            else
+                await Navigation.PushAsync(new Views.Orders.OrdersFormPage());
         }
 
         private async void Button_Clicked_3(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Views.Orders.OrdersOffertsList { BindingContext = new ViewModel.Carriers.OrdersOffertsListViewModel() });
+            if (Role == "Transportator")
+                await Navigation.PushAsync(new Views.Orders.OrdersOffertsList { BindingContext = new ViewModel.Carriers.CarrierOffertsListViewModel() });
+            else
+                await Navigation.PushAsync(new Views.Orders.OrdersOffertsList { BindingContext = new ViewModel.Carriers.OrdersOffertsListViewModel() });
+        }
+
+        private async void Button_Clicked_4(object sender, EventArgs e)
+        {
+            if (Role == "Transportator")
+                await Navigation.PushAsync(new Contracts.ContractsListPage { BindingContext = new ViewModel.Contract.ContractTransporterPageViewModel() });
+            else
+                await Navigation.PushAsync(new Contracts.ContractsListPage { BindingContext = new ViewModel.Contract.ContractPageViewModel() });
         }
     }
 }

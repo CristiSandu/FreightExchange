@@ -53,6 +53,9 @@ namespace FreightExchange.ViewModel.Carriers
 
         public OrderModel Order { get; set; }
 
+        public Command GetRecomandedCommand { get; set; }
+        public Command GetAllCommand { get; set; }
+
         public OrderDetailedPageViewModel(OrderModel orderModel)
         {
             Order = orderModel;
@@ -61,12 +64,26 @@ namespace FreightExchange.ViewModel.Carriers
             RefreshCommand = new Command(async () =>
             {
                 IsRefreshing = true;
-                List<Models.CarrierModel> orders = await Services.FirestoreServiceProvider.GetFirestoreAllCarrierOffertsAsync();
+                List<Models.CarrierModel> orders = await Services.FirestoreServiceProvider.GetFirestoreAllCarrierOffertsByStartPlaceAsync(Order.StartPlace);
                 ListOf = new ObservableCollection<CarrierModel>(orders);
                 OnPropertyChanged(nameof(ListOf));
                 PageTitle = $"Order {Order.Id}";
                 OnPropertyChanged(nameof(PageTitle));
                 IsRefreshing = false;
+            });
+
+            GetRecomandedCommand = new Command(async () =>
+            {
+                List<Models.CarrierModel> orders = await Services.FirestoreServiceProvider.GetFirestoreAllCarrierOffertsByStartPlaceAsync(Order.StartPlace);
+                ListOf = new ObservableCollection<CarrierModel>(orders);
+                OnPropertyChanged(nameof(ListOf));
+            });
+
+            GetAllCommand = new Command(async () =>
+            {
+                List<Models.CarrierModel> orders = await Services.FirestoreServiceProvider.GetFirestoreAllCarrierOffertsAsync();
+                ListOf = new ObservableCollection<CarrierModel>(orders);
+                OnPropertyChanged(nameof(ListOf));
             });
 
             SelectionOrderChanges = new Command(async () =>
@@ -99,7 +116,7 @@ namespace FreightExchange.ViewModel.Carriers
 
         public async void GetData()
         {
-            List<Models.CarrierModel> orders = await Services.FirestoreServiceProvider.GetFirestoreAllCarrierOffertsAsync();
+            List<Models.CarrierModel> orders = await Services.FirestoreServiceProvider.GetFirestoreAllCarrierOffertsByStartPlaceAsync(Order.StartPlace);
             ListOf = new ObservableCollection<CarrierModel>(orders);
             OnPropertyChanged(nameof(ListOf));
 

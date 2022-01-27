@@ -9,6 +9,15 @@ namespace FreightExchange.Services
     public static class FirestoreServiceProvider
     {
         private static IFirestore _cloud = CrossCloudFirestore.Current.Instance;
+        public static async Task<bool> InsertContractInFirestore(Models.ContractModel contract)
+        {
+            await CrossCloudFirestore
+                .Current
+                .Instance
+                .Collection(Models.ContractModel.CollectionPath)
+                .Document().SetAsync(contract);
+            return true;
+        }
         #region User
         public static async Task<bool> CreateUserFirestore(Models.UserModel user)
         {
@@ -19,6 +28,7 @@ namespace FreightExchange.Services
                 .Document(user.Id).SetAsync(user);
             return true;
         }
+
 
         public static async Task<Models.UserModel> GetFirestoreUser(string id)
         {
@@ -141,6 +151,18 @@ namespace FreightExchange.Services
             return new List<Models.CarrierModel>(orders);
         }
 
+        public static async Task<List<Models.CarrierModel>> GetFirestoreAllCarrierOffertsByStartPlaceAsync(string startPlace)
+        {
+            IQuerySnapshot query = await CrossCloudFirestore.Current
+                                     .Instance
+                                     .Collection(Models.CarrierModel.CollectionPath)
+                                     .WhereEqualsTo("StartPlace", startPlace)
+                                     .GetAsync();
+
+            IEnumerable<Models.CarrierModel> orders = query.ToObjects<Models.CarrierModel>();
+            return new List<Models.CarrierModel>(orders);
+        }
+
         public static async Task<bool> DeleteCarrierOffAsync(Models.CarrierModel order)
         {
             await _cloud.Collection(Models.CarrierModel.CollectionPath)
@@ -191,7 +213,7 @@ namespace FreightExchange.Services
         public static async Task<bool> DeleteOrderAsync(Models.OrderModel order)
         {
             await _cloud.Collection(Models.OrderModel.CollectionPath)
-                        .Document(order.Id)
+                        .Document(order.Id_value)
                         .DeleteAsync();
 
             return true;
@@ -209,5 +231,30 @@ namespace FreightExchange.Services
             return new List<Models.OrderModel>(orders);
         }
         #endregion
+
+        #region Contract
+        public static async Task<List<Models.ContractModel>> GetFirestoreContractsLessThen()
+        {
+            IQuerySnapshot query = await CrossCloudFirestore.Current
+                                     .Instance
+                                     .Collection(Models.ContractModel.CollectionPath)
+                                     .GetAsync();
+
+            IEnumerable<Models.ContractModel> users = query.ToObjects<Models.ContractModel>();
+            return new List<Models.ContractModel>(users);
+        }
+
+        public static async Task<List<Models.ContractModel>> GetFirestoreContractsForAClient(string id_client, string label)
+        {
+            IQuerySnapshot query = await CrossCloudFirestore.Current
+                                     .Instance
+                                     .Collection(Models.ContractModel.CollectionPath)
+                                     .WhereEqualsTo(label, id_client)
+                                     .GetAsync();
+
+            IEnumerable<Models.ContractModel> users = query.ToObjects<Models.ContractModel>();
+            return new List<Models.ContractModel>(users);
+        }
+        #endregion  
     }
 }

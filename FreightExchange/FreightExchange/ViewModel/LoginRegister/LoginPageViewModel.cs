@@ -45,10 +45,10 @@ namespace FreightExchange.ViewModel.LoginRegister
                         switch (User.Role)
                         {
                             case "Transportator":
-                                Application.Current.MainPage = new NavigationPage(new Views.MainPage());
+                                Application.Current.MainPage = new NavigationPage(new Views.MapPage(User.Role));
                                 break;
                             case "Expeditor":
-                                Application.Current.MainPage = new NavigationPage(new Views.MapPage());
+                                Application.Current.MainPage = new NavigationPage(new Views.MapPage(User.Role));
                                 break;
                             case "Admin":
                                 Application.Current.MainPage = new NavigationPage(new Views.AdminViews.AdminTabbedPage());

@@ -2,6 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FreightExchange.Views.Orders.SelectValuePage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Recomanded" Order="Secondary" Command="{Binding GetRecomandedCommand}"/>
+        <ToolbarItem Text="All" Order="Secondary" Command="{Binding GetAllCommand}"/>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <Grid Padding="8">
             <Grid.RowDefinitions>

@@ -1,4 +1,5 @@
-﻿using FreightExchange.Models;
+﻿using Esri.ArcGISRuntime.Geometry;
+using FreightExchange.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -14,9 +15,9 @@ namespace FreightExchange.ViewModel.Carriers
         private OrderModel _selectedElement;
         public OrderModel SelectedElement
         {
-            get 
-            { 
-                return _selectedElement; 
+            get
+            {
+                return _selectedElement;
             }
             set
             {
@@ -73,13 +74,42 @@ namespace FreightExchange.ViewModel.Carriers
             SaveOffertValueCommand = new Command(async () =>
             {
                 SelectedElement.Transport = Order;
-                if (!await Services.FirestoreServiceProvider.UpdateOrderAsync(SelectedElement))
+
+                MapPoint point1 = await Services.RoutGeneratorService.SearchAddress(SelectedElement.StartPlace);
+                MapPoint point2 = await Services.RoutGeneratorService.SearchAddress(SelectedElement.EndPlace);
+                double dist = Services.RoutGeneratorService.GetDistanceBetweenTwoPoints(point1, point2);
+
+                double price = Order.FullPrice * Convert.ToInt32(dist);
+
+                bool answer = await App.Current.MainPage.DisplayAlert("Question?", $"Price {price} \nBudget: {SelectedElement.PriceRange}", "Yes", "No");
+
+                if (answer)
                 {
-                    await Application.Current.MainPage.DisplayAlert("Error on save", "A error occured", "Ok");
-                    return;
+                    ContractModel carrier = new ContractModel
+                    {
+                        Sender = await Services.FirestoreServiceProvider.GetFirestoreUser(SelectedElement.IdClient),
+                        Transporter = await Services.FirestoreServiceProvider.GetFirestoreUser(Order.IdCarrier),
+                        StartPlace = SelectedElement.StartPlace,
+                        EndPlace = SelectedElement.EndPlace,
+                        Transporter_Id = Order.IdCarrier,
+                        Sender_Id = SelectedElement.IdClient,
+                        Price = $"{Order.FullPrice * Convert.ToInt32(dist)}",
+                        FreightDetailes = $"{ SelectedElement.MerchType.Name } {SelectedElement.ShowValue}",
+                        TruckDetailes = $"Distance: {dist} Type:{Order.TruckType}\n Volume:{Order.Volume}\n Weight:{Order.Weight}\n L-H-W:{Order.Dimentions.Lenght}-{Order.Dimentions.Height}-{Order.Dimentions.Width}\n"
+                    };
+
+                    if (!await Services.FirestoreServiceProvider.InsertContractInFirestore(carrier))
+                    {
+                        await Application.Current.MainPage.DisplayAlert("Error on save", "A error occured", "Ok");
+                        return;
+                    }
+
+                    await Services.FirestoreServiceProvider.DeleteCarrierOffAsync(Order);
+                    await Services.FirestoreServiceProvider.DeleteOrderAsync(SelectedElement);
+
+                    await Application.Current.MainPage.Navigation.PopAsync();
                 }
 
-                await Application.Current.MainPage.Navigation.PopAsync();
             });
         }
 

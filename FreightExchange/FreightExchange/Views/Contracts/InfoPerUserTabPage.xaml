@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="FreightExchange.Views.Contracts.InfoPerUserTabPage"
+            xmlns:contractsPage ="clr-namespace:FreightExchange.Views.Contracts"
+            xmlns:ordersPage ="clr-namespace:FreightExchange.Views.Orders"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Top" 
+            android:TabbedPage.IsSwipePagingEnabled="False"
+            NavigationPage.HasNavigationBar="True"
+            Title="Admin Dashboard"
+            SelectedTabColor="{StaticResource Xiketic}">
+    
+   
+
+    <NavigationPage Title="Expeditor" >
+        <x:Arguments>
+            <ordersPage:OrdersOffertsList BindingContext="{Binding ListOfExpeditor}"/>
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Transportatori" >
+        <x:Arguments>
+            <contractsPage:ContractsListPage BindingContext="{Binding ListOfTransportators}"/>
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>
