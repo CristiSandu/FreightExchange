@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.Orders.OrdersFormPage"
+             Title="Add New Order"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="8" Spacing="18">
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Start Date/Place"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <DatePicker Grid.Column="0" Date="{Binding Order.StartDate}"/>
+                            <Entry Grid.Column="1" Placeholder="StartPlace" Text="{Binding Order.StartPlace}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="End Date/Place"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <DatePicker Grid.Column="0" Date="{Binding Order.EndDate}"/>
+                            <Entry Grid.Column="1" Placeholder="EndPlace" Text="{Binding Order.EndPlace}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="MaxDate Start/End"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <DatePicker Grid.Column="0" Date="{Binding Order.MaxStartDate}"/>
+                            <DatePicker Grid.Column="1" Date="{Binding Order.MaxEndDate}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Transport Informations" />
+
+                        <Picker Title="MerchType"
+                                TextColor="{AppThemeBinding Light={StaticResource BackgroundDark}, Dark={StaticResource BackgroundLight}}"
+                                TitleColor="{AppThemeBinding Light={StaticResource Xiketic}, Dark={StaticResource BackgroundLight}}"
+                                ItemsSource="{Binding MerchTypeList}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="{Binding Order.MerchType}" />
+
+                        <Entry Placeholder="Volume in m^3" Keyboard="Numeric" Text="{Binding Order.Volume}"/>
+
+                        <Entry Placeholder="Greutate(T): 10T" Keyboard="Numeric" Text="{Binding Order.Weight}"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Prices"/>
+                        <Entry Grid.Column="1" Placeholder="ex: 3000" Keyboard="Numeric" Text="{Binding Order.PriceRange}"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Carrier Informations"/>
+                        <Grid RowSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Entry Placeholder="Telefon: 0775592485" Keyboard="Numeric" Text="{Binding Order.Phone}"/>
+                            <Entry Grid.Row="1" Placeholder="Email: crystisasndu3@gmail.com" Keyboard="Email" Text="{Binding Order.Email}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="44">
+                    <Button Text="Save" TextTransform="None" Style="{StaticResource ButtonCheckedStyle}" Command="{Binding SaveCommand}"/>
+                    <Button Text="Cancel" TextTransform="None" Style="{StaticResource ButtonUnCheckStyle}" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

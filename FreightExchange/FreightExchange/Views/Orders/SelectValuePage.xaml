@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.Orders.SelectValuePage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Recomanded" Order="Secondary" Command="{Binding GetRecomandedCommand}"/>
+        <ToolbarItem Text="All" Order="Secondary" Command="{Binding GetAllCommand}"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <Grid Padding="8">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0"  Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.StartPlace}" />
+                <Label Grid.Column="1" Style="{StaticResource TitleStyle}" TextColor="Azure"  Text="{Binding Order.EndPlace}" />
+
+                <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.StartDate, StringFormat='StartDate - {0:dd.MM.yyyy}'}" />
+                <Label Grid.Row="1" Grid.Column="1" Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.EndDate, StringFormat='EndDate - {0:dd.MM.yyyy}'}" />
+
+                <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.MaxStartDate, StringFormat='MaxSD - {0:dd.MM.yyyy}'}" />
+                <Label Grid.Row="2" Grid.Column="1" Style="{StaticResource TitleStyle}" TextColor="Azure" Text="{Binding Order.MaxEndDate, StringFormat='MaxED - {0:dd.MM.yyyy}'}" />
+            </Grid>
+
+            <Label Grid.Row="1" Text="Selected Transport"  />
+            <Label Grid.Row="2" Text="{Binding SelectedElement.ShowValue}" />
+            <Picker Grid.Row="3" 
+                    Title="Select a Transporter Offert"
+                    TextColor="{AppThemeBinding Light={StaticResource BackgroundDark}, Dark={StaticResource BackgroundLight}}"
+                    TitleColor="{AppThemeBinding Light=DarkGray, Dark={StaticResource BackgroundLight}}"
+                    ItemsSource="{Binding ListOf}"
+                    ItemDisplayBinding="{Binding ShowValue}"
+                    SelectedItem="{Binding SelectedElement}"/>
+
+            <Button Grid.Row="4" Style="{StaticResource ButtonCheckedStyle}" Text="Save" Command="{Binding SaveOffertValueCommand}"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

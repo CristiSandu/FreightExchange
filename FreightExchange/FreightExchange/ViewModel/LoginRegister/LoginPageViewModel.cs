@@ -36,18 +36,19 @@ namespace FreightExchange.ViewModel.LoginRegister
                         var serializer = JsonConvert.SerializeObject(content);
 
                         var user = auth.User;
-                         Xamarin.Essentials.Preferences.Set("FirebaseRefreshToken", serializer);
-                        
+                        Xamarin.Essentials.Preferences.Set("FirebaseRefreshToken", serializer);
+
                         Models.UserModel User = await Services.FirestoreServiceProvider.GetFirestoreUser(user.LocalId);
                         Xamarin.Essentials.Preferences.Set("Role", User.Role);
+                        Xamarin.Essentials.Preferences.Set("IdUser", User.Id);
 
                         switch (User.Role)
                         {
                             case "Transportator":
-                                Application.Current.MainPage = new NavigationPage(new Views.MainPage());
+                                Application.Current.MainPage = new NavigationPage(new Views.MapPage(User.Role));
                                 break;
                             case "Expeditor":
-                                Application.Current.MainPage = new NavigationPage(new Views.MapPage());
+                                Application.Current.MainPage = new NavigationPage(new Views.MapPage(User.Role));
                                 break;
                             case "Admin":
                                 Application.Current.MainPage = new NavigationPage(new Views.AdminViews.AdminTabbedPage());

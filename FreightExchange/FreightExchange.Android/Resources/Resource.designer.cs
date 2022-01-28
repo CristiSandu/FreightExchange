@@ -26,6 +26,4100 @@ namespace FreightExchange.Droid
 		public static void UpdateIdValues()
 		{
 			global::Esri.ArcGISRuntime.AndroidResources.Resource.Drawable.esri = global::FreightExchange.Droid.Resource.Drawable.esri;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.alpha = global::FreightExchange.Droid.Resource.Attribute.alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.barrierAllowsGoneWidgets = global::FreightExchange.Droid.Resource.Attribute.barrierAllowsGoneWidgets;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.barrierDirection = global::FreightExchange.Droid.Resource.Attribute.barrierDirection;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.chainUseRtl = global::FreightExchange.Droid.Resource.Attribute.chainUseRtl;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.constraintSet = global::FreightExchange.Droid.Resource.Attribute.constraintSet;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.constraint_referenced_ids = global::FreightExchange.Droid.Resource.Attribute.constraint_referenced_ids;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.content = global::FreightExchange.Droid.Resource.Attribute.content;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.coordinatorLayoutStyle = global::FreightExchange.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fastScrollEnabled = global::FreightExchange.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::FreightExchange.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::FreightExchange.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fastScrollVerticalThumbDrawable = global::FreightExchange.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fastScrollVerticalTrackDrawable = global::FreightExchange.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.font = global::FreightExchange.Droid.Resource.Attribute.font;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fontProviderAuthority = global::FreightExchange.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fontProviderCerts = global::FreightExchange.Droid.Resource.Attribute.fontProviderCerts;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fontProviderFetchStrategy = global::FreightExchange.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fontProviderFetchTimeout = global::FreightExchange.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fontProviderPackage = global::FreightExchange.Droid.Resource.Attribute.fontProviderPackage;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fontProviderQuery = global::FreightExchange.Droid.Resource.Attribute.fontProviderQuery;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fontStyle = global::FreightExchange.Droid.Resource.Attribute.fontStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fontVariationSettings = global::FreightExchange.Droid.Resource.Attribute.fontVariationSettings;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.fontWeight = global::FreightExchange.Droid.Resource.Attribute.fontWeight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.keylines = global::FreightExchange.Droid.Resource.Attribute.keylines;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layoutManager = global::FreightExchange.Droid.Resource.Attribute.layoutManager;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_anchor = global::FreightExchange.Droid.Resource.Attribute.layout_anchor;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_anchorGravity = global::FreightExchange.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_behavior = global::FreightExchange.Droid.Resource.Attribute.layout_behavior;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constrainedHeight = global::FreightExchange.Droid.Resource.Attribute.layout_constrainedHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constrainedWidth = global::FreightExchange.Droid.Resource.Attribute.layout_constrainedWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintBaseline_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBaseline_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintBaseline_toBaselineOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBaseline_toBaselineOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintBottom_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBottom_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintBottom_toBottomOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBottom_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintBottom_toTopOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBottom_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintCircle = global::FreightExchange.Droid.Resource.Attribute.layout_constraintCircle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintCircleAngle = global::FreightExchange.Droid.Resource.Attribute.layout_constraintCircleAngle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintCircleRadius = global::FreightExchange.Droid.Resource.Attribute.layout_constraintCircleRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintDimensionRatio = global::FreightExchange.Droid.Resource.Attribute.layout_constraintDimensionRatio;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintEnd_toEndOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintEnd_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintEnd_toStartOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintEnd_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintGuide_begin = global::FreightExchange.Droid.Resource.Attribute.layout_constraintGuide_begin;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintGuide_end = global::FreightExchange.Droid.Resource.Attribute.layout_constraintGuide_end;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintGuide_percent = global::FreightExchange.Droid.Resource.Attribute.layout_constraintGuide_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintHeight_default = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHeight_default;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintHeight_max = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHeight_max;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintHeight_min = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHeight_min;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintHeight_percent = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHeight_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintHorizontal_bias = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHorizontal_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintHorizontal_chainStyle = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHorizontal_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintHorizontal_weight = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHorizontal_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintLeft_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintLeft_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintLeft_toLeftOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintLeft_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintLeft_toRightOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintLeft_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintRight_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintRight_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintRight_toLeftOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintRight_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintRight_toRightOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintRight_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintStart_toEndOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintStart_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintStart_toStartOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintStart_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintTop_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintTop_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintTop_toBottomOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintTop_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintTop_toTopOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintTop_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintVertical_bias = global::FreightExchange.Droid.Resource.Attribute.layout_constraintVertical_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintVertical_chainStyle = global::FreightExchange.Droid.Resource.Attribute.layout_constraintVertical_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintVertical_weight = global::FreightExchange.Droid.Resource.Attribute.layout_constraintVertical_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintWidth_default = global::FreightExchange.Droid.Resource.Attribute.layout_constraintWidth_default;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintWidth_max = global::FreightExchange.Droid.Resource.Attribute.layout_constraintWidth_max;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintWidth_min = global::FreightExchange.Droid.Resource.Attribute.layout_constraintWidth_min;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_constraintWidth_percent = global::FreightExchange.Droid.Resource.Attribute.layout_constraintWidth_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_dodgeInsetEdges = global::FreightExchange.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_editor_absoluteX = global::FreightExchange.Droid.Resource.Attribute.layout_editor_absoluteX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_editor_absoluteY = global::FreightExchange.Droid.Resource.Attribute.layout_editor_absoluteY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_goneMarginBottom = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_goneMarginEnd = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_goneMarginLeft = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_goneMarginRight = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginRight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_goneMarginStart = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_goneMarginTop = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_insetEdge = global::FreightExchange.Droid.Resource.Attribute.layout_insetEdge;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_keyline = global::FreightExchange.Droid.Resource.Attribute.layout_keyline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.layout_optimizationLevel = global::FreightExchange.Droid.Resource.Attribute.layout_optimizationLevel;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.reverseLayout = global::FreightExchange.Droid.Resource.Attribute.reverseLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.spanCount = global::FreightExchange.Droid.Resource.Attribute.spanCount;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.stackFromEnd = global::FreightExchange.Droid.Resource.Attribute.stackFromEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.statusBarBackground = global::FreightExchange.Droid.Resource.Attribute.statusBarBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Attribute.ttcIndex = global::FreightExchange.Droid.Resource.Attribute.ttcIndex;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Color.notification_action_color_filter = global::FreightExchange.Droid.Resource.Color.notification_action_color_filter;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Color.notification_icon_bg_color = global::FreightExchange.Droid.Resource.Color.notification_icon_bg_color;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Color.ripple_material_light = global::FreightExchange.Droid.Resource.Color.ripple_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Color.secondary_text_default_material_light = global::FreightExchange.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.compat_button_inset_horizontal_material = global::FreightExchange.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.compat_button_inset_vertical_material = global::FreightExchange.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.compat_button_padding_horizontal_material = global::FreightExchange.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.compat_button_padding_vertical_material = global::FreightExchange.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.compat_control_corner_material = global::FreightExchange.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.compat_notification_large_icon_max_height = global::FreightExchange.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.compat_notification_large_icon_max_width = global::FreightExchange.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.fastscroll_default_thickness = global::FreightExchange.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.fastscroll_margin = global::FreightExchange.Droid.Resource.Dimension.fastscroll_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.fastscroll_minimum_range = global::FreightExchange.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FreightExchange.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FreightExchange.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FreightExchange.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_action_icon_size = global::FreightExchange.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_action_text_size = global::FreightExchange.Droid.Resource.Dimension.notification_action_text_size;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_big_circle_margin = global::FreightExchange.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_content_margin_start = global::FreightExchange.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_large_icon_height = global::FreightExchange.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_large_icon_width = global::FreightExchange.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_main_column_padding_top = global::FreightExchange.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_media_narrow_margin = global::FreightExchange.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_right_icon_size = global::FreightExchange.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_right_side_padding_top = global::FreightExchange.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_small_icon_background_padding = global::FreightExchange.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_small_icon_size_as_large = global::FreightExchange.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_subtext_size = global::FreightExchange.Droid.Resource.Dimension.notification_subtext_size;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_top_pad = global::FreightExchange.Droid.Resource.Dimension.notification_top_pad;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Dimension.notification_top_pad_large_text = global::FreightExchange.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.esri = global::FreightExchange.Droid.Resource.Drawable.esri;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.NextPreviousButton = global::FreightExchange.Droid.Resource.Drawable.NextPreviousButton;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.NextPreviousFill = global::FreightExchange.Droid.Resource.Drawable.NextPreviousFill;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.NextPreviousOutline = global::FreightExchange.Droid.Resource.Drawable.NextPreviousOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_action_background = global::FreightExchange.Droid.Resource.Drawable.notification_action_background;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_bg = global::FreightExchange.Droid.Resource.Drawable.notification_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_bg_low = global::FreightExchange.Droid.Resource.Drawable.notification_bg_low;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_bg_low_normal = global::FreightExchange.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_bg_low_pressed = global::FreightExchange.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_bg_normal = global::FreightExchange.Droid.Resource.Drawable.notification_bg_normal;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_bg_normal_pressed = global::FreightExchange.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_icon_background = global::FreightExchange.Droid.Resource.Drawable.notification_icon_background;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_template_icon_bg = global::FreightExchange.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_template_icon_low_bg = global::FreightExchange.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notification_tile_bg = global::FreightExchange.Droid.Resource.Drawable.notification_tile_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.notify_panel_notification_icon_bg = global::FreightExchange.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.PauseFill = global::FreightExchange.Droid.Resource.Drawable.PauseFill;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.PauseOutline = global::FreightExchange.Droid.Resource.Drawable.PauseOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.PlayPauseButton = global::FreightExchange.Droid.Resource.Drawable.PlayPauseButton;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.Thumb = global::FreightExchange.Droid.Resource.Drawable.Thumb;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.TriangleFill = global::FreightExchange.Droid.Resource.Drawable.TriangleFill;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Drawable.TriangleOutline = global::FreightExchange.Droid.Resource.Drawable.TriangleOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.actions = global::FreightExchange.Droid.Resource.Id.actions;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.action_container = global::FreightExchange.Droid.Resource.Id.action_container;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.action_divider = global::FreightExchange.Droid.Resource.Id.action_divider;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.action_image = global::FreightExchange.Droid.Resource.Id.action_image;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.action_text = global::FreightExchange.Droid.Resource.Id.action_text;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.all = global::FreightExchange.Droid.Resource.Id.all;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.async = global::FreightExchange.Droid.Resource.Id.async;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.barrier = global::FreightExchange.Droid.Resource.Id.barrier;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.blocking = global::FreightExchange.Droid.Resource.Id.blocking;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.bottom = global::FreightExchange.Droid.Resource.Id.bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.center = global::FreightExchange.Droid.Resource.Id.center;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.center_horizontal = global::FreightExchange.Droid.Resource.Id.center_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.center_vertical = global::FreightExchange.Droid.Resource.Id.center_vertical;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.chains = global::FreightExchange.Droid.Resource.Id.chains;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.chronometer = global::FreightExchange.Droid.Resource.Id.chronometer;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.clip_horizontal = global::FreightExchange.Droid.Resource.Id.clip_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.clip_vertical = global::FreightExchange.Droid.Resource.Id.clip_vertical;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.CurrentExtentEndTimeLabel = global::FreightExchange.Droid.Resource.Id.CurrentExtentEndTimeLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.CurrentExtentFill = global::FreightExchange.Droid.Resource.Id.CurrentExtentFill;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.CurrentExtentStartTimeLabel = global::FreightExchange.Droid.Resource.Id.CurrentExtentStartTimeLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.dimensions = global::FreightExchange.Droid.Resource.Id.dimensions;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.direct = global::FreightExchange.Droid.Resource.Id.direct;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.end = global::FreightExchange.Droid.Resource.Id.end;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.fill = global::FreightExchange.Droid.Resource.Id.fill;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.fill_horizontal = global::FreightExchange.Droid.Resource.Id.fill_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.fill_vertical = global::FreightExchange.Droid.Resource.Id.fill_vertical;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.forever = global::FreightExchange.Droid.Resource.Id.forever;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.FullExtentEndGuide = global::FreightExchange.Droid.Resource.Id.FullExtentEndGuide;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.FullExtentEndTimeLabel = global::FreightExchange.Droid.Resource.Id.FullExtentEndTimeLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.FullExtentEndTimeTickmark = global::FreightExchange.Droid.Resource.Id.FullExtentEndTimeTickmark;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.FullExtentStartGuide = global::FreightExchange.Droid.Resource.Id.FullExtentStartGuide;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.FullExtentStartTimeLabel = global::FreightExchange.Droid.Resource.Id.FullExtentStartTimeLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.FullExtentStartTimeTickmark = global::FreightExchange.Droid.Resource.Id.FullExtentStartTimeTickmark;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.gone = global::FreightExchange.Droid.Resource.Id.gone;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.icon = global::FreightExchange.Droid.Resource.Id.icon;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.icon_group = global::FreightExchange.Droid.Resource.Id.icon_group;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.info = global::FreightExchange.Droid.Resource.Id.info;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.invisible = global::FreightExchange.Droid.Resource.Id.invisible;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.italic = global::FreightExchange.Droid.Resource.Id.italic;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.item_touch_helper_previous_elevation = global::FreightExchange.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.left = global::FreightExchange.Droid.Resource.Id.left;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.line1 = global::FreightExchange.Droid.Resource.Id.line1;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.line3 = global::FreightExchange.Droid.Resource.Id.line3;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.MaxThumb = global::FreightExchange.Droid.Resource.Id.MaxThumb;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.MaxThumbCenter = global::FreightExchange.Droid.Resource.Id.MaxThumbCenter;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.MinThumb = global::FreightExchange.Droid.Resource.Id.MinThumb;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.MinThumbCenter = global::FreightExchange.Droid.Resource.Id.MinThumbCenter;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.NextButton = global::FreightExchange.Droid.Resource.Id.NextButton;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.NextButtonOutline = global::FreightExchange.Droid.Resource.Id.NextButtonOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.none = global::FreightExchange.Droid.Resource.Id.none;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.normal = global::FreightExchange.Droid.Resource.Id.normal;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.notification_background = global::FreightExchange.Droid.Resource.Id.notification_background;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.notification_main_column = global::FreightExchange.Droid.Resource.Id.notification_main_column;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.notification_main_column_container = global::FreightExchange.Droid.Resource.Id.notification_main_column_container;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.packed = global::FreightExchange.Droid.Resource.Id.packed;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.parent = global::FreightExchange.Droid.Resource.Id.parent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.PauseButtonOutline = global::FreightExchange.Droid.Resource.Id.PauseButtonOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.percent = global::FreightExchange.Droid.Resource.Id.percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.PinnedMaxThumb = global::FreightExchange.Droid.Resource.Id.PinnedMaxThumb;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.PinnedMinThumb = global::FreightExchange.Droid.Resource.Id.PinnedMinThumb;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.PlayButtonOutline = global::FreightExchange.Droid.Resource.Id.PlayButtonOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.PlayPauseButton = global::FreightExchange.Droid.Resource.Id.PlayPauseButton;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.PreviousButton = global::FreightExchange.Droid.Resource.Id.PreviousButton;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.PreviousButtonOutline = global::FreightExchange.Droid.Resource.Id.PreviousButtonOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.right = global::FreightExchange.Droid.Resource.Id.right;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.right_icon = global::FreightExchange.Droid.Resource.Id.right_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.right_side = global::FreightExchange.Droid.Resource.Id.right_side;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.SliderTrack = global::FreightExchange.Droid.Resource.Id.SliderTrack;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.SliderTrackOutline = global::FreightExchange.Droid.Resource.Id.SliderTrackOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.spread = global::FreightExchange.Droid.Resource.Id.spread;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.spread_inside = global::FreightExchange.Droid.Resource.Id.spread_inside;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.standard = global::FreightExchange.Droid.Resource.Id.standard;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.start = global::FreightExchange.Droid.Resource.Id.start;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.tag_transition_group = global::FreightExchange.Droid.Resource.Id.tag_transition_group;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.tag_unhandled_key_event_manager = global::FreightExchange.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.tag_unhandled_key_listeners = global::FreightExchange.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.text = global::FreightExchange.Droid.Resource.Id.text;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.text2 = global::FreightExchange.Droid.Resource.Id.text2;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.ThumbGuideStart = global::FreightExchange.Droid.Resource.Id.ThumbGuideStart;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.Tickmarks = global::FreightExchange.Droid.Resource.Id.Tickmarks;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.time = global::FreightExchange.Droid.Resource.Id.time;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.title = global::FreightExchange.Droid.Resource.Id.title;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.top = global::FreightExchange.Droid.Resource.Id.top;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Id.wrap = global::FreightExchange.Droid.Resource.Id.wrap;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Integer.status_bar_notification_info_maxnum = global::FreightExchange.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Layout.notification_action = global::FreightExchange.Droid.Resource.Layout.notification_action;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Layout.notification_action_tombstone = global::FreightExchange.Droid.Resource.Layout.notification_action_tombstone;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Layout.notification_template_custom_big = global::FreightExchange.Droid.Resource.Layout.notification_template_custom_big;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Layout.notification_template_icon_group = global::FreightExchange.Droid.Resource.Layout.notification_template_icon_group;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Layout.notification_template_part_chronometer = global::FreightExchange.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Layout.notification_template_part_time = global::FreightExchange.Droid.Resource.Layout.notification_template_part_time;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Layout.TimeSlider = global::FreightExchange.Droid.Resource.Layout.TimeSlider;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.String.status_bar_notification_info_overflow = global::FreightExchange.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Style.TextAppearance_Compat_Notification = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Style.TextAppearance_Compat_Notification_Info = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Style.TextAppearance_Compat_Notification_Time = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Style.TextAppearance_Compat_Notification_Title = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Style.Widget_Compat_NotificationActionContainer = global::FreightExchange.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Style.Widget_Compat_NotificationActionText = global::FreightExchange.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Style.Widget_Support_CoordinatorLayout = global::FreightExchange.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ColorStateListItem = global::FreightExchange.Droid.Resource.Styleable.ColorStateListItem;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ColorStateListItem_alpha = global::FreightExchange.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ColorStateListItem_android_alpha = global::FreightExchange.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ColorStateListItem_android_color = global::FreightExchange.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_android_minHeight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_android_minWidth = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_android_orientation = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_orientation;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_barrierDirection = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_constraintSet = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_constraintSet;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_placeholder = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_placeholder;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintLayout_placeholder_content = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_placeholder_content;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_alpha = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_elevation = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_id = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_id;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_layout_height = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_height;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_layout_marginBottom = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_layout_marginEnd = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_layout_marginLeft = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_layout_marginRight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginRight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_layout_marginStart = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_layout_marginTop = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_layout_width = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_width;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_orientation = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_orientation;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_rotation = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_rotation;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_rotationX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_rotationX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_rotationY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_rotationY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_scaleX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_scaleX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_scaleY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_scaleY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_transformPivotX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_transformPivotX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_transformPivotY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_transformPivotY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_translationX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_translationX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_translationY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_translationY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_translationZ = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_translationZ;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_android_visibility = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_visibility;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constrainedHeight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constrainedHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constrainedWidth = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constrainedWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintCircle = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintGuide_end = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_default = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_max = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_min = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintRight_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintTop_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_default = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_max = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_min = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_editor_absoluteX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_editor_absoluteY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_goneMarginBottom = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_goneMarginEnd = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_goneMarginLeft = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_goneMarginRight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginRight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_goneMarginStart = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.ConstraintSet_layout_goneMarginTop = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_keylines = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_Layout = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamily = global::FreightExchange.Droid.Resource.Styleable.FontFamily;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_android_font = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_android_fontStyle = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_android_fontWeight = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_font = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_fontStyle = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_fontWeight = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamilyFont_ttcIndex = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamily_fontProviderAuthority = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamily_fontProviderCerts = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamily_fontProviderPackage = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.FontFamily_fontProviderQuery = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor = global::FreightExchange.Droid.Resource.Styleable.GradientColor;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColorItem = global::FreightExchange.Droid.Resource.Styleable.GradientColorItem;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColorItem_android_color = global::FreightExchange.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColorItem_android_offset = global::FreightExchange.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_centerColor = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_centerX = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_centerY = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_endColor = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_endX = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_endY = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_gradientRadius = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_startColor = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_startX = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_startY = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_tileMode = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.GradientColor_android_type = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView = global::FreightExchange.Droid.Resource.Styleable.RecyclerView;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_android_orientation = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_fastScrollEnabled = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_layoutManager = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_reverseLayout = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_spanCount = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Esri.ArcGISRuntime.Toolkit.Resource.Styleable.RecyclerView_stackFromEnd = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_fade_in = global::FreightExchange.Droid.Resource.Animation.abc_fade_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_fade_out = global::FreightExchange.Droid.Resource.Animation.abc_fade_out;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::FreightExchange.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_popup_enter = global::FreightExchange.Droid.Resource.Animation.abc_popup_enter;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_popup_exit = global::FreightExchange.Droid.Resource.Animation.abc_popup_exit;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FreightExchange.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_slide_in_bottom = global::FreightExchange.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_slide_in_top = global::FreightExchange.Droid.Resource.Animation.abc_slide_in_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_slide_out_bottom = global::FreightExchange.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_slide_out_top = global::FreightExchange.Droid.Resource.Animation.abc_slide_out_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_tooltip_enter = global::FreightExchange.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.abc_tooltip_exit = global::FreightExchange.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::FreightExchange.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::FreightExchange.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::FreightExchange.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::FreightExchange.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::FreightExchange.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::FreightExchange.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::FreightExchange.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::FreightExchange.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::FreightExchange.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::FreightExchange.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::FreightExchange.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::FreightExchange.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.design_bottom_sheet_slide_in = global::FreightExchange.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.design_bottom_sheet_slide_out = global::FreightExchange.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.design_snackbar_in = global::FreightExchange.Droid.Resource.Animation.design_snackbar_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.design_snackbar_out = global::FreightExchange.Droid.Resource.Animation.design_snackbar_out;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.EnterFromLeft = global::FreightExchange.Droid.Resource.Animation.EnterFromLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.EnterFromRight = global::FreightExchange.Droid.Resource.Animation.EnterFromRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.ExitToLeft = global::FreightExchange.Droid.Resource.Animation.ExitToLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.ExitToRight = global::FreightExchange.Droid.Resource.Animation.ExitToRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.fragment_fast_out_extra_slow_in = global::FreightExchange.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.mtrl_bottom_sheet_slide_in = global::FreightExchange.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.mtrl_bottom_sheet_slide_out = global::FreightExchange.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animation.mtrl_card_lowers_interpolator = global::FreightExchange.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.design_appbar_state_list_animator = global::FreightExchange.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.design_fab_hide_motion_spec = global::FreightExchange.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.design_fab_show_motion_spec = global::FreightExchange.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_btn_state_list_anim = global::FreightExchange.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::FreightExchange.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_card_state_list_anim = global::FreightExchange.Droid.Resource.Animator.mtrl_card_state_list_anim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_chip_state_list_anim = global::FreightExchange.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::FreightExchange.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::FreightExchange.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_extended_fab_state_list_animator = global::FreightExchange.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_fab_hide_motion_spec = global::FreightExchange.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_fab_show_motion_spec = global::FreightExchange.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::FreightExchange.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::FreightExchange.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarDivider = global::FreightExchange.Droid.Resource.Attribute.actionBarDivider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarItemBackground = global::FreightExchange.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarPopupTheme = global::FreightExchange.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarSize = global::FreightExchange.Droid.Resource.Attribute.actionBarSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarSplitStyle = global::FreightExchange.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarStyle = global::FreightExchange.Droid.Resource.Attribute.actionBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarTabBarStyle = global::FreightExchange.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarTabStyle = global::FreightExchange.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarTabTextStyle = global::FreightExchange.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarTheme = global::FreightExchange.Droid.Resource.Attribute.actionBarTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionBarWidgetTheme = global::FreightExchange.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionButtonStyle = global::FreightExchange.Droid.Resource.Attribute.actionButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionDropDownStyle = global::FreightExchange.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionLayout = global::FreightExchange.Droid.Resource.Attribute.actionLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionMenuTextAppearance = global::FreightExchange.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionMenuTextColor = global::FreightExchange.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeBackground = global::FreightExchange.Droid.Resource.Attribute.actionModeBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeCloseButtonStyle = global::FreightExchange.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeCloseDrawable = global::FreightExchange.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeCopyDrawable = global::FreightExchange.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeCutDrawable = global::FreightExchange.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeFindDrawable = global::FreightExchange.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModePasteDrawable = global::FreightExchange.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModePopupWindowStyle = global::FreightExchange.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeSelectAllDrawable = global::FreightExchange.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeShareDrawable = global::FreightExchange.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeSplitBackground = global::FreightExchange.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeStyle = global::FreightExchange.Droid.Resource.Attribute.actionModeStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionModeWebSearchDrawable = global::FreightExchange.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionOverflowButtonStyle = global::FreightExchange.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionOverflowMenuStyle = global::FreightExchange.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionProviderClass = global::FreightExchange.Droid.Resource.Attribute.actionProviderClass;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionTextColorAlpha = global::FreightExchange.Droid.Resource.Attribute.actionTextColorAlpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.actionViewClass = global::FreightExchange.Droid.Resource.Attribute.actionViewClass;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.activityChooserViewStyle = global::FreightExchange.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.alertDialogButtonGroupStyle = global::FreightExchange.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.alertDialogCenterButtons = global::FreightExchange.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.alertDialogStyle = global::FreightExchange.Droid.Resource.Attribute.alertDialogStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.alertDialogTheme = global::FreightExchange.Droid.Resource.Attribute.alertDialogTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.allowStacking = global::FreightExchange.Droid.Resource.Attribute.allowStacking;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.alpha = global::FreightExchange.Droid.Resource.Attribute.alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.alphabeticModifiers = global::FreightExchange.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.animationMode = global::FreightExchange.Droid.Resource.Attribute.animationMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.appBarLayoutStyle = global::FreightExchange.Droid.Resource.Attribute.appBarLayoutStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.arrowHeadLength = global::FreightExchange.Droid.Resource.Attribute.arrowHeadLength;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.arrowShaftLength = global::FreightExchange.Droid.Resource.Attribute.arrowShaftLength;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.autoCompleteTextViewStyle = global::FreightExchange.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.autoSizeMaxTextSize = global::FreightExchange.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.autoSizeMinTextSize = global::FreightExchange.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.autoSizePresetSizes = global::FreightExchange.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.autoSizeStepGranularity = global::FreightExchange.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.autoSizeTextType = global::FreightExchange.Droid.Resource.Attribute.autoSizeTextType;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.background = global::FreightExchange.Droid.Resource.Attribute.background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundColor = global::FreightExchange.Droid.Resource.Attribute.backgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundInsetBottom = global::FreightExchange.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundInsetEnd = global::FreightExchange.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundInsetStart = global::FreightExchange.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundInsetTop = global::FreightExchange.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundOverlayColorAlpha = global::FreightExchange.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundSplit = global::FreightExchange.Droid.Resource.Attribute.backgroundSplit;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundStacked = global::FreightExchange.Droid.Resource.Attribute.backgroundStacked;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundTint = global::FreightExchange.Droid.Resource.Attribute.backgroundTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.backgroundTintMode = global::FreightExchange.Droid.Resource.Attribute.backgroundTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.badgeGravity = global::FreightExchange.Droid.Resource.Attribute.badgeGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.badgeStyle = global::FreightExchange.Droid.Resource.Attribute.badgeStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.badgeTextColor = global::FreightExchange.Droid.Resource.Attribute.badgeTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.barLength = global::FreightExchange.Droid.Resource.Attribute.barLength;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.barrierAllowsGoneWidgets = global::FreightExchange.Droid.Resource.Attribute.barrierAllowsGoneWidgets;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.barrierDirection = global::FreightExchange.Droid.Resource.Attribute.barrierDirection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_autoHide = global::FreightExchange.Droid.Resource.Attribute.behavior_autoHide;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_autoShrink = global::FreightExchange.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_expandedOffset = global::FreightExchange.Droid.Resource.Attribute.behavior_expandedOffset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_fitToContents = global::FreightExchange.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_halfExpandedRatio = global::FreightExchange.Droid.Resource.Attribute.behavior_halfExpandedRatio;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_hideable = global::FreightExchange.Droid.Resource.Attribute.behavior_hideable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_overlapTop = global::FreightExchange.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_peekHeight = global::FreightExchange.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_saveFlags = global::FreightExchange.Droid.Resource.Attribute.behavior_saveFlags;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.behavior_skipCollapsed = global::FreightExchange.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.borderlessButtonStyle = global::FreightExchange.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.borderWidth = global::FreightExchange.Droid.Resource.Attribute.borderWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.bottomAppBarStyle = global::FreightExchange.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.bottomNavigationStyle = global::FreightExchange.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.bottomSheetDialogTheme = global::FreightExchange.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.bottomSheetStyle = global::FreightExchange.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxBackgroundColor = global::FreightExchange.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxBackgroundMode = global::FreightExchange.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxCollapsedPaddingTop = global::FreightExchange.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxCornerRadiusBottomEnd = global::FreightExchange.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxCornerRadiusBottomStart = global::FreightExchange.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxCornerRadiusTopEnd = global::FreightExchange.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxCornerRadiusTopStart = global::FreightExchange.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxStrokeColor = global::FreightExchange.Droid.Resource.Attribute.boxStrokeColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxStrokeWidth = global::FreightExchange.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.boxStrokeWidthFocused = global::FreightExchange.Droid.Resource.Attribute.boxStrokeWidthFocused;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonBarButtonStyle = global::FreightExchange.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonBarNegativeButtonStyle = global::FreightExchange.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonBarNeutralButtonStyle = global::FreightExchange.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonBarPositiveButtonStyle = global::FreightExchange.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonBarStyle = global::FreightExchange.Droid.Resource.Attribute.buttonBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonCompat = global::FreightExchange.Droid.Resource.Attribute.buttonCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonGravity = global::FreightExchange.Droid.Resource.Attribute.buttonGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonIconDimen = global::FreightExchange.Droid.Resource.Attribute.buttonIconDimen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonPanelSideLayout = global::FreightExchange.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonStyle = global::FreightExchange.Droid.Resource.Attribute.buttonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonStyleSmall = global::FreightExchange.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonTint = global::FreightExchange.Droid.Resource.Attribute.buttonTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.buttonTintMode = global::FreightExchange.Droid.Resource.Attribute.buttonTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cardBackgroundColor = global::FreightExchange.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cardCornerRadius = global::FreightExchange.Droid.Resource.Attribute.cardCornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cardElevation = global::FreightExchange.Droid.Resource.Attribute.cardElevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cardForegroundColor = global::FreightExchange.Droid.Resource.Attribute.cardForegroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cardMaxElevation = global::FreightExchange.Droid.Resource.Attribute.cardMaxElevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cardPreventCornerOverlap = global::FreightExchange.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cardUseCompatPadding = global::FreightExchange.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cardViewStyle = global::FreightExchange.Droid.Resource.Attribute.cardViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chainUseRtl = global::FreightExchange.Droid.Resource.Attribute.chainUseRtl;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.checkboxStyle = global::FreightExchange.Droid.Resource.Attribute.checkboxStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.checkedButton = global::FreightExchange.Droid.Resource.Attribute.checkedButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.checkedChip = global::FreightExchange.Droid.Resource.Attribute.checkedChip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.checkedIcon = global::FreightExchange.Droid.Resource.Attribute.checkedIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.checkedIconEnabled = global::FreightExchange.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.checkedIconTint = global::FreightExchange.Droid.Resource.Attribute.checkedIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.checkedIconVisible = global::FreightExchange.Droid.Resource.Attribute.checkedIconVisible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.checkedTextViewStyle = global::FreightExchange.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipBackgroundColor = global::FreightExchange.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipCornerRadius = global::FreightExchange.Droid.Resource.Attribute.chipCornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipEndPadding = global::FreightExchange.Droid.Resource.Attribute.chipEndPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipGroupStyle = global::FreightExchange.Droid.Resource.Attribute.chipGroupStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipIcon = global::FreightExchange.Droid.Resource.Attribute.chipIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipIconEnabled = global::FreightExchange.Droid.Resource.Attribute.chipIconEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipIconSize = global::FreightExchange.Droid.Resource.Attribute.chipIconSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipIconTint = global::FreightExchange.Droid.Resource.Attribute.chipIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipIconVisible = global::FreightExchange.Droid.Resource.Attribute.chipIconVisible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipMinHeight = global::FreightExchange.Droid.Resource.Attribute.chipMinHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipMinTouchTargetSize = global::FreightExchange.Droid.Resource.Attribute.chipMinTouchTargetSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipSpacing = global::FreightExchange.Droid.Resource.Attribute.chipSpacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipSpacingHorizontal = global::FreightExchange.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipSpacingVertical = global::FreightExchange.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipStandaloneStyle = global::FreightExchange.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipStartPadding = global::FreightExchange.Droid.Resource.Attribute.chipStartPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipStrokeColor = global::FreightExchange.Droid.Resource.Attribute.chipStrokeColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipStrokeWidth = global::FreightExchange.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipStyle = global::FreightExchange.Droid.Resource.Attribute.chipStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.chipSurfaceColor = global::FreightExchange.Droid.Resource.Attribute.chipSurfaceColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.closeIcon = global::FreightExchange.Droid.Resource.Attribute.closeIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.closeIconEnabled = global::FreightExchange.Droid.Resource.Attribute.closeIconEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.closeIconEndPadding = global::FreightExchange.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.closeIconSize = global::FreightExchange.Droid.Resource.Attribute.closeIconSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.closeIconStartPadding = global::FreightExchange.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.closeIconTint = global::FreightExchange.Droid.Resource.Attribute.closeIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.closeIconVisible = global::FreightExchange.Droid.Resource.Attribute.closeIconVisible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.closeItemLayout = global::FreightExchange.Droid.Resource.Attribute.closeItemLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.collapseContentDescription = global::FreightExchange.Droid.Resource.Attribute.collapseContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.collapsedTitleGravity = global::FreightExchange.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.collapsedTitleTextAppearance = global::FreightExchange.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.collapseIcon = global::FreightExchange.Droid.Resource.Attribute.collapseIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.collectionViewStyle = global::FreightExchange.Droid.Resource.Attribute.collectionViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.color = global::FreightExchange.Droid.Resource.Attribute.color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorAccent = global::FreightExchange.Droid.Resource.Attribute.colorAccent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorBackgroundFloating = global::FreightExchange.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorButtonNormal = global::FreightExchange.Droid.Resource.Attribute.colorButtonNormal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorControlActivated = global::FreightExchange.Droid.Resource.Attribute.colorControlActivated;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorControlHighlight = global::FreightExchange.Droid.Resource.Attribute.colorControlHighlight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorControlNormal = global::FreightExchange.Droid.Resource.Attribute.colorControlNormal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorError = global::FreightExchange.Droid.Resource.Attribute.colorError;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorOnBackground = global::FreightExchange.Droid.Resource.Attribute.colorOnBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorOnError = global::FreightExchange.Droid.Resource.Attribute.colorOnError;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorOnPrimary = global::FreightExchange.Droid.Resource.Attribute.colorOnPrimary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorOnPrimarySurface = global::FreightExchange.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorOnSecondary = global::FreightExchange.Droid.Resource.Attribute.colorOnSecondary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorOnSurface = global::FreightExchange.Droid.Resource.Attribute.colorOnSurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorPrimary = global::FreightExchange.Droid.Resource.Attribute.colorPrimary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorPrimaryDark = global::FreightExchange.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorPrimarySurface = global::FreightExchange.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorPrimaryVariant = global::FreightExchange.Droid.Resource.Attribute.colorPrimaryVariant;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorSecondary = global::FreightExchange.Droid.Resource.Attribute.colorSecondary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorSecondaryVariant = global::FreightExchange.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorSurface = global::FreightExchange.Droid.Resource.Attribute.colorSurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.colorSwitchThumbNormal = global::FreightExchange.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.commitIcon = global::FreightExchange.Droid.Resource.Attribute.commitIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.constraintSet = global::FreightExchange.Droid.Resource.Attribute.constraintSet;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.constraint_referenced_ids = global::FreightExchange.Droid.Resource.Attribute.constraint_referenced_ids;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.content = global::FreightExchange.Droid.Resource.Attribute.content;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentDescription = global::FreightExchange.Droid.Resource.Attribute.contentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentInsetEnd = global::FreightExchange.Droid.Resource.Attribute.contentInsetEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentInsetEndWithActions = global::FreightExchange.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentInsetLeft = global::FreightExchange.Droid.Resource.Attribute.contentInsetLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentInsetRight = global::FreightExchange.Droid.Resource.Attribute.contentInsetRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentInsetStart = global::FreightExchange.Droid.Resource.Attribute.contentInsetStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentInsetStartWithNavigation = global::FreightExchange.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentPadding = global::FreightExchange.Droid.Resource.Attribute.contentPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentPaddingBottom = global::FreightExchange.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentPaddingLeft = global::FreightExchange.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentPaddingRight = global::FreightExchange.Droid.Resource.Attribute.contentPaddingRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentPaddingTop = global::FreightExchange.Droid.Resource.Attribute.contentPaddingTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.contentScrim = global::FreightExchange.Droid.Resource.Attribute.contentScrim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.controlBackground = global::FreightExchange.Droid.Resource.Attribute.controlBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.coordinatorLayoutStyle = global::FreightExchange.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerFamily = global::FreightExchange.Droid.Resource.Attribute.cornerFamily;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerFamilyBottomLeft = global::FreightExchange.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerFamilyBottomRight = global::FreightExchange.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerFamilyTopLeft = global::FreightExchange.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerFamilyTopRight = global::FreightExchange.Droid.Resource.Attribute.cornerFamilyTopRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerRadius = global::FreightExchange.Droid.Resource.Attribute.cornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerSize = global::FreightExchange.Droid.Resource.Attribute.cornerSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerSizeBottomLeft = global::FreightExchange.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerSizeBottomRight = global::FreightExchange.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerSizeTopLeft = global::FreightExchange.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.cornerSizeTopRight = global::FreightExchange.Droid.Resource.Attribute.cornerSizeTopRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.counterEnabled = global::FreightExchange.Droid.Resource.Attribute.counterEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.counterMaxLength = global::FreightExchange.Droid.Resource.Attribute.counterMaxLength;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.counterOverflowTextAppearance = global::FreightExchange.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.counterOverflowTextColor = global::FreightExchange.Droid.Resource.Attribute.counterOverflowTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.counterTextAppearance = global::FreightExchange.Droid.Resource.Attribute.counterTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.counterTextColor = global::FreightExchange.Droid.Resource.Attribute.counterTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.customNavigationLayout = global::FreightExchange.Droid.Resource.Attribute.customNavigationLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dayInvalidStyle = global::FreightExchange.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.daySelectedStyle = global::FreightExchange.Droid.Resource.Attribute.daySelectedStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dayStyle = global::FreightExchange.Droid.Resource.Attribute.dayStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dayTodayStyle = global::FreightExchange.Droid.Resource.Attribute.dayTodayStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.defaultQueryHint = global::FreightExchange.Droid.Resource.Attribute.defaultQueryHint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dialogCornerRadius = global::FreightExchange.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dialogPreferredPadding = global::FreightExchange.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dialogTheme = global::FreightExchange.Droid.Resource.Attribute.dialogTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.displayOptions = global::FreightExchange.Droid.Resource.Attribute.displayOptions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.divider = global::FreightExchange.Droid.Resource.Attribute.divider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dividerHorizontal = global::FreightExchange.Droid.Resource.Attribute.dividerHorizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dividerPadding = global::FreightExchange.Droid.Resource.Attribute.dividerPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dividerVertical = global::FreightExchange.Droid.Resource.Attribute.dividerVertical;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawableBottomCompat = global::FreightExchange.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawableEndCompat = global::FreightExchange.Droid.Resource.Attribute.drawableEndCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawableLeftCompat = global::FreightExchange.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawableRightCompat = global::FreightExchange.Droid.Resource.Attribute.drawableRightCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawableSize = global::FreightExchange.Droid.Resource.Attribute.drawableSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawableStartCompat = global::FreightExchange.Droid.Resource.Attribute.drawableStartCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawableTint = global::FreightExchange.Droid.Resource.Attribute.drawableTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawableTintMode = global::FreightExchange.Droid.Resource.Attribute.drawableTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawableTopCompat = global::FreightExchange.Droid.Resource.Attribute.drawableTopCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawerArrowStyle = global::FreightExchange.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.drawerLayoutStyle = global::FreightExchange.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dropdownListPreferredItemHeight = global::FreightExchange.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.dropDownListViewStyle = global::FreightExchange.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.editTextBackground = global::FreightExchange.Droid.Resource.Attribute.editTextBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.editTextColor = global::FreightExchange.Droid.Resource.Attribute.editTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.editTextStyle = global::FreightExchange.Droid.Resource.Attribute.editTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.elevation = global::FreightExchange.Droid.Resource.Attribute.elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.elevationOverlayColor = global::FreightExchange.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.elevationOverlayEnabled = global::FreightExchange.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.endIconCheckable = global::FreightExchange.Droid.Resource.Attribute.endIconCheckable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.endIconContentDescription = global::FreightExchange.Droid.Resource.Attribute.endIconContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.endIconDrawable = global::FreightExchange.Droid.Resource.Attribute.endIconDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.endIconMode = global::FreightExchange.Droid.Resource.Attribute.endIconMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.endIconTint = global::FreightExchange.Droid.Resource.Attribute.endIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.endIconTintMode = global::FreightExchange.Droid.Resource.Attribute.endIconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.enforceMaterialTheme = global::FreightExchange.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.enforceTextAppearance = global::FreightExchange.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.ensureMinTouchTargetSize = global::FreightExchange.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.errorEnabled = global::FreightExchange.Droid.Resource.Attribute.errorEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.errorIconDrawable = global::FreightExchange.Droid.Resource.Attribute.errorIconDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.errorIconTint = global::FreightExchange.Droid.Resource.Attribute.errorIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.errorIconTintMode = global::FreightExchange.Droid.Resource.Attribute.errorIconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.errorTextAppearance = global::FreightExchange.Droid.Resource.Attribute.errorTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.errorTextColor = global::FreightExchange.Droid.Resource.Attribute.errorTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FreightExchange.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.expanded = global::FreightExchange.Droid.Resource.Attribute.expanded;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.expandedTitleGravity = global::FreightExchange.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.expandedTitleMargin = global::FreightExchange.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.expandedTitleMarginBottom = global::FreightExchange.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.expandedTitleMarginEnd = global::FreightExchange.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.expandedTitleMarginStart = global::FreightExchange.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.expandedTitleMarginTop = global::FreightExchange.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.expandedTitleTextAppearance = global::FreightExchange.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.extendedFloatingActionButtonStyle = global::FreightExchange.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.extendMotionSpec = global::FreightExchange.Droid.Resource.Attribute.extendMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fabAlignmentMode = global::FreightExchange.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fabAnimationMode = global::FreightExchange.Droid.Resource.Attribute.fabAnimationMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fabCradleMargin = global::FreightExchange.Droid.Resource.Attribute.fabCradleMargin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fabCradleRoundedCornerRadius = global::FreightExchange.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fabCradleVerticalOffset = global::FreightExchange.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fabCustomSize = global::FreightExchange.Droid.Resource.Attribute.fabCustomSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fabSize = global::FreightExchange.Droid.Resource.Attribute.fabSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fastScrollEnabled = global::FreightExchange.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::FreightExchange.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::FreightExchange.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fastScrollVerticalThumbDrawable = global::FreightExchange.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fastScrollVerticalTrackDrawable = global::FreightExchange.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.firstBaselineToTopHeight = global::FreightExchange.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.floatingActionButtonStyle = global::FreightExchange.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.font = global::FreightExchange.Droid.Resource.Attribute.font;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontFamily = global::FreightExchange.Droid.Resource.Attribute.fontFamily;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontProviderAuthority = global::FreightExchange.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontProviderCerts = global::FreightExchange.Droid.Resource.Attribute.fontProviderCerts;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontProviderFetchStrategy = global::FreightExchange.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontProviderFetchTimeout = global::FreightExchange.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontProviderPackage = global::FreightExchange.Droid.Resource.Attribute.fontProviderPackage;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontProviderQuery = global::FreightExchange.Droid.Resource.Attribute.fontProviderQuery;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontStyle = global::FreightExchange.Droid.Resource.Attribute.fontStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontVariationSettings = global::FreightExchange.Droid.Resource.Attribute.fontVariationSettings;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.fontWeight = global::FreightExchange.Droid.Resource.Attribute.fontWeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.foregroundInsidePadding = global::FreightExchange.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.gapBetweenBars = global::FreightExchange.Droid.Resource.Attribute.gapBetweenBars;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.goIcon = global::FreightExchange.Droid.Resource.Attribute.goIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.headerLayout = global::FreightExchange.Droid.Resource.Attribute.headerLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.height = global::FreightExchange.Droid.Resource.Attribute.height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.helperText = global::FreightExchange.Droid.Resource.Attribute.helperText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.helperTextEnabled = global::FreightExchange.Droid.Resource.Attribute.helperTextEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.helperTextTextAppearance = global::FreightExchange.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.helperTextTextColor = global::FreightExchange.Droid.Resource.Attribute.helperTextTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.hideMotionSpec = global::FreightExchange.Droid.Resource.Attribute.hideMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.hideOnContentScroll = global::FreightExchange.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.hideOnScroll = global::FreightExchange.Droid.Resource.Attribute.hideOnScroll;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.hintAnimationEnabled = global::FreightExchange.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.hintEnabled = global::FreightExchange.Droid.Resource.Attribute.hintEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.hintTextAppearance = global::FreightExchange.Droid.Resource.Attribute.hintTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.hintTextColor = global::FreightExchange.Droid.Resource.Attribute.hintTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.homeAsUpIndicator = global::FreightExchange.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.homeLayout = global::FreightExchange.Droid.Resource.Attribute.homeLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.hoveredFocusedTranslationZ = global::FreightExchange.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.icon = global::FreightExchange.Droid.Resource.Attribute.icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.iconEndPadding = global::FreightExchange.Droid.Resource.Attribute.iconEndPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.iconGravity = global::FreightExchange.Droid.Resource.Attribute.iconGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.iconifiedByDefault = global::FreightExchange.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.iconPadding = global::FreightExchange.Droid.Resource.Attribute.iconPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.iconSize = global::FreightExchange.Droid.Resource.Attribute.iconSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.iconStartPadding = global::FreightExchange.Droid.Resource.Attribute.iconStartPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.iconTint = global::FreightExchange.Droid.Resource.Attribute.iconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.iconTintMode = global::FreightExchange.Droid.Resource.Attribute.iconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.imageButtonStyle = global::FreightExchange.Droid.Resource.Attribute.imageButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.indeterminateProgressStyle = global::FreightExchange.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.initialActivityCount = global::FreightExchange.Droid.Resource.Attribute.initialActivityCount;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.insetForeground = global::FreightExchange.Droid.Resource.Attribute.insetForeground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.isLightTheme = global::FreightExchange.Droid.Resource.Attribute.isLightTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.isMaterialTheme = global::FreightExchange.Droid.Resource.Attribute.isMaterialTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemBackground = global::FreightExchange.Droid.Resource.Attribute.itemBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemFillColor = global::FreightExchange.Droid.Resource.Attribute.itemFillColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemHorizontalPadding = global::FreightExchange.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemHorizontalTranslationEnabled = global::FreightExchange.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemIconPadding = global::FreightExchange.Droid.Resource.Attribute.itemIconPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemIconSize = global::FreightExchange.Droid.Resource.Attribute.itemIconSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemIconTint = global::FreightExchange.Droid.Resource.Attribute.itemIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemMaxLines = global::FreightExchange.Droid.Resource.Attribute.itemMaxLines;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemPadding = global::FreightExchange.Droid.Resource.Attribute.itemPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemRippleColor = global::FreightExchange.Droid.Resource.Attribute.itemRippleColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemShapeAppearance = global::FreightExchange.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemShapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemShapeFillColor = global::FreightExchange.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemShapeInsetBottom = global::FreightExchange.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemShapeInsetEnd = global::FreightExchange.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemShapeInsetStart = global::FreightExchange.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemShapeInsetTop = global::FreightExchange.Droid.Resource.Attribute.itemShapeInsetTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemSpacing = global::FreightExchange.Droid.Resource.Attribute.itemSpacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemStrokeColor = global::FreightExchange.Droid.Resource.Attribute.itemStrokeColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemStrokeWidth = global::FreightExchange.Droid.Resource.Attribute.itemStrokeWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemTextAppearance = global::FreightExchange.Droid.Resource.Attribute.itemTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemTextAppearanceActive = global::FreightExchange.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemTextAppearanceInactive = global::FreightExchange.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.itemTextColor = global::FreightExchange.Droid.Resource.Attribute.itemTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.keylines = global::FreightExchange.Droid.Resource.Attribute.keylines;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.labelVisibilityMode = global::FreightExchange.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.lastBaselineToBottomHeight = global::FreightExchange.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout = global::FreightExchange.Droid.Resource.Attribute.layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layoutManager = global::FreightExchange.Droid.Resource.Attribute.layoutManager;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_anchor = global::FreightExchange.Droid.Resource.Attribute.layout_anchor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_anchorGravity = global::FreightExchange.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_behavior = global::FreightExchange.Droid.Resource.Attribute.layout_behavior;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_collapseMode = global::FreightExchange.Droid.Resource.Attribute.layout_collapseMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_collapseParallaxMultiplier = global::FreightExchange.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constrainedHeight = global::FreightExchange.Droid.Resource.Attribute.layout_constrainedHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constrainedWidth = global::FreightExchange.Droid.Resource.Attribute.layout_constrainedWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintBaseline_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBaseline_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintBaseline_toBaselineOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBaseline_toBaselineOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintBottom_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBottom_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintBottom_toBottomOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBottom_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintBottom_toTopOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintBottom_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintCircle = global::FreightExchange.Droid.Resource.Attribute.layout_constraintCircle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintCircleAngle = global::FreightExchange.Droid.Resource.Attribute.layout_constraintCircleAngle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintCircleRadius = global::FreightExchange.Droid.Resource.Attribute.layout_constraintCircleRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintDimensionRatio = global::FreightExchange.Droid.Resource.Attribute.layout_constraintDimensionRatio;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintEnd_toEndOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintEnd_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintEnd_toStartOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintEnd_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintGuide_begin = global::FreightExchange.Droid.Resource.Attribute.layout_constraintGuide_begin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintGuide_end = global::FreightExchange.Droid.Resource.Attribute.layout_constraintGuide_end;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintGuide_percent = global::FreightExchange.Droid.Resource.Attribute.layout_constraintGuide_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintHeight_default = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHeight_default;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintHeight_max = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHeight_max;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintHeight_min = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHeight_min;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintHeight_percent = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHeight_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintHorizontal_bias = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHorizontal_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintHorizontal_chainStyle = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHorizontal_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintHorizontal_weight = global::FreightExchange.Droid.Resource.Attribute.layout_constraintHorizontal_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintLeft_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintLeft_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintLeft_toLeftOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintLeft_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintLeft_toRightOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintLeft_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintRight_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintRight_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintRight_toLeftOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintRight_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintRight_toRightOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintRight_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintStart_toEndOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintStart_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintStart_toStartOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintStart_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintTop_creator = global::FreightExchange.Droid.Resource.Attribute.layout_constraintTop_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintTop_toBottomOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintTop_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintTop_toTopOf = global::FreightExchange.Droid.Resource.Attribute.layout_constraintTop_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintVertical_bias = global::FreightExchange.Droid.Resource.Attribute.layout_constraintVertical_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintVertical_chainStyle = global::FreightExchange.Droid.Resource.Attribute.layout_constraintVertical_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintVertical_weight = global::FreightExchange.Droid.Resource.Attribute.layout_constraintVertical_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintWidth_default = global::FreightExchange.Droid.Resource.Attribute.layout_constraintWidth_default;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintWidth_max = global::FreightExchange.Droid.Resource.Attribute.layout_constraintWidth_max;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintWidth_min = global::FreightExchange.Droid.Resource.Attribute.layout_constraintWidth_min;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_constraintWidth_percent = global::FreightExchange.Droid.Resource.Attribute.layout_constraintWidth_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_dodgeInsetEdges = global::FreightExchange.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_editor_absoluteX = global::FreightExchange.Droid.Resource.Attribute.layout_editor_absoluteX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_editor_absoluteY = global::FreightExchange.Droid.Resource.Attribute.layout_editor_absoluteY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_goneMarginBottom = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_goneMarginEnd = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_goneMarginLeft = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_goneMarginRight = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_goneMarginStart = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_goneMarginTop = global::FreightExchange.Droid.Resource.Attribute.layout_goneMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_insetEdge = global::FreightExchange.Droid.Resource.Attribute.layout_insetEdge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_keyline = global::FreightExchange.Droid.Resource.Attribute.layout_keyline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_optimizationLevel = global::FreightExchange.Droid.Resource.Attribute.layout_optimizationLevel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_scrollFlags = global::FreightExchange.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.layout_scrollInterpolator = global::FreightExchange.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.liftOnScroll = global::FreightExchange.Droid.Resource.Attribute.liftOnScroll;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.liftOnScrollTargetViewId = global::FreightExchange.Droid.Resource.Attribute.liftOnScrollTargetViewId;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.lineHeight = global::FreightExchange.Droid.Resource.Attribute.lineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.lineSpacing = global::FreightExchange.Droid.Resource.Attribute.lineSpacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listChoiceBackgroundIndicator = global::FreightExchange.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::FreightExchange.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::FreightExchange.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listDividerAlertDialog = global::FreightExchange.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listItemLayout = global::FreightExchange.Droid.Resource.Attribute.listItemLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listLayout = global::FreightExchange.Droid.Resource.Attribute.listLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listMenuViewStyle = global::FreightExchange.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listPopupWindowStyle = global::FreightExchange.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listPreferredItemHeight = global::FreightExchange.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listPreferredItemHeightLarge = global::FreightExchange.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listPreferredItemHeightSmall = global::FreightExchange.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listPreferredItemPaddingEnd = global::FreightExchange.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listPreferredItemPaddingLeft = global::FreightExchange.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listPreferredItemPaddingRight = global::FreightExchange.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.listPreferredItemPaddingStart = global::FreightExchange.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.logo = global::FreightExchange.Droid.Resource.Attribute.logo;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.logoDescription = global::FreightExchange.Droid.Resource.Attribute.logoDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialAlertDialogBodyTextStyle = global::FreightExchange.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialAlertDialogTheme = global::FreightExchange.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialAlertDialogTitleIconStyle = global::FreightExchange.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::FreightExchange.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialAlertDialogTitleTextStyle = global::FreightExchange.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialButtonOutlinedStyle = global::FreightExchange.Droid.Resource.Attribute.materialButtonOutlinedStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialButtonStyle = global::FreightExchange.Droid.Resource.Attribute.materialButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialButtonToggleGroupStyle = global::FreightExchange.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarDay = global::FreightExchange.Droid.Resource.Attribute.materialCalendarDay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarFullscreenTheme = global::FreightExchange.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarHeaderConfirmButton = global::FreightExchange.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarHeaderDivider = global::FreightExchange.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarHeaderLayout = global::FreightExchange.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarHeaderSelection = global::FreightExchange.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarHeaderTitle = global::FreightExchange.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarHeaderToggleButton = global::FreightExchange.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarStyle = global::FreightExchange.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCalendarTheme = global::FreightExchange.Droid.Resource.Attribute.materialCalendarTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialCardViewStyle = global::FreightExchange.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.materialThemeOverlay = global::FreightExchange.Droid.Resource.Attribute.materialThemeOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.maxActionInlineWidth = global::FreightExchange.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.maxButtonHeight = global::FreightExchange.Droid.Resource.Attribute.maxButtonHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.maxCharacterCount = global::FreightExchange.Droid.Resource.Attribute.maxCharacterCount;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.maxImageSize = global::FreightExchange.Droid.Resource.Attribute.maxImageSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.measureWithLargestChild = global::FreightExchange.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.menu = global::FreightExchange.Droid.Resource.Attribute.menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.minTouchTargetSize = global::FreightExchange.Droid.Resource.Attribute.minTouchTargetSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.multiChoiceItemLayout = global::FreightExchange.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.navigationContentDescription = global::FreightExchange.Droid.Resource.Attribute.navigationContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.navigationIcon = global::FreightExchange.Droid.Resource.Attribute.navigationIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.navigationMode = global::FreightExchange.Droid.Resource.Attribute.navigationMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.navigationViewStyle = global::FreightExchange.Droid.Resource.Attribute.navigationViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.number = global::FreightExchange.Droid.Resource.Attribute.number;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.numericModifiers = global::FreightExchange.Droid.Resource.Attribute.numericModifiers;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.overlapAnchor = global::FreightExchange.Droid.Resource.Attribute.overlapAnchor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.paddingBottomNoButtons = global::FreightExchange.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.paddingEnd = global::FreightExchange.Droid.Resource.Attribute.paddingEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.paddingStart = global::FreightExchange.Droid.Resource.Attribute.paddingStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.paddingTopNoTitle = global::FreightExchange.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.panelBackground = global::FreightExchange.Droid.Resource.Attribute.panelBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.panelMenuListTheme = global::FreightExchange.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.panelMenuListWidth = global::FreightExchange.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.passwordToggleContentDescription = global::FreightExchange.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.passwordToggleDrawable = global::FreightExchange.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.passwordToggleEnabled = global::FreightExchange.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.passwordToggleTint = global::FreightExchange.Droid.Resource.Attribute.passwordToggleTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.passwordToggleTintMode = global::FreightExchange.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.popupMenuBackground = global::FreightExchange.Droid.Resource.Attribute.popupMenuBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.popupMenuStyle = global::FreightExchange.Droid.Resource.Attribute.popupMenuStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.popupTheme = global::FreightExchange.Droid.Resource.Attribute.popupTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.popupWindowStyle = global::FreightExchange.Droid.Resource.Attribute.popupWindowStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.preserveIconSpacing = global::FreightExchange.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.pressedTranslationZ = global::FreightExchange.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.progressBarPadding = global::FreightExchange.Droid.Resource.Attribute.progressBarPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.progressBarStyle = global::FreightExchange.Droid.Resource.Attribute.progressBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.queryBackground = global::FreightExchange.Droid.Resource.Attribute.queryBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.queryHint = global::FreightExchange.Droid.Resource.Attribute.queryHint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.radioButtonStyle = global::FreightExchange.Droid.Resource.Attribute.radioButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.rangeFillColor = global::FreightExchange.Droid.Resource.Attribute.rangeFillColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.ratingBarStyle = global::FreightExchange.Droid.Resource.Attribute.ratingBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.ratingBarStyleIndicator = global::FreightExchange.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.ratingBarStyleSmall = global::FreightExchange.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.recyclerViewStyle = global::FreightExchange.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.reverseLayout = global::FreightExchange.Droid.Resource.Attribute.reverseLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.rippleColor = global::FreightExchange.Droid.Resource.Attribute.rippleColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.scrimAnimationDuration = global::FreightExchange.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.scrimBackground = global::FreightExchange.Droid.Resource.Attribute.scrimBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.scrimVisibleHeightTrigger = global::FreightExchange.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.scrollViewStyle = global::FreightExchange.Droid.Resource.Attribute.scrollViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.searchHintIcon = global::FreightExchange.Droid.Resource.Attribute.searchHintIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.searchIcon = global::FreightExchange.Droid.Resource.Attribute.searchIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.searchViewStyle = global::FreightExchange.Droid.Resource.Attribute.searchViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.seekBarStyle = global::FreightExchange.Droid.Resource.Attribute.seekBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.selectableItemBackground = global::FreightExchange.Droid.Resource.Attribute.selectableItemBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.selectableItemBackgroundBorderless = global::FreightExchange.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.shapeAppearance = global::FreightExchange.Droid.Resource.Attribute.shapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.shapeAppearanceLargeComponent = global::FreightExchange.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.shapeAppearanceMediumComponent = global::FreightExchange.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.shapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.shapeAppearanceSmallComponent = global::FreightExchange.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.showAsAction = global::FreightExchange.Droid.Resource.Attribute.showAsAction;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.showDividers = global::FreightExchange.Droid.Resource.Attribute.showDividers;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.showMotionSpec = global::FreightExchange.Droid.Resource.Attribute.showMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.showText = global::FreightExchange.Droid.Resource.Attribute.showText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.showTitle = global::FreightExchange.Droid.Resource.Attribute.showTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.shrinkMotionSpec = global::FreightExchange.Droid.Resource.Attribute.shrinkMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.singleChoiceItemLayout = global::FreightExchange.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.singleLine = global::FreightExchange.Droid.Resource.Attribute.singleLine;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.singleSelection = global::FreightExchange.Droid.Resource.Attribute.singleSelection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.snackbarButtonStyle = global::FreightExchange.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.snackbarStyle = global::FreightExchange.Droid.Resource.Attribute.snackbarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.spanCount = global::FreightExchange.Droid.Resource.Attribute.spanCount;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.spinBars = global::FreightExchange.Droid.Resource.Attribute.spinBars;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.spinnerDropDownItemStyle = global::FreightExchange.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.spinnerStyle = global::FreightExchange.Droid.Resource.Attribute.spinnerStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.splitTrack = global::FreightExchange.Droid.Resource.Attribute.splitTrack;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.srcCompat = global::FreightExchange.Droid.Resource.Attribute.srcCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.stackFromEnd = global::FreightExchange.Droid.Resource.Attribute.stackFromEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.startIconCheckable = global::FreightExchange.Droid.Resource.Attribute.startIconCheckable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.startIconContentDescription = global::FreightExchange.Droid.Resource.Attribute.startIconContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.startIconDrawable = global::FreightExchange.Droid.Resource.Attribute.startIconDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.startIconTint = global::FreightExchange.Droid.Resource.Attribute.startIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.startIconTintMode = global::FreightExchange.Droid.Resource.Attribute.startIconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.state_above_anchor = global::FreightExchange.Droid.Resource.Attribute.state_above_anchor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.state_collapsed = global::FreightExchange.Droid.Resource.Attribute.state_collapsed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.state_collapsible = global::FreightExchange.Droid.Resource.Attribute.state_collapsible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.state_dragged = global::FreightExchange.Droid.Resource.Attribute.state_dragged;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.state_liftable = global::FreightExchange.Droid.Resource.Attribute.state_liftable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.state_lifted = global::FreightExchange.Droid.Resource.Attribute.state_lifted;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.statusBarBackground = global::FreightExchange.Droid.Resource.Attribute.statusBarBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.statusBarForeground = global::FreightExchange.Droid.Resource.Attribute.statusBarForeground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.statusBarScrim = global::FreightExchange.Droid.Resource.Attribute.statusBarScrim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.strokeColor = global::FreightExchange.Droid.Resource.Attribute.strokeColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.strokeWidth = global::FreightExchange.Droid.Resource.Attribute.strokeWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.subMenuArrow = global::FreightExchange.Droid.Resource.Attribute.subMenuArrow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.submitBackground = global::FreightExchange.Droid.Resource.Attribute.submitBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.subtitle = global::FreightExchange.Droid.Resource.Attribute.subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.subtitleTextAppearance = global::FreightExchange.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.subtitleTextColor = global::FreightExchange.Droid.Resource.Attribute.subtitleTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.subtitleTextStyle = global::FreightExchange.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.suggestionRowLayout = global::FreightExchange.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::FreightExchange.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.switchMinWidth = global::FreightExchange.Droid.Resource.Attribute.switchMinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.switchPadding = global::FreightExchange.Droid.Resource.Attribute.switchPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.switchStyle = global::FreightExchange.Droid.Resource.Attribute.switchStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.switchTextAppearance = global::FreightExchange.Droid.Resource.Attribute.switchTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabBackground = global::FreightExchange.Droid.Resource.Attribute.tabBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabContentStart = global::FreightExchange.Droid.Resource.Attribute.tabContentStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabGravity = global::FreightExchange.Droid.Resource.Attribute.tabGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabIconTint = global::FreightExchange.Droid.Resource.Attribute.tabIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabIconTintMode = global::FreightExchange.Droid.Resource.Attribute.tabIconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabIndicator = global::FreightExchange.Droid.Resource.Attribute.tabIndicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabIndicatorAnimationDuration = global::FreightExchange.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabIndicatorColor = global::FreightExchange.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabIndicatorFullWidth = global::FreightExchange.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabIndicatorGravity = global::FreightExchange.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabIndicatorHeight = global::FreightExchange.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabInlineLabel = global::FreightExchange.Droid.Resource.Attribute.tabInlineLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabMaxWidth = global::FreightExchange.Droid.Resource.Attribute.tabMaxWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabMinWidth = global::FreightExchange.Droid.Resource.Attribute.tabMinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabMode = global::FreightExchange.Droid.Resource.Attribute.tabMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabPadding = global::FreightExchange.Droid.Resource.Attribute.tabPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabPaddingBottom = global::FreightExchange.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabPaddingEnd = global::FreightExchange.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabPaddingStart = global::FreightExchange.Droid.Resource.Attribute.tabPaddingStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabPaddingTop = global::FreightExchange.Droid.Resource.Attribute.tabPaddingTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabRippleColor = global::FreightExchange.Droid.Resource.Attribute.tabRippleColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabSelectedTextColor = global::FreightExchange.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabStyle = global::FreightExchange.Droid.Resource.Attribute.tabStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabTextAppearance = global::FreightExchange.Droid.Resource.Attribute.tabTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabTextColor = global::FreightExchange.Droid.Resource.Attribute.tabTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tabUnboundedRipple = global::FreightExchange.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAllCaps = global::FreightExchange.Droid.Resource.Attribute.textAllCaps;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceBody1 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceBody2 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceButton = global::FreightExchange.Droid.Resource.Attribute.textAppearanceButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceCaption = global::FreightExchange.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline1 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline2 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline3 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline4 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline5 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline6 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceLargePopupMenu = global::FreightExchange.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceLineHeightEnabled = global::FreightExchange.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceListItem = global::FreightExchange.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceListItemSecondary = global::FreightExchange.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceListItemSmall = global::FreightExchange.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceOverline = global::FreightExchange.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearancePopupMenuHeader = global::FreightExchange.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FreightExchange.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceSearchResultTitle = global::FreightExchange.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceSmallPopupMenu = global::FreightExchange.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceSubtitle1 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textAppearanceSubtitle2 = global::FreightExchange.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textColorAlertDialogListItem = global::FreightExchange.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textColorSearchUrl = global::FreightExchange.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textEndPadding = global::FreightExchange.Droid.Resource.Attribute.textEndPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textInputStyle = global::FreightExchange.Droid.Resource.Attribute.textInputStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textLocale = global::FreightExchange.Droid.Resource.Attribute.textLocale;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.textStartPadding = global::FreightExchange.Droid.Resource.Attribute.textStartPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.theme = global::FreightExchange.Droid.Resource.Attribute.theme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.themeLineHeight = global::FreightExchange.Droid.Resource.Attribute.themeLineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.thickness = global::FreightExchange.Droid.Resource.Attribute.thickness;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.thumbTextPadding = global::FreightExchange.Droid.Resource.Attribute.thumbTextPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.thumbTint = global::FreightExchange.Droid.Resource.Attribute.thumbTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.thumbTintMode = global::FreightExchange.Droid.Resource.Attribute.thumbTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tickMark = global::FreightExchange.Droid.Resource.Attribute.tickMark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tickMarkTint = global::FreightExchange.Droid.Resource.Attribute.tickMarkTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tickMarkTintMode = global::FreightExchange.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tint = global::FreightExchange.Droid.Resource.Attribute.tint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tintMode = global::FreightExchange.Droid.Resource.Attribute.tintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.title = global::FreightExchange.Droid.Resource.Attribute.title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleEnabled = global::FreightExchange.Droid.Resource.Attribute.titleEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleMargin = global::FreightExchange.Droid.Resource.Attribute.titleMargin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleMarginBottom = global::FreightExchange.Droid.Resource.Attribute.titleMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleMarginEnd = global::FreightExchange.Droid.Resource.Attribute.titleMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleMargins = global::FreightExchange.Droid.Resource.Attribute.titleMargins;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleMarginStart = global::FreightExchange.Droid.Resource.Attribute.titleMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleMarginTop = global::FreightExchange.Droid.Resource.Attribute.titleMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleTextAppearance = global::FreightExchange.Droid.Resource.Attribute.titleTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleTextColor = global::FreightExchange.Droid.Resource.Attribute.titleTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.titleTextStyle = global::FreightExchange.Droid.Resource.Attribute.titleTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.toolbarId = global::FreightExchange.Droid.Resource.Attribute.toolbarId;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.toolbarNavigationButtonStyle = global::FreightExchange.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.toolbarStyle = global::FreightExchange.Droid.Resource.Attribute.toolbarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tooltipForegroundColor = global::FreightExchange.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tooltipFrameBackground = global::FreightExchange.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.tooltipText = global::FreightExchange.Droid.Resource.Attribute.tooltipText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.track = global::FreightExchange.Droid.Resource.Attribute.track;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.trackTint = global::FreightExchange.Droid.Resource.Attribute.trackTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.trackTintMode = global::FreightExchange.Droid.Resource.Attribute.trackTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.ttcIndex = global::FreightExchange.Droid.Resource.Attribute.ttcIndex;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.useCompatPadding = global::FreightExchange.Droid.Resource.Attribute.useCompatPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.useMaterialThemeColors = global::FreightExchange.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.viewInflaterClass = global::FreightExchange.Droid.Resource.Attribute.viewInflaterClass;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.voiceIcon = global::FreightExchange.Droid.Resource.Attribute.voiceIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowActionBar = global::FreightExchange.Droid.Resource.Attribute.windowActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowActionBarOverlay = global::FreightExchange.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowActionModeOverlay = global::FreightExchange.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowFixedHeightMajor = global::FreightExchange.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowFixedHeightMinor = global::FreightExchange.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowFixedWidthMajor = global::FreightExchange.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowFixedWidthMinor = global::FreightExchange.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowMinWidthMajor = global::FreightExchange.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowMinWidthMinor = global::FreightExchange.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.windowNoTitle = global::FreightExchange.Droid.Resource.Attribute.windowNoTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.yearSelectedStyle = global::FreightExchange.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.yearStyle = global::FreightExchange.Droid.Resource.Attribute.yearStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Attribute.yearTodayStyle = global::FreightExchange.Droid.Resource.Attribute.yearTodayStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Boolean.abc_action_bar_embed_tabs = global::FreightExchange.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FreightExchange.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::FreightExchange.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FreightExchange.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_background_cache_hint_selector_material_light = global::FreightExchange.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_btn_colored_borderless_text_material = global::FreightExchange.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_btn_colored_text_material = global::FreightExchange.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_color_highlight_material = global::FreightExchange.Droid.Resource.Color.abc_color_highlight_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_decor_view_status_guard = global::FreightExchange.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_decor_view_status_guard_light = global::FreightExchange.Droid.Resource.Color.abc_decor_view_status_guard_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_hint_foreground_material_dark = global::FreightExchange.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_hint_foreground_material_light = global::FreightExchange.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_primary_text_disable_only_material_dark = global::FreightExchange.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_primary_text_disable_only_material_light = global::FreightExchange.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_primary_text_material_dark = global::FreightExchange.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_primary_text_material_light = global::FreightExchange.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_search_url_text = global::FreightExchange.Droid.Resource.Color.abc_search_url_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_search_url_text_normal = global::FreightExchange.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_search_url_text_pressed = global::FreightExchange.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_search_url_text_selected = global::FreightExchange.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_secondary_text_material_dark = global::FreightExchange.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_secondary_text_material_light = global::FreightExchange.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_tint_btn_checkable = global::FreightExchange.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_tint_default = global::FreightExchange.Droid.Resource.Color.abc_tint_default;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_tint_edittext = global::FreightExchange.Droid.Resource.Color.abc_tint_edittext;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_tint_seek_thumb = global::FreightExchange.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_tint_spinner = global::FreightExchange.Droid.Resource.Color.abc_tint_spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.abc_tint_switch_track = global::FreightExchange.Droid.Resource.Color.abc_tint_switch_track;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.accent_material_dark = global::FreightExchange.Droid.Resource.Color.accent_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.accent_material_light = global::FreightExchange.Droid.Resource.Color.accent_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.androidx_core_ripple_material_light = global::FreightExchange.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.androidx_core_secondary_text_default_material_light = global::FreightExchange.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.background_floating_material_dark = global::FreightExchange.Droid.Resource.Color.background_floating_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.background_floating_material_light = global::FreightExchange.Droid.Resource.Color.background_floating_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.background_material_dark = global::FreightExchange.Droid.Resource.Color.background_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.background_material_light = global::FreightExchange.Droid.Resource.Color.background_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.bright_foreground_disabled_material_dark = global::FreightExchange.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.bright_foreground_disabled_material_light = global::FreightExchange.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.bright_foreground_inverse_material_dark = global::FreightExchange.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.bright_foreground_inverse_material_light = global::FreightExchange.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.bright_foreground_material_dark = global::FreightExchange.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.bright_foreground_material_light = global::FreightExchange.Droid.Resource.Color.bright_foreground_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.browser_actions_bg_grey = global::FreightExchange.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.browser_actions_divider_color = global::FreightExchange.Droid.Resource.Color.browser_actions_divider_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.browser_actions_text_color = global::FreightExchange.Droid.Resource.Color.browser_actions_text_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.browser_actions_title_color = global::FreightExchange.Droid.Resource.Color.browser_actions_title_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.button_material_dark = global::FreightExchange.Droid.Resource.Color.button_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.button_material_light = global::FreightExchange.Droid.Resource.Color.button_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.cardview_dark_background = global::FreightExchange.Droid.Resource.Color.cardview_dark_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.cardview_light_background = global::FreightExchange.Droid.Resource.Color.cardview_light_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.cardview_shadow_end_color = global::FreightExchange.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.cardview_shadow_start_color = global::FreightExchange.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.checkbox_themeable_attribute_color = global::FreightExchange.Droid.Resource.Color.checkbox_themeable_attribute_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_bottom_navigation_shadow_color = global::FreightExchange.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_box_stroke_color = global::FreightExchange.Droid.Resource.Color.design_box_stroke_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_background = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_error = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_error;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_on_background = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_on_error = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_on_primary = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_on_secondary = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_on_surface = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_primary = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_primary_dark = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_primary_variant = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_secondary = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_secondary_variant = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_dark_default_color_surface = global::FreightExchange.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_background = global::FreightExchange.Droid.Resource.Color.design_default_color_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_error = global::FreightExchange.Droid.Resource.Color.design_default_color_error;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_on_background = global::FreightExchange.Droid.Resource.Color.design_default_color_on_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_on_error = global::FreightExchange.Droid.Resource.Color.design_default_color_on_error;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_on_primary = global::FreightExchange.Droid.Resource.Color.design_default_color_on_primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_on_secondary = global::FreightExchange.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_on_surface = global::FreightExchange.Droid.Resource.Color.design_default_color_on_surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_primary = global::FreightExchange.Droid.Resource.Color.design_default_color_primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_primary_dark = global::FreightExchange.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_primary_variant = global::FreightExchange.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_secondary = global::FreightExchange.Droid.Resource.Color.design_default_color_secondary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_secondary_variant = global::FreightExchange.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_default_color_surface = global::FreightExchange.Droid.Resource.Color.design_default_color_surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_error = global::FreightExchange.Droid.Resource.Color.design_error;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_fab_shadow_end_color = global::FreightExchange.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_fab_shadow_mid_color = global::FreightExchange.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_fab_shadow_start_color = global::FreightExchange.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_fab_stroke_end_inner_color = global::FreightExchange.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_fab_stroke_end_outer_color = global::FreightExchange.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_fab_stroke_top_inner_color = global::FreightExchange.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_fab_stroke_top_outer_color = global::FreightExchange.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_icon_tint = global::FreightExchange.Droid.Resource.Color.design_icon_tint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.design_snackbar_background_color = global::FreightExchange.Droid.Resource.Color.design_snackbar_background_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.dim_foreground_disabled_material_dark = global::FreightExchange.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.dim_foreground_disabled_material_light = global::FreightExchange.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.dim_foreground_material_dark = global::FreightExchange.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.dim_foreground_material_light = global::FreightExchange.Droid.Resource.Color.dim_foreground_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.error_color_material_dark = global::FreightExchange.Droid.Resource.Color.error_color_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.error_color_material_light = global::FreightExchange.Droid.Resource.Color.error_color_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.foreground_material_dark = global::FreightExchange.Droid.Resource.Color.foreground_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.foreground_material_light = global::FreightExchange.Droid.Resource.Color.foreground_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.highlighted_text_material_dark = global::FreightExchange.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.highlighted_text_material_light = global::FreightExchange.Droid.Resource.Color.highlighted_text_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_blue_grey_800 = global::FreightExchange.Droid.Resource.Color.material_blue_grey_800;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_blue_grey_900 = global::FreightExchange.Droid.Resource.Color.material_blue_grey_900;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_blue_grey_950 = global::FreightExchange.Droid.Resource.Color.material_blue_grey_950;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_deep_teal_200 = global::FreightExchange.Droid.Resource.Color.material_deep_teal_200;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_deep_teal_500 = global::FreightExchange.Droid.Resource.Color.material_deep_teal_500;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_grey_100 = global::FreightExchange.Droid.Resource.Color.material_grey_100;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_grey_300 = global::FreightExchange.Droid.Resource.Color.material_grey_300;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_grey_50 = global::FreightExchange.Droid.Resource.Color.material_grey_50;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_grey_600 = global::FreightExchange.Droid.Resource.Color.material_grey_600;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_grey_800 = global::FreightExchange.Droid.Resource.Color.material_grey_800;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_grey_850 = global::FreightExchange.Droid.Resource.Color.material_grey_850;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_grey_900 = global::FreightExchange.Droid.Resource.Color.material_grey_900;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_on_background_disabled = global::FreightExchange.Droid.Resource.Color.material_on_background_disabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_on_background_emphasis_high_type = global::FreightExchange.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_on_background_emphasis_medium = global::FreightExchange.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_on_primary_disabled = global::FreightExchange.Droid.Resource.Color.material_on_primary_disabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_on_primary_emphasis_high_type = global::FreightExchange.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_on_primary_emphasis_medium = global::FreightExchange.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_on_surface_disabled = global::FreightExchange.Droid.Resource.Color.material_on_surface_disabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_on_surface_emphasis_high_type = global::FreightExchange.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.material_on_surface_emphasis_medium = global::FreightExchange.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_btn_bg_color_selector = global::FreightExchange.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_btn_ripple_color = global::FreightExchange.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_btn_stroke_color_selector = global::FreightExchange.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::FreightExchange.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_btn_text_btn_ripple_color = global::FreightExchange.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_btn_text_color_disabled = global::FreightExchange.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_btn_text_color_selector = global::FreightExchange.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_btn_transparent_bg_color = global::FreightExchange.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_calendar_item_stroke_color = global::FreightExchange.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_calendar_selected_range = global::FreightExchange.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_card_view_foreground = global::FreightExchange.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_card_view_ripple = global::FreightExchange.Droid.Resource.Color.mtrl_card_view_ripple;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_chip_background_color = global::FreightExchange.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_chip_close_icon_tint = global::FreightExchange.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_chip_surface_color = global::FreightExchange.Droid.Resource.Color.mtrl_chip_surface_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_chip_text_color = global::FreightExchange.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_choice_chip_background_color = global::FreightExchange.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_choice_chip_ripple_color = global::FreightExchange.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_choice_chip_text_color = global::FreightExchange.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_error = global::FreightExchange.Droid.Resource.Color.mtrl_error;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_fab_ripple_color = global::FreightExchange.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_filled_background_color = global::FreightExchange.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_filled_icon_tint = global::FreightExchange.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_filled_stroke_color = global::FreightExchange.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_indicator_text_color = global::FreightExchange.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_navigation_item_background_color = global::FreightExchange.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_navigation_item_icon_tint = global::FreightExchange.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_navigation_item_text_color = global::FreightExchange.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::FreightExchange.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_outlined_icon_tint = global::FreightExchange.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_outlined_stroke_color = global::FreightExchange.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_popupmenu_overlay_color = global::FreightExchange.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_scrim_color = global::FreightExchange.Droid.Resource.Color.mtrl_scrim_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_tabs_colored_ripple_color = global::FreightExchange.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_tabs_icon_color_selector = global::FreightExchange.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::FreightExchange.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::FreightExchange.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_tabs_ripple_color = global::FreightExchange.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_textinput_default_box_stroke_color = global::FreightExchange.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_textinput_disabled_color = global::FreightExchange.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::FreightExchange.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::FreightExchange.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::FreightExchange.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.mtrl_text_btn_text_color_selector = global::FreightExchange.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.notification_action_color_filter = global::FreightExchange.Droid.Resource.Color.notification_action_color_filter;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.notification_icon_bg_color = global::FreightExchange.Droid.Resource.Color.notification_icon_bg_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.notification_material_background_media_default_color = global::FreightExchange.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.primary_dark_material_dark = global::FreightExchange.Droid.Resource.Color.primary_dark_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.primary_dark_material_light = global::FreightExchange.Droid.Resource.Color.primary_dark_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.primary_material_dark = global::FreightExchange.Droid.Resource.Color.primary_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.primary_material_light = global::FreightExchange.Droid.Resource.Color.primary_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.primary_text_default_material_dark = global::FreightExchange.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.primary_text_default_material_light = global::FreightExchange.Droid.Resource.Color.primary_text_default_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.primary_text_disabled_material_dark = global::FreightExchange.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.primary_text_disabled_material_light = global::FreightExchange.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.ripple_material_dark = global::FreightExchange.Droid.Resource.Color.ripple_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.ripple_material_light = global::FreightExchange.Droid.Resource.Color.ripple_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.secondary_text_default_material_dark = global::FreightExchange.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.secondary_text_default_material_light = global::FreightExchange.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.secondary_text_disabled_material_dark = global::FreightExchange.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.secondary_text_disabled_material_light = global::FreightExchange.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.switch_thumb_disabled_material_dark = global::FreightExchange.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.switch_thumb_disabled_material_light = global::FreightExchange.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.switch_thumb_material_dark = global::FreightExchange.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.switch_thumb_material_light = global::FreightExchange.Droid.Resource.Color.switch_thumb_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.switch_thumb_normal_material_dark = global::FreightExchange.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.switch_thumb_normal_material_light = global::FreightExchange.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.test_mtrl_calendar_day = global::FreightExchange.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.test_mtrl_calendar_day_selected = global::FreightExchange.Droid.Resource.Color.test_mtrl_calendar_day_selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.tooltip_background_dark = global::FreightExchange.Droid.Resource.Color.tooltip_background_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Color.tooltip_background_light = global::FreightExchange.Droid.Resource.Color.tooltip_background_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_content_inset_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_default_height_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_elevation_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_stacked_max_height = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_button_min_height_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_button_min_width_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FreightExchange.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FreightExchange.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_alert_dialog_button_dimen = global::FreightExchange.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_button_inset_horizontal_material = global::FreightExchange.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_button_inset_vertical_material = global::FreightExchange.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_button_padding_horizontal_material = global::FreightExchange.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_button_padding_vertical_material = global::FreightExchange.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FreightExchange.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_config_prefDialogWidth = global::FreightExchange.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_control_corner_material = global::FreightExchange.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_control_inset_material = global::FreightExchange.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_control_padding_material = global::FreightExchange.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_corner_radius_material = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_fixed_height_major = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_fixed_height_minor = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_fixed_width_major = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_fixed_width_minor = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_min_width_major = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_min_width_minor = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_padding_material = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_padding_top_material = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dialog_title_divider_material = global::FreightExchange.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_disabled_alpha_material_dark = global::FreightExchange.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_disabled_alpha_material_light = global::FreightExchange.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dropdownitem_icon_width = global::FreightExchange.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FreightExchange.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FreightExchange.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FreightExchange.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FreightExchange.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_edit_text_inset_top_material = global::FreightExchange.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_floating_window_z = global::FreightExchange.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_list_item_height_large_material = global::FreightExchange.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_list_item_height_material = global::FreightExchange.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_list_item_height_small_material = global::FreightExchange.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FreightExchange.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_panel_menu_list_width = global::FreightExchange.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_progress_bar_height_material = global::FreightExchange.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_search_view_preferred_height = global::FreightExchange.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_search_view_preferred_width = global::FreightExchange.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_seekbar_track_background_height_material = global::FreightExchange.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FreightExchange.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_select_dialog_padding_start_material = global::FreightExchange.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_switch_padding = global::FreightExchange.Droid.Resource.Dimension.abc_switch_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_body_1_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_body_2_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_button_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_caption_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_display_1_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_display_2_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_display_3_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_display_4_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_headline_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_large_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_medium_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_menu_header_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_menu_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_small_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_subhead_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_title_material = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.abc_text_size_title_material_toolbar = global::FreightExchange.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.action_bar_size = global::FreightExchange.Droid.Resource.Dimension.action_bar_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.appcompat_dialog_background_inset = global::FreightExchange.Droid.Resource.Dimension.appcompat_dialog_background_inset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.browser_actions_context_menu_max_width = global::FreightExchange.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.browser_actions_context_menu_min_padding = global::FreightExchange.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.cardview_compat_inset_shadow = global::FreightExchange.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.cardview_default_elevation = global::FreightExchange.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.cardview_default_radius = global::FreightExchange.Droid.Resource.Dimension.cardview_default_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.compat_button_inset_horizontal_material = global::FreightExchange.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.compat_button_inset_vertical_material = global::FreightExchange.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.compat_button_padding_horizontal_material = global::FreightExchange.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.compat_button_padding_vertical_material = global::FreightExchange.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.compat_control_corner_material = global::FreightExchange.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.compat_notification_large_icon_max_height = global::FreightExchange.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.compat_notification_large_icon_max_width = global::FreightExchange.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.default_dimension = global::FreightExchange.Droid.Resource.Dimension.default_dimension;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.def_drawer_elevation = global::FreightExchange.Droid.Resource.Dimension.def_drawer_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_appbar_elevation = global::FreightExchange.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_active_text_size = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_elevation = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_height = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_icon_size = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_item_max_width = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_item_min_width = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_margin = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_shadow_height = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_text_size = global::FreightExchange.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_sheet_elevation = global::FreightExchange.Droid.Resource.Dimension.design_bottom_sheet_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FreightExchange.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FreightExchange.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_fab_border_width = global::FreightExchange.Droid.Resource.Dimension.design_fab_border_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_fab_elevation = global::FreightExchange.Droid.Resource.Dimension.design_fab_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_fab_image_size = global::FreightExchange.Droid.Resource.Dimension.design_fab_image_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_fab_size_mini = global::FreightExchange.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_fab_size_normal = global::FreightExchange.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_fab_translation_z_hovered_focused = global::FreightExchange.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_fab_translation_z_pressed = global::FreightExchange.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_navigation_elevation = global::FreightExchange.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_navigation_icon_padding = global::FreightExchange.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_navigation_icon_size = global::FreightExchange.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_navigation_item_horizontal_padding = global::FreightExchange.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_navigation_item_icon_padding = global::FreightExchange.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_navigation_max_width = global::FreightExchange.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_navigation_padding_bottom = global::FreightExchange.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_navigation_separator_vertical_padding = global::FreightExchange.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_action_inline_max_width = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_action_text_color_alpha = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_background_corner_radius = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_elevation = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_max_width = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_min_width = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_padding_horizontal = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_padding_vertical = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_snackbar_text_size = global::FreightExchange.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_tab_max_width = global::FreightExchange.Droid.Resource.Dimension.design_tab_max_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_tab_scrollable_min_width = global::FreightExchange.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_tab_text_size = global::FreightExchange.Droid.Resource.Dimension.design_tab_text_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_tab_text_size_2line = global::FreightExchange.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.design_textinput_caption_translate_y = global::FreightExchange.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.disabled_alpha_material_dark = global::FreightExchange.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.disabled_alpha_material_light = global::FreightExchange.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.fastscroll_default_thickness = global::FreightExchange.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.fastscroll_margin = global::FreightExchange.Droid.Resource.Dimension.fastscroll_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.fastscroll_minimum_range = global::FreightExchange.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.highlight_alpha_material_colored = global::FreightExchange.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.highlight_alpha_material_dark = global::FreightExchange.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.highlight_alpha_material_light = global::FreightExchange.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.hint_alpha_material_dark = global::FreightExchange.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.hint_alpha_material_light = global::FreightExchange.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.hint_pressed_alpha_material_dark = global::FreightExchange.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.hint_pressed_alpha_material_light = global::FreightExchange.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FreightExchange.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FreightExchange.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FreightExchange.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.material_emphasis_disabled = global::FreightExchange.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.material_emphasis_high_type = global::FreightExchange.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.material_emphasis_medium = global::FreightExchange.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.material_text_view_test_line_height = global::FreightExchange.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.material_text_view_test_line_height_override = global::FreightExchange.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::FreightExchange.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::FreightExchange.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::FreightExchange.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::FreightExchange.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::FreightExchange.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::FreightExchange.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_badge_radius = global::FreightExchange.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::FreightExchange.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_badge_text_size = global::FreightExchange.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_badge_with_text_radius = global::FreightExchange.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::FreightExchange.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::FreightExchange.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::FreightExchange.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::FreightExchange.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::FreightExchange.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_corner_radius = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_disabled_elevation = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_disabled_z = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_elevation = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_focused_z = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_hovered_z = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_icon_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_inset = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_letter_spacing = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_padding_bottom = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_padding_left = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_padding_right = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_padding_top = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_pressed_z = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_stroke_size = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_text_size = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_btn_z = global::FreightExchange.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_action_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_action_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_bottom_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_content_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_days_of_week_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_day_corner = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_day_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_day_today_stroke = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_day_width = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_header_content_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_header_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_header_text_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_landscape_header_width = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_navigation_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_year_corner = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_year_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_calendar_year_width = global::FreightExchange.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_card_checked_icon_margin = global::FreightExchange.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_card_checked_icon_size = global::FreightExchange.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_card_corner_radius = global::FreightExchange.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_card_dragged_z = global::FreightExchange.Droid.Resource.Dimension.mtrl_card_dragged_z;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_card_elevation = global::FreightExchange.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_card_spacing = global::FreightExchange.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_chip_pressed_translation_z = global::FreightExchange.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_chip_text_size = global::FreightExchange.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::FreightExchange.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::FreightExchange.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_corner_radius = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_elevation = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_end_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_icon_size = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_min_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_min_width = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_start_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_top_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::FreightExchange.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_fab_elevation = global::FreightExchange.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_fab_min_touch_target = global::FreightExchange.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::FreightExchange.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_fab_translation_z_pressed = global::FreightExchange.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_high_ripple_default_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_large_touch_target = global::FreightExchange.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_low_ripple_default_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_min_touch_target_size = global::FreightExchange.Droid.Resource.Dimension.mtrl_min_touch_target_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_navigation_elevation = global::FreightExchange.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_navigation_item_icon_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_navigation_item_icon_size = global::FreightExchange.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::FreightExchange.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::FreightExchange.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_shape_corner_size_large_component = global::FreightExchange.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::FreightExchange.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_shape_corner_size_small_component = global::FreightExchange.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::FreightExchange.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::FreightExchange.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_snackbar_margin = global::FreightExchange.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_switch_thumb_elevation = global::FreightExchange.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::FreightExchange.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::FreightExchange.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::FreightExchange.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::FreightExchange.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::FreightExchange.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::FreightExchange.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::FreightExchange.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.mtrl_toolbar_default_height = global::FreightExchange.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_action_icon_size = global::FreightExchange.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_action_text_size = global::FreightExchange.Droid.Resource.Dimension.notification_action_text_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_big_circle_margin = global::FreightExchange.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_content_margin_start = global::FreightExchange.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_large_icon_height = global::FreightExchange.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_large_icon_width = global::FreightExchange.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_main_column_padding_top = global::FreightExchange.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_media_narrow_margin = global::FreightExchange.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_right_icon_size = global::FreightExchange.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_right_side_padding_top = global::FreightExchange.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_small_icon_background_padding = global::FreightExchange.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_small_icon_size_as_large = global::FreightExchange.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_subtext_size = global::FreightExchange.Droid.Resource.Dimension.notification_subtext_size;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_top_pad = global::FreightExchange.Droid.Resource.Dimension.notification_top_pad;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.notification_top_pad_large_text = global::FreightExchange.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::FreightExchange.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.tooltip_corner_radius = global::FreightExchange.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.tooltip_horizontal_padding = global::FreightExchange.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.tooltip_margin = global::FreightExchange.Droid.Resource.Dimension.tooltip_margin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::FreightExchange.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.tooltip_precise_anchor_threshold = global::FreightExchange.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.tooltip_vertical_padding = global::FreightExchange.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.tooltip_y_offset_non_touch = global::FreightExchange.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Dimension.tooltip_y_offset_touch = global::FreightExchange.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_action_bar_item_background_material = global::FreightExchange.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_borderless_material = global::FreightExchange.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_check_material = global::FreightExchange.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_check_material_anim = global::FreightExchange.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FreightExchange.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FreightExchange.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_colored_material = global::FreightExchange.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_default_mtrl_shape = global::FreightExchange.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_radio_material = global::FreightExchange.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_radio_material_anim = global::FreightExchange.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FreightExchange.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FreightExchange.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FreightExchange.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FreightExchange.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_cab_background_internal_bg = global::FreightExchange.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_cab_background_top_material = global::FreightExchange.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_control_background_material = global::FreightExchange.Droid.Resource.Drawable.abc_control_background_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_dialog_material_background = global::FreightExchange.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_edit_text_material = global::FreightExchange.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_ab_back_material = global::FreightExchange.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FreightExchange.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_clear_material = global::FreightExchange.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_go_search_api_material = global::FreightExchange.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_menu_overflow_material = global::FreightExchange.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_search_api_material = global::FreightExchange.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ic_voice_search_api_material = global::FreightExchange.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_item_background_holo_dark = global::FreightExchange.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_item_background_holo_light = global::FreightExchange.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_divider_material = global::FreightExchange.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_focused_holo = global::FreightExchange.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_longpressed_holo = global::FreightExchange.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_pressed_holo_dark = global::FreightExchange.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_pressed_holo_light = global::FreightExchange.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FreightExchange.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FreightExchange.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FreightExchange.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FreightExchange.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_selector_holo_dark = global::FreightExchange.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_list_selector_holo_light = global::FreightExchange.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FreightExchange.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_popup_background_mtrl_mult = global::FreightExchange.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ratingbar_indicator_material = global::FreightExchange.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ratingbar_material = global::FreightExchange.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_ratingbar_small_material = global::FreightExchange.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FreightExchange.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FreightExchange.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_seekbar_thumb_material = global::FreightExchange.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_seekbar_tick_mark_material = global::FreightExchange.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_seekbar_track_material = global::FreightExchange.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_spinner_textfield_background_material = global::FreightExchange.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_switch_thumb_material = global::FreightExchange.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_tab_indicator_material = global::FreightExchange.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FreightExchange.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_textfield_search_material = global::FreightExchange.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_text_cursor_material = global::FreightExchange.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.abc_vector_test = global::FreightExchange.Droid.Resource.Drawable.abc_vector_test;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.avd_hide_password = global::FreightExchange.Droid.Resource.Drawable.avd_hide_password;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.avd_show_password = global::FreightExchange.Droid.Resource.Drawable.avd_show_password;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.btn_checkbox_checked_mtrl = global::FreightExchange.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::FreightExchange.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::FreightExchange.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::FreightExchange.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.btn_radio_off_mtrl = global::FreightExchange.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::FreightExchange.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.btn_radio_on_mtrl = global::FreightExchange.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::FreightExchange.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.design_fab_background = global::FreightExchange.Droid.Resource.Drawable.design_fab_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.design_ic_visibility = global::FreightExchange.Droid.Resource.Drawable.design_ic_visibility;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.design_ic_visibility_off = global::FreightExchange.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.design_password_eye = global::FreightExchange.Droid.Resource.Drawable.design_password_eye;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.design_snackbar_background = global::FreightExchange.Droid.Resource.Drawable.design_snackbar_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.esri = global::FreightExchange.Droid.Resource.Drawable.esri;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.ic_mtrl_checked_circle = global::FreightExchange.Droid.Resource.Drawable.ic_mtrl_checked_circle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.ic_mtrl_chip_checked_black = global::FreightExchange.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.ic_mtrl_chip_checked_circle = global::FreightExchange.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.ic_mtrl_chip_close_circle = global::FreightExchange.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.mtrl_dialog_background = global::FreightExchange.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.mtrl_dropdown_arrow = global::FreightExchange.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.mtrl_ic_arrow_drop_down = global::FreightExchange.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.mtrl_ic_arrow_drop_up = global::FreightExchange.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.mtrl_ic_cancel = global::FreightExchange.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.mtrl_ic_error = global::FreightExchange.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.mtrl_popupmenu_background = global::FreightExchange.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.mtrl_popupmenu_background_dark = global::FreightExchange.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.mtrl_tabs_default_indicator = global::FreightExchange.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.navigation_empty_icon = global::FreightExchange.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.NextPreviousButton = global::FreightExchange.Droid.Resource.Drawable.NextPreviousButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.NextPreviousFill = global::FreightExchange.Droid.Resource.Drawable.NextPreviousFill;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.NextPreviousOutline = global::FreightExchange.Droid.Resource.Drawable.NextPreviousOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_action_background = global::FreightExchange.Droid.Resource.Drawable.notification_action_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_bg = global::FreightExchange.Droid.Resource.Drawable.notification_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_bg_low = global::FreightExchange.Droid.Resource.Drawable.notification_bg_low;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_bg_low_normal = global::FreightExchange.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_bg_low_pressed = global::FreightExchange.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_bg_normal = global::FreightExchange.Droid.Resource.Drawable.notification_bg_normal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_bg_normal_pressed = global::FreightExchange.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_icon_background = global::FreightExchange.Droid.Resource.Drawable.notification_icon_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_template_icon_bg = global::FreightExchange.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_template_icon_low_bg = global::FreightExchange.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notification_tile_bg = global::FreightExchange.Droid.Resource.Drawable.notification_tile_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.notify_panel_notification_icon_bg = global::FreightExchange.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.PauseFill = global::FreightExchange.Droid.Resource.Drawable.PauseFill;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.PauseOutline = global::FreightExchange.Droid.Resource.Drawable.PauseOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.PlayPauseButton = global::FreightExchange.Droid.Resource.Drawable.PlayPauseButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.test_custom_background = global::FreightExchange.Droid.Resource.Drawable.test_custom_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.Thumb = global::FreightExchange.Droid.Resource.Drawable.Thumb;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.tooltip_frame_dark = global::FreightExchange.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.tooltip_frame_light = global::FreightExchange.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.TriangleFill = global::FreightExchange.Droid.Resource.Drawable.TriangleFill;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Drawable.TriangleOutline = global::FreightExchange.Droid.Resource.Drawable.TriangleOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_action_clickable_span = global::FreightExchange.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_0 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_1 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_10 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_11 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_12 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_13 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_14 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_15 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_16 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_17 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_18 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_19 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_2 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_20 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_21 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_22 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_23 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_24 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_25 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_26 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_27 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_28 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_29 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_3 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_30 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_31 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_4 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_5 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_6 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_7 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_8 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.accessibility_custom_action_9 = global::FreightExchange.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action0 = global::FreightExchange.Droid.Resource.Id.action0;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.actions = global::FreightExchange.Droid.Resource.Id.actions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_bar = global::FreightExchange.Droid.Resource.Id.action_bar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_bar_activity_content = global::FreightExchange.Droid.Resource.Id.action_bar_activity_content;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_bar_container = global::FreightExchange.Droid.Resource.Id.action_bar_container;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_bar_root = global::FreightExchange.Droid.Resource.Id.action_bar_root;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_bar_spinner = global::FreightExchange.Droid.Resource.Id.action_bar_spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_bar_subtitle = global::FreightExchange.Droid.Resource.Id.action_bar_subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_bar_title = global::FreightExchange.Droid.Resource.Id.action_bar_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_container = global::FreightExchange.Droid.Resource.Id.action_container;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_context_bar = global::FreightExchange.Droid.Resource.Id.action_context_bar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_divider = global::FreightExchange.Droid.Resource.Id.action_divider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_image = global::FreightExchange.Droid.Resource.Id.action_image;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_menu_divider = global::FreightExchange.Droid.Resource.Id.action_menu_divider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_menu_presenter = global::FreightExchange.Droid.Resource.Id.action_menu_presenter;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_mode_bar = global::FreightExchange.Droid.Resource.Id.action_mode_bar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_mode_bar_stub = global::FreightExchange.Droid.Resource.Id.action_mode_bar_stub;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_mode_close_button = global::FreightExchange.Droid.Resource.Id.action_mode_close_button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.action_text = global::FreightExchange.Droid.Resource.Id.action_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.activity_chooser_view_content = global::FreightExchange.Droid.Resource.Id.activity_chooser_view_content;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.add = global::FreightExchange.Droid.Resource.Id.add;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.alertTitle = global::FreightExchange.Droid.Resource.Id.alertTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.all = global::FreightExchange.Droid.Resource.Id.all;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.ALT = global::FreightExchange.Droid.Resource.Id.ALT;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.always = global::FreightExchange.Droid.Resource.Id.always;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.async = global::FreightExchange.Droid.Resource.Id.async;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.auto = global::FreightExchange.Droid.Resource.Id.auto;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.barrier = global::FreightExchange.Droid.Resource.Id.barrier;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.beginning = global::FreightExchange.Droid.Resource.Id.beginning;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.blocking = global::FreightExchange.Droid.Resource.Id.blocking;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.bottom = global::FreightExchange.Droid.Resource.Id.bottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.bottomtab_navarea = global::FreightExchange.Droid.Resource.Id.bottomtab_navarea;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.bottomtab_tabbar = global::FreightExchange.Droid.Resource.Id.bottomtab_tabbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.BOTTOM_END = global::FreightExchange.Droid.Resource.Id.BOTTOM_END;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.BOTTOM_START = global::FreightExchange.Droid.Resource.Id.BOTTOM_START;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.browser_actions_header_text = global::FreightExchange.Droid.Resource.Id.browser_actions_header_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.browser_actions_menu_items = global::FreightExchange.Droid.Resource.Id.browser_actions_menu_items;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.browser_actions_menu_item_icon = global::FreightExchange.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.browser_actions_menu_item_text = global::FreightExchange.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.browser_actions_menu_view = global::FreightExchange.Droid.Resource.Id.browser_actions_menu_view;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.buttonPanel = global::FreightExchange.Droid.Resource.Id.buttonPanel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.cancel_action = global::FreightExchange.Droid.Resource.Id.cancel_action;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.cancel_button = global::FreightExchange.Droid.Resource.Id.cancel_button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.center = global::FreightExchange.Droid.Resource.Id.center;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.center_horizontal = global::FreightExchange.Droid.Resource.Id.center_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.center_vertical = global::FreightExchange.Droid.Resource.Id.center_vertical;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.chains = global::FreightExchange.Droid.Resource.Id.chains;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.checkbox = global::FreightExchange.Droid.Resource.Id.checkbox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.@checked = global::FreightExchange.Droid.Resource.Id.@checked;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.chip = global::FreightExchange.Droid.Resource.Id.chip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.chip_group = global::FreightExchange.Droid.Resource.Id.chip_group;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.chronometer = global::FreightExchange.Droid.Resource.Id.chronometer;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.clear_text = global::FreightExchange.Droid.Resource.Id.clear_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.clip_horizontal = global::FreightExchange.Droid.Resource.Id.clip_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.clip_vertical = global::FreightExchange.Droid.Resource.Id.clip_vertical;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.collapseActionView = global::FreightExchange.Droid.Resource.Id.collapseActionView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.confirm_button = global::FreightExchange.Droid.Resource.Id.confirm_button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.container = global::FreightExchange.Droid.Resource.Id.container;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.content = global::FreightExchange.Droid.Resource.Id.content;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.contentPanel = global::FreightExchange.Droid.Resource.Id.contentPanel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.coordinator = global::FreightExchange.Droid.Resource.Id.coordinator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.CTRL = global::FreightExchange.Droid.Resource.Id.CTRL;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.CurrentExtentEndTimeLabel = global::FreightExchange.Droid.Resource.Id.CurrentExtentEndTimeLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.CurrentExtentFill = global::FreightExchange.Droid.Resource.Id.CurrentExtentFill;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.CurrentExtentStartTimeLabel = global::FreightExchange.Droid.Resource.Id.CurrentExtentStartTimeLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.custom = global::FreightExchange.Droid.Resource.Id.custom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.customPanel = global::FreightExchange.Droid.Resource.Id.customPanel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.cut = global::FreightExchange.Droid.Resource.Id.cut;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.date_picker_actions = global::FreightExchange.Droid.Resource.Id.date_picker_actions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.decor_content_parent = global::FreightExchange.Droid.Resource.Id.decor_content_parent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.default_activity_button = global::FreightExchange.Droid.Resource.Id.default_activity_button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.design_bottom_sheet = global::FreightExchange.Droid.Resource.Id.design_bottom_sheet;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.design_menu_item_action_area = global::FreightExchange.Droid.Resource.Id.design_menu_item_action_area;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.design_menu_item_action_area_stub = global::FreightExchange.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.design_menu_item_text = global::FreightExchange.Droid.Resource.Id.design_menu_item_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.design_navigation_view = global::FreightExchange.Droid.Resource.Id.design_navigation_view;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.dialog_button = global::FreightExchange.Droid.Resource.Id.dialog_button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.dimensions = global::FreightExchange.Droid.Resource.Id.dimensions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.direct = global::FreightExchange.Droid.Resource.Id.direct;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.disableHome = global::FreightExchange.Droid.Resource.Id.disableHome;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.dropdown_menu = global::FreightExchange.Droid.Resource.Id.dropdown_menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.edit_query = global::FreightExchange.Droid.Resource.Id.edit_query;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.end = global::FreightExchange.Droid.Resource.Id.end;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.end_padder = global::FreightExchange.Droid.Resource.Id.end_padder;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.enterAlways = global::FreightExchange.Droid.Resource.Id.enterAlways;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.enterAlwaysCollapsed = global::FreightExchange.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.exitUntilCollapsed = global::FreightExchange.Droid.Resource.Id.exitUntilCollapsed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.expanded_menu = global::FreightExchange.Droid.Resource.Id.expanded_menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.expand_activities_button = global::FreightExchange.Droid.Resource.Id.expand_activities_button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.fade = global::FreightExchange.Droid.Resource.Id.fade;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.fill = global::FreightExchange.Droid.Resource.Id.fill;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.filled = global::FreightExchange.Droid.Resource.Id.filled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.fill_horizontal = global::FreightExchange.Droid.Resource.Id.fill_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.fill_vertical = global::FreightExchange.Droid.Resource.Id.fill_vertical;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.fitToContents = global::FreightExchange.Droid.Resource.Id.fitToContents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.@fixed = global::FreightExchange.Droid.Resource.Id.@fixed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.flyoutcontent_appbar = global::FreightExchange.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.forever = global::FreightExchange.Droid.Resource.Id.forever;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.fragment_container_view_tag = global::FreightExchange.Droid.Resource.Id.fragment_container_view_tag;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.FullExtentEndGuide = global::FreightExchange.Droid.Resource.Id.FullExtentEndGuide;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.FullExtentEndTimeLabel = global::FreightExchange.Droid.Resource.Id.FullExtentEndTimeLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.FullExtentEndTimeTickmark = global::FreightExchange.Droid.Resource.Id.FullExtentEndTimeTickmark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.FullExtentStartGuide = global::FreightExchange.Droid.Resource.Id.FullExtentStartGuide;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.FullExtentStartTimeLabel = global::FreightExchange.Droid.Resource.Id.FullExtentStartTimeLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.FullExtentStartTimeTickmark = global::FreightExchange.Droid.Resource.Id.FullExtentStartTimeTickmark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.FUNCTION = global::FreightExchange.Droid.Resource.Id.FUNCTION;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.ghost_view = global::FreightExchange.Droid.Resource.Id.ghost_view;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.ghost_view_holder = global::FreightExchange.Droid.Resource.Id.ghost_view_holder;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.gone = global::FreightExchange.Droid.Resource.Id.gone;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.group_divider = global::FreightExchange.Droid.Resource.Id.group_divider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.hideable = global::FreightExchange.Droid.Resource.Id.hideable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.home = global::FreightExchange.Droid.Resource.Id.home;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.homeAsUp = global::FreightExchange.Droid.Resource.Id.homeAsUp;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.icon = global::FreightExchange.Droid.Resource.Id.icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.icon_group = global::FreightExchange.Droid.Resource.Id.icon_group;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.ifRoom = global::FreightExchange.Droid.Resource.Id.ifRoom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.image = global::FreightExchange.Droid.Resource.Id.image;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.info = global::FreightExchange.Droid.Resource.Id.info;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.invisible = global::FreightExchange.Droid.Resource.Id.invisible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.italic = global::FreightExchange.Droid.Resource.Id.italic;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.item_touch_helper_previous_elevation = global::FreightExchange.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.labeled = global::FreightExchange.Droid.Resource.Id.labeled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.left = global::FreightExchange.Droid.Resource.Id.left;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.line1 = global::FreightExchange.Droid.Resource.Id.line1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.line3 = global::FreightExchange.Droid.Resource.Id.line3;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.listMode = global::FreightExchange.Droid.Resource.Id.listMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.list_item = global::FreightExchange.Droid.Resource.Id.list_item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.main_appbar = global::FreightExchange.Droid.Resource.Id.main_appbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.main_tablayout = global::FreightExchange.Droid.Resource.Id.main_tablayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.main_toolbar = global::FreightExchange.Droid.Resource.Id.main_toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.main_viewpager = global::FreightExchange.Droid.Resource.Id.main_viewpager;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.masked = global::FreightExchange.Droid.Resource.Id.masked;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.MaxThumb = global::FreightExchange.Droid.Resource.Id.MaxThumb;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.MaxThumbCenter = global::FreightExchange.Droid.Resource.Id.MaxThumbCenter;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.media_actions = global::FreightExchange.Droid.Resource.Id.media_actions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.media_controller_compat_view_tag = global::FreightExchange.Droid.Resource.Id.media_controller_compat_view_tag;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.message = global::FreightExchange.Droid.Resource.Id.message;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.META = global::FreightExchange.Droid.Resource.Id.META;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.middle = global::FreightExchange.Droid.Resource.Id.middle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mini = global::FreightExchange.Droid.Resource.Id.mini;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.MinThumb = global::FreightExchange.Droid.Resource.Id.MinThumb;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.MinThumbCenter = global::FreightExchange.Droid.Resource.Id.MinThumbCenter;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.month_grid = global::FreightExchange.Droid.Resource.Id.month_grid;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.month_navigation_bar = global::FreightExchange.Droid.Resource.Id.month_navigation_bar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.month_navigation_fragment_toggle = global::FreightExchange.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.month_navigation_next = global::FreightExchange.Droid.Resource.Id.month_navigation_next;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.month_navigation_previous = global::FreightExchange.Droid.Resource.Id.month_navigation_previous;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.month_title = global::FreightExchange.Droid.Resource.Id.month_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_calendar_days_of_week = global::FreightExchange.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_calendar_day_selector_frame = global::FreightExchange.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_calendar_frame = global::FreightExchange.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_calendar_main_pane = global::FreightExchange.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_calendar_months = global::FreightExchange.Droid.Resource.Id.mtrl_calendar_months;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_calendar_selection_frame = global::FreightExchange.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_calendar_text_input_frame = global::FreightExchange.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_calendar_year_selector_frame = global::FreightExchange.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_card_checked_layer_id = global::FreightExchange.Droid.Resource.Id.mtrl_card_checked_layer_id;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_child_content_container = global::FreightExchange.Droid.Resource.Id.mtrl_child_content_container;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_internal_children_alpha_tag = global::FreightExchange.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_picker_fullscreen = global::FreightExchange.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_picker_header = global::FreightExchange.Droid.Resource.Id.mtrl_picker_header;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_picker_header_selection_text = global::FreightExchange.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_picker_header_title_and_selection = global::FreightExchange.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_picker_header_toggle = global::FreightExchange.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_picker_text_input_date = global::FreightExchange.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_picker_text_input_range_end = global::FreightExchange.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_picker_text_input_range_start = global::FreightExchange.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.mtrl_picker_title_text = global::FreightExchange.Droid.Resource.Id.mtrl_picker_title_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.multiply = global::FreightExchange.Droid.Resource.Id.multiply;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.navigation_header_container = global::FreightExchange.Droid.Resource.Id.navigation_header_container;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.never = global::FreightExchange.Droid.Resource.Id.never;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.NextButton = global::FreightExchange.Droid.Resource.Id.NextButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.NextButtonOutline = global::FreightExchange.Droid.Resource.Id.NextButtonOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.none = global::FreightExchange.Droid.Resource.Id.none;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.normal = global::FreightExchange.Droid.Resource.Id.normal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.noScroll = global::FreightExchange.Droid.Resource.Id.noScroll;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.notification_background = global::FreightExchange.Droid.Resource.Id.notification_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.notification_main_column = global::FreightExchange.Droid.Resource.Id.notification_main_column;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.notification_main_column_container = global::FreightExchange.Droid.Resource.Id.notification_main_column_container;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.off = global::FreightExchange.Droid.Resource.Id.off;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.on = global::FreightExchange.Droid.Resource.Id.on;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.outline = global::FreightExchange.Droid.Resource.Id.outline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.packed = global::FreightExchange.Droid.Resource.Id.packed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.parallax = global::FreightExchange.Droid.Resource.Id.parallax;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.parent = global::FreightExchange.Droid.Resource.Id.parent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.parentPanel = global::FreightExchange.Droid.Resource.Id.parentPanel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.parent_matrix = global::FreightExchange.Droid.Resource.Id.parent_matrix;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.password_toggle = global::FreightExchange.Droid.Resource.Id.password_toggle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.PauseButtonOutline = global::FreightExchange.Droid.Resource.Id.PauseButtonOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.peekHeight = global::FreightExchange.Droid.Resource.Id.peekHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.percent = global::FreightExchange.Droid.Resource.Id.percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.pin = global::FreightExchange.Droid.Resource.Id.pin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.PinnedMaxThumb = global::FreightExchange.Droid.Resource.Id.PinnedMaxThumb;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.PinnedMinThumb = global::FreightExchange.Droid.Resource.Id.PinnedMinThumb;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.PlayButtonOutline = global::FreightExchange.Droid.Resource.Id.PlayButtonOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.PlayPauseButton = global::FreightExchange.Droid.Resource.Id.PlayPauseButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.PreviousButton = global::FreightExchange.Droid.Resource.Id.PreviousButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.PreviousButtonOutline = global::FreightExchange.Droid.Resource.Id.PreviousButtonOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.progress_circular = global::FreightExchange.Droid.Resource.Id.progress_circular;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.progress_horizontal = global::FreightExchange.Droid.Resource.Id.progress_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.radio = global::FreightExchange.Droid.Resource.Id.radio;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.right = global::FreightExchange.Droid.Resource.Id.right;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.right_icon = global::FreightExchange.Droid.Resource.Id.right_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.right_side = global::FreightExchange.Droid.Resource.Id.right_side;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.rounded = global::FreightExchange.Droid.Resource.Id.rounded;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.save_non_transition_alpha = global::FreightExchange.Droid.Resource.Id.save_non_transition_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.save_overlay_view = global::FreightExchange.Droid.Resource.Id.save_overlay_view;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.scale = global::FreightExchange.Droid.Resource.Id.scale;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.screen = global::FreightExchange.Droid.Resource.Id.screen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.scroll = global::FreightExchange.Droid.Resource.Id.scroll;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.scrollable = global::FreightExchange.Droid.Resource.Id.scrollable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.scrollIndicatorDown = global::FreightExchange.Droid.Resource.Id.scrollIndicatorDown;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.scrollIndicatorUp = global::FreightExchange.Droid.Resource.Id.scrollIndicatorUp;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.scrollView = global::FreightExchange.Droid.Resource.Id.scrollView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_badge = global::FreightExchange.Droid.Resource.Id.search_badge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_bar = global::FreightExchange.Droid.Resource.Id.search_bar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_button = global::FreightExchange.Droid.Resource.Id.search_button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_close_btn = global::FreightExchange.Droid.Resource.Id.search_close_btn;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_edit_frame = global::FreightExchange.Droid.Resource.Id.search_edit_frame;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_go_btn = global::FreightExchange.Droid.Resource.Id.search_go_btn;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_mag_icon = global::FreightExchange.Droid.Resource.Id.search_mag_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_plate = global::FreightExchange.Droid.Resource.Id.search_plate;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_src_text = global::FreightExchange.Droid.Resource.Id.search_src_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.search_voice_btn = global::FreightExchange.Droid.Resource.Id.search_voice_btn;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.selected = global::FreightExchange.Droid.Resource.Id.selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.select_dialog_listview = global::FreightExchange.Droid.Resource.Id.select_dialog_listview;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.shellcontent_appbar = global::FreightExchange.Droid.Resource.Id.shellcontent_appbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.shellcontent_toolbar = global::FreightExchange.Droid.Resource.Id.shellcontent_toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.SHIFT = global::FreightExchange.Droid.Resource.Id.SHIFT;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.shortcut = global::FreightExchange.Droid.Resource.Id.shortcut;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.showCustom = global::FreightExchange.Droid.Resource.Id.showCustom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.showHome = global::FreightExchange.Droid.Resource.Id.showHome;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.showTitle = global::FreightExchange.Droid.Resource.Id.showTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.skipCollapsed = global::FreightExchange.Droid.Resource.Id.skipCollapsed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.slide = global::FreightExchange.Droid.Resource.Id.slide;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.SliderTrack = global::FreightExchange.Droid.Resource.Id.SliderTrack;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.SliderTrackOutline = global::FreightExchange.Droid.Resource.Id.SliderTrackOutline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.sliding_tabs = global::FreightExchange.Droid.Resource.Id.sliding_tabs;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.snackbar_action = global::FreightExchange.Droid.Resource.Id.snackbar_action;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.snackbar_text = global::FreightExchange.Droid.Resource.Id.snackbar_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.snap = global::FreightExchange.Droid.Resource.Id.snap;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.snapMargins = global::FreightExchange.Droid.Resource.Id.snapMargins;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.spacer = global::FreightExchange.Droid.Resource.Id.spacer;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.split_action_bar = global::FreightExchange.Droid.Resource.Id.split_action_bar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.spread = global::FreightExchange.Droid.Resource.Id.spread;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.spread_inside = global::FreightExchange.Droid.Resource.Id.spread_inside;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.src_atop = global::FreightExchange.Droid.Resource.Id.src_atop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.src_in = global::FreightExchange.Droid.Resource.Id.src_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.src_over = global::FreightExchange.Droid.Resource.Id.src_over;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.standard = global::FreightExchange.Droid.Resource.Id.standard;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.start = global::FreightExchange.Droid.Resource.Id.start;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.status_bar_latest_event_content = global::FreightExchange.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.stretch = global::FreightExchange.Droid.Resource.Id.stretch;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.submenuarrow = global::FreightExchange.Droid.Resource.Id.submenuarrow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.submit_area = global::FreightExchange.Droid.Resource.Id.submit_area;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.SYM = global::FreightExchange.Droid.Resource.Id.SYM;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.tabMode = global::FreightExchange.Droid.Resource.Id.tabMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.tag_accessibility_actions = global::FreightExchange.Droid.Resource.Id.tag_accessibility_actions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.tag_accessibility_clickable_spans = global::FreightExchange.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.tag_accessibility_heading = global::FreightExchange.Droid.Resource.Id.tag_accessibility_heading;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.tag_accessibility_pane_title = global::FreightExchange.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.tag_screen_reader_focusable = global::FreightExchange.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.tag_transition_group = global::FreightExchange.Droid.Resource.Id.tag_transition_group;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.tag_unhandled_key_event_manager = global::FreightExchange.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.tag_unhandled_key_listeners = global::FreightExchange.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.test_checkbox_android_button_tint = global::FreightExchange.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.test_checkbox_app_button_tint = global::FreightExchange.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.text = global::FreightExchange.Droid.Resource.Id.text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.text2 = global::FreightExchange.Droid.Resource.Id.text2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.textEnd = global::FreightExchange.Droid.Resource.Id.textEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.textinput_counter = global::FreightExchange.Droid.Resource.Id.textinput_counter;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.textinput_error = global::FreightExchange.Droid.Resource.Id.textinput_error;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.textinput_helper_text = global::FreightExchange.Droid.Resource.Id.textinput_helper_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.textSpacerNoButtons = global::FreightExchange.Droid.Resource.Id.textSpacerNoButtons;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.textSpacerNoTitle = global::FreightExchange.Droid.Resource.Id.textSpacerNoTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.textStart = global::FreightExchange.Droid.Resource.Id.textStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.text_input_end_icon = global::FreightExchange.Droid.Resource.Id.text_input_end_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.text_input_start_icon = global::FreightExchange.Droid.Resource.Id.text_input_start_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.ThumbGuideStart = global::FreightExchange.Droid.Resource.Id.ThumbGuideStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.Tickmarks = global::FreightExchange.Droid.Resource.Id.Tickmarks;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.time = global::FreightExchange.Droid.Resource.Id.time;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.title = global::FreightExchange.Droid.Resource.Id.title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.titleDividerNoCustom = global::FreightExchange.Droid.Resource.Id.titleDividerNoCustom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.title_template = global::FreightExchange.Droid.Resource.Id.title_template;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.toolbar = global::FreightExchange.Droid.Resource.Id.toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.top = global::FreightExchange.Droid.Resource.Id.top;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.topPanel = global::FreightExchange.Droid.Resource.Id.topPanel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.TOP_END = global::FreightExchange.Droid.Resource.Id.TOP_END;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.TOP_START = global::FreightExchange.Droid.Resource.Id.TOP_START;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.touch_outside = global::FreightExchange.Droid.Resource.Id.touch_outside;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.transition_current_scene = global::FreightExchange.Droid.Resource.Id.transition_current_scene;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.transition_layout_save = global::FreightExchange.Droid.Resource.Id.transition_layout_save;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.transition_position = global::FreightExchange.Droid.Resource.Id.transition_position;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.transition_scene_layoutid_cache = global::FreightExchange.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.transition_transform = global::FreightExchange.Droid.Resource.Id.transition_transform;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.@unchecked = global::FreightExchange.Droid.Resource.Id.@unchecked;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.uniform = global::FreightExchange.Droid.Resource.Id.uniform;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.unlabeled = global::FreightExchange.Droid.Resource.Id.unlabeled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.up = global::FreightExchange.Droid.Resource.Id.up;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.useLogo = global::FreightExchange.Droid.Resource.Id.useLogo;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.view_offset_helper = global::FreightExchange.Droid.Resource.Id.view_offset_helper;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.view_tree_saved_state_registry_owner = global::FreightExchange.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.visible = global::FreightExchange.Droid.Resource.Id.visible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.visible_removing_fragment_view_tag = global::FreightExchange.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.withText = global::FreightExchange.Droid.Resource.Id.withText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.wrap = global::FreightExchange.Droid.Resource.Id.wrap;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Id.wrap_content = global::FreightExchange.Droid.Resource.Id.wrap_content;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.abc_config_activityDefaultDur = global::FreightExchange.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.abc_config_activityShortDur = global::FreightExchange.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.app_bar_elevation_anim_duration = global::FreightExchange.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.bottom_sheet_slide_duration = global::FreightExchange.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.cancel_button_image_alpha = global::FreightExchange.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.config_tooltipAnimTime = global::FreightExchange.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.design_snackbar_text_max_lines = global::FreightExchange.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.design_tab_indicator_anim_duration_ms = global::FreightExchange.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.hide_password_duration = global::FreightExchange.Droid.Resource.Integer.hide_password_duration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_badge_max_character_count = global::FreightExchange.Droid.Resource.Integer.mtrl_badge_max_character_count;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_btn_anim_delay_ms = global::FreightExchange.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_btn_anim_duration_ms = global::FreightExchange.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_calendar_header_orientation = global::FreightExchange.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_calendar_selection_text_lines = global::FreightExchange.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_calendar_year_selector_span = global::FreightExchange.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_card_anim_delay_ms = global::FreightExchange.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_card_anim_duration_ms = global::FreightExchange.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_chip_anim_duration = global::FreightExchange.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::FreightExchange.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.show_password_duration = global::FreightExchange.Droid.Resource.Integer.show_password_duration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Integer.status_bar_notification_info_maxnum = global::FreightExchange.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::FreightExchange.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::FreightExchange.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::FreightExchange.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::FreightExchange.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::FreightExchange.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::FreightExchange.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.fast_out_slow_in = global::FreightExchange.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.mtrl_fast_out_linear_in = global::FreightExchange.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.mtrl_fast_out_slow_in = global::FreightExchange.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.mtrl_linear = global::FreightExchange.Droid.Resource.Interpolator.mtrl_linear;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Interpolator.mtrl_linear_out_slow_in = global::FreightExchange.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_action_bar_title_item = global::FreightExchange.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_action_bar_up_container = global::FreightExchange.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_action_menu_item_layout = global::FreightExchange.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_action_menu_layout = global::FreightExchange.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_action_mode_bar = global::FreightExchange.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_action_mode_close_item_material = global::FreightExchange.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_activity_chooser_view = global::FreightExchange.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_activity_chooser_view_list_item = global::FreightExchange.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_alert_dialog_button_bar_material = global::FreightExchange.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_alert_dialog_material = global::FreightExchange.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_alert_dialog_title_material = global::FreightExchange.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_cascading_menu_item_layout = global::FreightExchange.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_dialog_title_material = global::FreightExchange.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_expanded_menu_layout = global::FreightExchange.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_list_menu_item_checkbox = global::FreightExchange.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_list_menu_item_icon = global::FreightExchange.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_list_menu_item_layout = global::FreightExchange.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_list_menu_item_radio = global::FreightExchange.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_popup_menu_header_item_layout = global::FreightExchange.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_popup_menu_item_layout = global::FreightExchange.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_screen_content_include = global::FreightExchange.Droid.Resource.Layout.abc_screen_content_include;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_screen_simple = global::FreightExchange.Droid.Resource.Layout.abc_screen_simple;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FreightExchange.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_screen_toolbar = global::FreightExchange.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FreightExchange.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_search_view = global::FreightExchange.Droid.Resource.Layout.abc_search_view;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_select_dialog_material = global::FreightExchange.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.abc_tooltip = global::FreightExchange.Droid.Resource.Layout.abc_tooltip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.BottomTabLayout = global::FreightExchange.Droid.Resource.Layout.BottomTabLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.browser_actions_context_menu_page = global::FreightExchange.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.browser_actions_context_menu_row = global::FreightExchange.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.custom_dialog = global::FreightExchange.Droid.Resource.Layout.custom_dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_bottom_navigation_item = global::FreightExchange.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_bottom_sheet_dialog = global::FreightExchange.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_layout_snackbar = global::FreightExchange.Droid.Resource.Layout.design_layout_snackbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_layout_snackbar_include = global::FreightExchange.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_layout_tab_icon = global::FreightExchange.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_layout_tab_text = global::FreightExchange.Droid.Resource.Layout.design_layout_tab_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_menu_item_action_area = global::FreightExchange.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_navigation_item = global::FreightExchange.Droid.Resource.Layout.design_navigation_item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_navigation_item_header = global::FreightExchange.Droid.Resource.Layout.design_navigation_item_header;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_navigation_item_separator = global::FreightExchange.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_navigation_item_subheader = global::FreightExchange.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_navigation_menu = global::FreightExchange.Droid.Resource.Layout.design_navigation_menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_navigation_menu_item = global::FreightExchange.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_text_input_end_icon = global::FreightExchange.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.design_text_input_start_icon = global::FreightExchange.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.FallbackTabbarDoNotUse = global::FreightExchange.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.FallbackToolbarDoNotUse = global::FreightExchange.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.FlyoutContent = global::FreightExchange.Droid.Resource.Layout.FlyoutContent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_alert_dialog = global::FreightExchange.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_alert_dialog_actions = global::FreightExchange.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_alert_dialog_title = global::FreightExchange.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_alert_select_dialog_item = global::FreightExchange.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::FreightExchange.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::FreightExchange.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_day = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_days_of_week = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_day_of_week = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_horizontal = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_month = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_months = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_month_labeled = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_month_navigation = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_vertical = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_calendar_year = global::FreightExchange.Droid.Resource.Layout.mtrl_calendar_year;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_layout_snackbar = global::FreightExchange.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_layout_snackbar_include = global::FreightExchange.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_actions = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_dialog = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_fullscreen = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_header_dialog = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_header_fullscreen = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_header_selection_text = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_header_title_text = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_header_toggle = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_text_input_date = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.mtrl_picker_text_input_date_range = global::FreightExchange.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_action = global::FreightExchange.Droid.Resource.Layout.notification_action;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_action_tombstone = global::FreightExchange.Droid.Resource.Layout.notification_action_tombstone;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_media_action = global::FreightExchange.Droid.Resource.Layout.notification_media_action;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_media_cancel_action = global::FreightExchange.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_big_media = global::FreightExchange.Droid.Resource.Layout.notification_template_big_media;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_big_media_custom = global::FreightExchange.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_big_media_narrow = global::FreightExchange.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_big_media_narrow_custom = global::FreightExchange.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_custom_big = global::FreightExchange.Droid.Resource.Layout.notification_template_custom_big;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_icon_group = global::FreightExchange.Droid.Resource.Layout.notification_template_icon_group;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_lines_media = global::FreightExchange.Droid.Resource.Layout.notification_template_lines_media;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_media = global::FreightExchange.Droid.Resource.Layout.notification_template_media;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_media_custom = global::FreightExchange.Droid.Resource.Layout.notification_template_media_custom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_part_chronometer = global::FreightExchange.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.notification_template_part_time = global::FreightExchange.Droid.Resource.Layout.notification_template_part_time;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.RootLayout = global::FreightExchange.Droid.Resource.Layout.RootLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.select_dialog_item_material = global::FreightExchange.Droid.Resource.Layout.select_dialog_item_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.select_dialog_multichoice_material = global::FreightExchange.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.select_dialog_singlechoice_material = global::FreightExchange.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.ShellContent = global::FreightExchange.Droid.Resource.Layout.ShellContent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::FreightExchange.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.Tabbar = global::FreightExchange.Droid.Resource.Layout.Tabbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.test_action_chip = global::FreightExchange.Droid.Resource.Layout.test_action_chip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.test_design_checkbox = global::FreightExchange.Droid.Resource.Layout.test_design_checkbox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.test_reflow_chipgroup = global::FreightExchange.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.test_toolbar = global::FreightExchange.Droid.Resource.Layout.test_toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.test_toolbar_custom_background = global::FreightExchange.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.test_toolbar_elevation = global::FreightExchange.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.test_toolbar_surface = global::FreightExchange.Droid.Resource.Layout.test_toolbar_surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.text_view_without_line_height = global::FreightExchange.Droid.Resource.Layout.text_view_without_line_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.text_view_with_line_height_from_appearance = global::FreightExchange.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.text_view_with_line_height_from_layout = global::FreightExchange.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.text_view_with_line_height_from_style = global::FreightExchange.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.text_view_with_theme_line_height = global::FreightExchange.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.TimeSlider = global::FreightExchange.Droid.Resource.Layout.TimeSlider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Layout.Toolbar = global::FreightExchange.Droid.Resource.Layout.Toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Plurals.mtrl_badge_content_description = global::FreightExchange.Droid.Resource.Plurals.mtrl_badge_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_action_bar_home_description = global::FreightExchange.Droid.Resource.String.abc_action_bar_home_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_action_bar_up_description = global::FreightExchange.Droid.Resource.String.abc_action_bar_up_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_action_menu_overflow_description = global::FreightExchange.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_action_mode_done = global::FreightExchange.Droid.Resource.String.abc_action_mode_done;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_activitychooserview_choose_application = global::FreightExchange.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_activity_chooser_view_see_all = global::FreightExchange.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_capital_off = global::FreightExchange.Droid.Resource.String.abc_capital_off;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_capital_on = global::FreightExchange.Droid.Resource.String.abc_capital_on;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_menu_alt_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_menu_ctrl_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_menu_delete_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_menu_enter_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_menu_function_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_menu_meta_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_menu_shift_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_menu_space_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_menu_sym_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_prepend_shortcut_label = global::FreightExchange.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_searchview_description_clear = global::FreightExchange.Droid.Resource.String.abc_searchview_description_clear;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_searchview_description_query = global::FreightExchange.Droid.Resource.String.abc_searchview_description_query;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_searchview_description_search = global::FreightExchange.Droid.Resource.String.abc_searchview_description_search;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_searchview_description_submit = global::FreightExchange.Droid.Resource.String.abc_searchview_description_submit;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_searchview_description_voice = global::FreightExchange.Droid.Resource.String.abc_searchview_description_voice;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_search_hint = global::FreightExchange.Droid.Resource.String.abc_search_hint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_shareactionprovider_share_with = global::FreightExchange.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_shareactionprovider_share_with_application = global::FreightExchange.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.abc_toolbar_collapse_description = global::FreightExchange.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.appbar_scrolling_view_behavior = global::FreightExchange.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.bottom_sheet_behavior = global::FreightExchange.Droid.Resource.String.bottom_sheet_behavior;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.character_counter_content_description = global::FreightExchange.Droid.Resource.String.character_counter_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.character_counter_overflowed_content_description = global::FreightExchange.Droid.Resource.String.character_counter_overflowed_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.character_counter_pattern = global::FreightExchange.Droid.Resource.String.character_counter_pattern;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.chip_text = global::FreightExchange.Droid.Resource.String.chip_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.clear_text_end_icon_content_description = global::FreightExchange.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.copy_toast_msg = global::FreightExchange.Droid.Resource.String.copy_toast_msg;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.error_icon_content_description = global::FreightExchange.Droid.Resource.String.error_icon_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.exposed_dropdown_menu_content_description = global::FreightExchange.Droid.Resource.String.exposed_dropdown_menu_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.fab_transformation_scrim_behavior = global::FreightExchange.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.fab_transformation_sheet_behavior = global::FreightExchange.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.fallback_menu_item_copy_link = global::FreightExchange.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.fallback_menu_item_open_in_browser = global::FreightExchange.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.fallback_menu_item_share_link = global::FreightExchange.Droid.Resource.String.fallback_menu_item_share_link;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.hide_bottom_view_on_scroll_behavior = global::FreightExchange.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.icon_content_description = global::FreightExchange.Droid.Resource.String.icon_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_badge_numberless_content_description = global::FreightExchange.Droid.Resource.String.mtrl_badge_numberless_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_chip_close_icon_content_description = global::FreightExchange.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_exceed_max_badge_number_suffix = global::FreightExchange.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_a11y_next_month = global::FreightExchange.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_a11y_prev_month = global::FreightExchange.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_announce_current_selection = global::FreightExchange.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_cancel = global::FreightExchange.Droid.Resource.String.mtrl_picker_cancel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_confirm = global::FreightExchange.Droid.Resource.String.mtrl_picker_confirm;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_date_header_selected = global::FreightExchange.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_date_header_title = global::FreightExchange.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_date_header_unselected = global::FreightExchange.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_day_of_week_column_header = global::FreightExchange.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_invalid_format = global::FreightExchange.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_invalid_format_example = global::FreightExchange.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_invalid_format_use = global::FreightExchange.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_invalid_range = global::FreightExchange.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_navigate_to_year_description = global::FreightExchange.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_out_of_range = global::FreightExchange.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_range_header_only_end_selected = global::FreightExchange.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_range_header_only_start_selected = global::FreightExchange.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_range_header_selected = global::FreightExchange.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_range_header_title = global::FreightExchange.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_range_header_unselected = global::FreightExchange.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_save = global::FreightExchange.Droid.Resource.String.mtrl_picker_save;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_text_input_date_hint = global::FreightExchange.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::FreightExchange.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::FreightExchange.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_text_input_day_abbr = global::FreightExchange.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_text_input_month_abbr = global::FreightExchange.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_text_input_year_abbr = global::FreightExchange.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::FreightExchange.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_toggle_to_day_selection = global::FreightExchange.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::FreightExchange.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.mtrl_picker_toggle_to_year_selection = global::FreightExchange.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.overflow_tab_title = global::FreightExchange.Droid.Resource.String.overflow_tab_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.password_toggle_content_description = global::FreightExchange.Droid.Resource.String.password_toggle_content_description;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.path_password_eye = global::FreightExchange.Droid.Resource.String.path_password_eye;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.path_password_eye_mask_strike_through = global::FreightExchange.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.path_password_eye_mask_visible = global::FreightExchange.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.path_password_strike_through = global::FreightExchange.Droid.Resource.String.path_password_strike_through;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.search_menu_title = global::FreightExchange.Droid.Resource.String.search_menu_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.String.status_bar_notification_info_overflow = global::FreightExchange.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.AlertDialog_AppCompat = global::FreightExchange.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.AlertDialog_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Animation_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Animation_AppCompat_DropDownUp = global::FreightExchange.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Animation_AppCompat_Tooltip = global::FreightExchange.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Animation_Design_BottomSheetDialog = global::FreightExchange.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::FreightExchange.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.AppCompatDialogStyle = global::FreightExchange.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_AlertDialog_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Animation_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FreightExchange.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Animation_AppCompat_Tooltip = global::FreightExchange.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_CardView = global::FreightExchange.Droid.Resource.Style.Base_CardView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::FreightExchange.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::FreightExchange.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::FreightExchange.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FreightExchange.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::FreightExchange.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::FreightExchange.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::FreightExchange.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents = global::FreightExchange.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::FreightExchange.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::FreightExchange.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::FreightExchange.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::FreightExchange.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::FreightExchange.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FreightExchange.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::FreightExchange.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::FreightExchange.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V21_Theme_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FreightExchange.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V22_Theme_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V23_Theme_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V26_Theme_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V26_Theme_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::FreightExchange.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V28_Theme_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V28_Theme_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V7_Theme_AppCompat = global::FreightExchange.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FreightExchange.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FreightExchange.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FreightExchange.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::FreightExchange.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_EditText = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListView = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_SearchView = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Spinner = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_TextView = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FreightExchange.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_Design_TabLayout = global::FreightExchange.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_Chip = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_TextView = global::FreightExchange.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.CardView = global::FreightExchange.Droid.Resource.Style.CardView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.CardView_Dark = global::FreightExchange.Droid.Resource.Style.CardView_Dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.CardView_Light = global::FreightExchange.Droid.Resource.Style.CardView_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.collectionViewTheme = global::FreightExchange.Droid.Resource.Style.collectionViewTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.EmptyTheme = global::FreightExchange.Droid.Resource.Style.EmptyTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MainTheme = global::FreightExchange.Droid.Resource.Style.MainTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MainTheme_Base = global::FreightExchange.Droid.Resource.Style.MainTheme_Base;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::FreightExchange.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_AppCompat = global::FreightExchange.Droid.Resource.Style.Platform_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_MaterialComponents = global::FreightExchange.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_MaterialComponents_Dialog = global::FreightExchange.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_MaterialComponents_Light = global::FreightExchange.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::FreightExchange.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FreightExchange.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FreightExchange.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_V21_AppCompat = global::FreightExchange.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_V21_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_V25_AppCompat = global::FreightExchange.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_V25_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FreightExchange.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FreightExchange.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FreightExchange.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FreightExchange.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FreightExchange.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.scrollViewScrollBars = global::FreightExchange.Droid.Resource.Style.scrollViewScrollBars;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.scrollViewTheme = global::FreightExchange.Droid.Resource.Style.scrollViewTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_Cut = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::FreightExchange.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearance_MaterialComponents = global::FreightExchange.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::FreightExchange.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::FreightExchange.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::FreightExchange.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::FreightExchange.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TestStyleWithLineHeight = global::FreightExchange.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TestStyleWithLineHeightAppearance = global::FreightExchange.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TestStyleWithoutLineHeight = global::FreightExchange.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::FreightExchange.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TestThemeWithLineHeight = global::FreightExchange.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TestThemeWithLineHeightDisabled = global::FreightExchange.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::FreightExchange.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::FreightExchange.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::FreightExchange.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::FreightExchange.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::FreightExchange.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Body1 = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Body2 = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Button = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Caption = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Display1 = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Display2 = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Display3 = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Display4 = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Headline = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Large = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Medium = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Menu = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Small = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Subhead = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Title = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Tooltip = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FreightExchange.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Info = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Media = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Time = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Title = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::FreightExchange.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FreightExchange.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Design_Counter = global::FreightExchange.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FreightExchange.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Design_Error = global::FreightExchange.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Design_HelperText = global::FreightExchange.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Design_Hint = global::FreightExchange.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FreightExchange.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Design_Tab = global::FreightExchange.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Badge = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Button = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Caption = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Chip = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Overline = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::FreightExchange.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FreightExchange.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FreightExchange.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FreightExchange.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::FreightExchange.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_CompactMenu = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Dialog = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Empty = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Empty;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_Dialog = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_AppCompat_NoActionBar = global::FreightExchange.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_Design = global::FreightExchange.Droid.Resource.Style.Theme_Design;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_Design_BottomSheetDialog = global::FreightExchange.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_Design_Light = global::FreightExchange.Droid.Resource.Style.Theme_Design_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FreightExchange.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_Design_Light_NoActionBar = global::FreightExchange.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_Design_NoActionBar = global::FreightExchange.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_CompactMenu = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_NoActionBar = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::FreightExchange.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionButton = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionMode = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ButtonBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_Borderless = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_Colored = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_Small = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_EditText = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ImageButton = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_SearchView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListMenuView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListView_Menu = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_PopupMenu = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_PopupWindow = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ProgressBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_RatingBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_SearchView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_SeekBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Spinner = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_TextView = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Toolbar = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FreightExchange.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Compat_NotificationActionContainer = global::FreightExchange.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Compat_NotificationActionText = global::FreightExchange.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_AppBarLayout = global::FreightExchange.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_BottomNavigationView = global::FreightExchange.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_BottomSheet_Modal = global::FreightExchange.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_CollapsingToolbar = global::FreightExchange.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_FloatingActionButton = global::FreightExchange.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_NavigationView = global::FreightExchange.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FreightExchange.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_Snackbar = global::FreightExchange.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_TabLayout = global::FreightExchange.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Design_TextInputLayout = global::FreightExchange.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Badge = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Badge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomSheet = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_Icon = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_CardView = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_ChipGroup = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Chip_Action = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_NavigationView = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_PopupMenu = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Snackbar = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TabLayout = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextView = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_TextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Toolbar = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::FreightExchange.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Style.Widget_Support_CoordinatorLayout = global::FreightExchange.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar = global::FreightExchange.Droid.Resource.Styleable.ActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBarLayout = global::FreightExchange.Droid.Resource.Styleable.ActionBarLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FreightExchange.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_background = global::FreightExchange.Droid.Resource.Styleable.ActionBar_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_backgroundSplit = global::FreightExchange.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_backgroundStacked = global::FreightExchange.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetEnd = global::FreightExchange.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FreightExchange.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetLeft = global::FreightExchange.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetRight = global::FreightExchange.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetStart = global::FreightExchange.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FreightExchange.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_customNavigationLayout = global::FreightExchange.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_displayOptions = global::FreightExchange.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_divider = global::FreightExchange.Droid.Resource.Styleable.ActionBar_divider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_elevation = global::FreightExchange.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_height = global::FreightExchange.Droid.Resource.Styleable.ActionBar_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_hideOnContentScroll = global::FreightExchange.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FreightExchange.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_homeLayout = global::FreightExchange.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_icon = global::FreightExchange.Droid.Resource.Styleable.ActionBar_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FreightExchange.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_itemPadding = global::FreightExchange.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_logo = global::FreightExchange.Droid.Resource.Styleable.ActionBar_logo;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_navigationMode = global::FreightExchange.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_popupTheme = global::FreightExchange.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_progressBarPadding = global::FreightExchange.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_progressBarStyle = global::FreightExchange.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_subtitle = global::FreightExchange.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_subtitleTextStyle = global::FreightExchange.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_title = global::FreightExchange.Droid.Resource.Styleable.ActionBar_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionBar_titleTextStyle = global::FreightExchange.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMenuItemView = global::FreightExchange.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FreightExchange.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMenuView = global::FreightExchange.Droid.Resource.Styleable.ActionMenuView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMode = global::FreightExchange.Droid.Resource.Styleable.ActionMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMode_background = global::FreightExchange.Droid.Resource.Styleable.ActionMode_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMode_backgroundSplit = global::FreightExchange.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMode_closeItemLayout = global::FreightExchange.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMode_height = global::FreightExchange.Droid.Resource.Styleable.ActionMode_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMode_subtitleTextStyle = global::FreightExchange.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActionMode_titleTextStyle = global::FreightExchange.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActivityChooserView = global::FreightExchange.Droid.Resource.Styleable.ActivityChooserView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FreightExchange.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FreightExchange.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AlertDialog = global::FreightExchange.Droid.Resource.Styleable.AlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AlertDialog_android_layout = global::FreightExchange.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AlertDialog_buttonIconDimen = global::FreightExchange.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FreightExchange.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AlertDialog_listItemLayout = global::FreightExchange.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AlertDialog_listLayout = global::FreightExchange.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FreightExchange.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AlertDialog_showTitle = global::FreightExchange.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FreightExchange.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableItem = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::FreightExchange.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates = global::FreightExchange.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FreightExchange.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FreightExchange.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates_state_liftable = global::FreightExchange.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates_state_lifted = global::FreightExchange.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_android_background = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_elevation = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_expanded = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_Layout = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_liftOnScroll = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppBarLayout_statusBarForeground = global::FreightExchange.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatImageView = global::FreightExchange.Droid.Resource.Styleable.AppCompatImageView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatImageView_android_src = global::FreightExchange.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatImageView_srcCompat = global::FreightExchange.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatImageView_tint = global::FreightExchange.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatImageView_tintMode = global::FreightExchange.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar = global::FreightExchange.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FreightExchange.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar_tickMark = global::FreightExchange.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FreightExchange.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FreightExchange.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_drawableTint = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_drawableTintMode = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_fontFamily = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_lineHeight = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_textAllCaps = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTextView_textLocale = global::FreightExchange.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarSize = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorAccent = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorError = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorPrimary = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_controlBackground = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dialogTheme = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dividerVertical = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_editTextBackground = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_editTextColor = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_editTextStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_panelBackground = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_switchStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowActionBar = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FreightExchange.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Badge = global::FreightExchange.Droid.Resource.Styleable.Badge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Badge_backgroundColor = global::FreightExchange.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Badge_badgeGravity = global::FreightExchange.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Badge_badgeTextColor = global::FreightExchange.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Badge_maxCharacterCount = global::FreightExchange.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Badge_number = global::FreightExchange.Droid.Resource.Styleable.Badge_number;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomAppBar = global::FreightExchange.Droid.Resource.Styleable.BottomAppBar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomAppBar_backgroundTint = global::FreightExchange.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomAppBar_elevation = global::FreightExchange.Droid.Resource.Styleable.BottomAppBar_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::FreightExchange.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomAppBar_fabAnimationMode = global::FreightExchange.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomAppBar_fabCradleMargin = global::FreightExchange.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::FreightExchange.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::FreightExchange.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomAppBar_hideOnScroll = global::FreightExchange.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomNavigationView = global::FreightExchange.Droid.Resource.Styleable.BottomNavigationView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::FreightExchange.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ButtonBarLayout = global::FreightExchange.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ButtonBarLayout_allowStacking = global::FreightExchange.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView = global::FreightExchange.Droid.Resource.Styleable.CardView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_android_minHeight = global::FreightExchange.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_android_minWidth = global::FreightExchange.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_cardBackgroundColor = global::FreightExchange.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_cardCornerRadius = global::FreightExchange.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_cardElevation = global::FreightExchange.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_cardMaxElevation = global::FreightExchange.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FreightExchange.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_cardUseCompatPadding = global::FreightExchange.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_contentPadding = global::FreightExchange.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_contentPaddingBottom = global::FreightExchange.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_contentPaddingLeft = global::FreightExchange.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_contentPaddingRight = global::FreightExchange.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CardView_contentPaddingTop = global::FreightExchange.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip = global::FreightExchange.Droid.Resource.Styleable.Chip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ChipGroup = global::FreightExchange.Droid.Resource.Styleable.ChipGroup;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ChipGroup_checkedChip = global::FreightExchange.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ChipGroup_chipSpacing = global::FreightExchange.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::FreightExchange.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ChipGroup_chipSpacingVertical = global::FreightExchange.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ChipGroup_singleLine = global::FreightExchange.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ChipGroup_singleSelection = global::FreightExchange.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_android_checkable = global::FreightExchange.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_android_ellipsize = global::FreightExchange.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_android_maxWidth = global::FreightExchange.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_android_text = global::FreightExchange.Droid.Resource.Styleable.Chip_android_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_android_textAppearance = global::FreightExchange.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_android_textColor = global::FreightExchange.Droid.Resource.Styleable.Chip_android_textColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_checkedIcon = global::FreightExchange.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_checkedIconEnabled = global::FreightExchange.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_checkedIconVisible = global::FreightExchange.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipBackgroundColor = global::FreightExchange.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipCornerRadius = global::FreightExchange.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipEndPadding = global::FreightExchange.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipIcon = global::FreightExchange.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipIconEnabled = global::FreightExchange.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipIconSize = global::FreightExchange.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipIconTint = global::FreightExchange.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipIconVisible = global::FreightExchange.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipMinHeight = global::FreightExchange.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipMinTouchTargetSize = global::FreightExchange.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipStartPadding = global::FreightExchange.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipStrokeColor = global::FreightExchange.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipStrokeWidth = global::FreightExchange.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_chipSurfaceColor = global::FreightExchange.Droid.Resource.Styleable.Chip_chipSurfaceColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_closeIcon = global::FreightExchange.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_closeIconEnabled = global::FreightExchange.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_closeIconEndPadding = global::FreightExchange.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_closeIconSize = global::FreightExchange.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_closeIconStartPadding = global::FreightExchange.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_closeIconTint = global::FreightExchange.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_closeIconVisible = global::FreightExchange.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::FreightExchange.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_hideMotionSpec = global::FreightExchange.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_iconEndPadding = global::FreightExchange.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_iconStartPadding = global::FreightExchange.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_rippleColor = global::FreightExchange.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_shapeAppearance = global::FreightExchange.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_shapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_showMotionSpec = global::FreightExchange.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_textEndPadding = global::FreightExchange.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Chip_textStartPadding = global::FreightExchange.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_title = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FreightExchange.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ColorStateListItem = global::FreightExchange.Droid.Resource.Styleable.ColorStateListItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ColorStateListItem_alpha = global::FreightExchange.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ColorStateListItem_android_alpha = global::FreightExchange.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ColorStateListItem_android_color = global::FreightExchange.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CompoundButton = global::FreightExchange.Droid.Resource.Styleable.CompoundButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CompoundButton_android_button = global::FreightExchange.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CompoundButton_buttonCompat = global::FreightExchange.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CompoundButton_buttonTint = global::FreightExchange.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CompoundButton_buttonTintMode = global::FreightExchange.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_android_minHeight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_android_minWidth = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_android_orientation = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_android_orientation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_barrierDirection = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_constraintSet = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_constraintSet;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_placeholder = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_placeholder;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintLayout_placeholder_content = global::FreightExchange.Droid.Resource.Styleable.ConstraintLayout_placeholder_content;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_alpha = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_alpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_elevation = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_id = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_id;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_layout_height = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_layout_marginBottom = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_layout_marginEnd = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_layout_marginLeft = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_layout_marginRight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_layout_marginStart = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_layout_marginTop = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_marginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_layout_width = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_layout_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_orientation = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_orientation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_rotation = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_rotation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_rotationX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_rotationX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_rotationY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_rotationY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_scaleX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_scaleX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_scaleY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_scaleY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_transformPivotX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_transformPivotX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_transformPivotY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_transformPivotY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_translationX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_translationX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_translationY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_translationY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_translationZ = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_translationZ;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_android_visibility = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_android_visibility;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constrainedHeight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constrainedHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constrainedWidth = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constrainedWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintCircle = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintGuide_end = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintHeight_default = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintHeight_max = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintHeight_min = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintRight_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintTop_creator = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintWidth_default = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintWidth_max = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintWidth_min = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_editor_absoluteX = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_editor_absoluteY = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_goneMarginBottom = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_goneMarginEnd = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_goneMarginLeft = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_goneMarginRight = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_goneMarginStart = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ConstraintSet_layout_goneMarginTop = global::FreightExchange.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_keylines = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FreightExchange.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle = global::FreightExchange.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FreightExchange.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FreightExchange.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_barLength = global::FreightExchange.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_color = global::FreightExchange.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FreightExchange.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FreightExchange.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_spinBars = global::FreightExchange.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_thickness = global::FreightExchange.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerLayout = global::FreightExchange.Droid.Resource.Styleable.DrawerLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.DrawerLayout_elevation = global::FreightExchange.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ExtendedFloatingActionButton = global::FreightExchange.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::FreightExchange.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::FreightExchange.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::FreightExchange.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::FreightExchange.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::FreightExchange.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::FreightExchange.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::FreightExchange.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::FreightExchange.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_backgroundTint = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_borderWidth = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_elevation = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_fabCustomSize = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_fabSize = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_maxImageSize = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_rippleColor = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_shapeAppearance = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_showMotionSpec = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FreightExchange.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FlowLayout = global::FreightExchange.Droid.Resource.Styleable.FlowLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FlowLayout_itemSpacing = global::FreightExchange.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FlowLayout_lineSpacing = global::FreightExchange.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamily = global::FreightExchange.Droid.Resource.Styleable.FontFamily;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_font = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_fontStyle = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_fontWeight = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_font = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_fontStyle = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_fontWeight = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamilyFont_ttcIndex = global::FreightExchange.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderAuthority = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderCerts = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderPackage = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderQuery = global::FreightExchange.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ForegroundLinearLayout = global::FreightExchange.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FreightExchange.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FreightExchange.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FreightExchange.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Fragment = global::FreightExchange.Droid.Resource.Styleable.Fragment;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FragmentContainerView = global::FreightExchange.Droid.Resource.Styleable.FragmentContainerView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FragmentContainerView_android_name = global::FreightExchange.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.FragmentContainerView_android_tag = global::FreightExchange.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Fragment_android_id = global::FreightExchange.Droid.Resource.Styleable.Fragment_android_id;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Fragment_android_name = global::FreightExchange.Droid.Resource.Styleable.Fragment_android_name;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Fragment_android_tag = global::FreightExchange.Droid.Resource.Styleable.Fragment_android_tag;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor = global::FreightExchange.Droid.Resource.Styleable.GradientColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColorItem = global::FreightExchange.Droid.Resource.Styleable.GradientColorItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColorItem_android_color = global::FreightExchange.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColorItem_android_offset = global::FreightExchange.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_centerColor = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_centerX = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_centerY = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_endColor = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_endX = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_endY = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_gradientRadius = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_startColor = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_startX = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_startY = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_tileMode = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.GradientColor_android_type = global::FreightExchange.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ItemsViewRendererTheme = global::FreightExchange.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::FreightExchange.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_divider = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_showDividers = global::FreightExchange.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ListPopupWindow = global::FreightExchange.Droid.Resource.Styleable.ListPopupWindow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FreightExchange.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FreightExchange.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialog = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialogTheme = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::FreightExchange.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton = global::FreightExchange.Droid.Resource.Styleable.MaterialButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButtonToggleGroup = global::FreightExchange.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::FreightExchange.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::FreightExchange.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_android_checkable = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_android_checkable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_android_insetBottom = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_android_insetLeft = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_android_insetRight = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_android_insetTop = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_backgroundTint = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_backgroundTintMode = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_cornerRadius = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_elevation = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_icon = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_iconGravity = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_iconPadding = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_iconSize = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_iconTint = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_iconTintMode = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_rippleColor = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_shapeAppearance = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_strokeColor = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialButton_strokeWidth = global::FreightExchange.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar_dayStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar_rangeFillColor = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar_yearStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::FreightExchange.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_android_checkable = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_cardForegroundColor = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_checkedIcon = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_checkedIconTint = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_rippleColor = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_shapeAppearance = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_state_dragged = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_state_dragged;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_strokeColor = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCardView_strokeWidth = global::FreightExchange.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCheckBox = global::FreightExchange.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCheckBox_buttonTint = global::FreightExchange.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::FreightExchange.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialRadioButton = global::FreightExchange.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::FreightExchange.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialShape = global::FreightExchange.Droid.Resource.Styleable.MaterialShape;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialShape_shapeAppearance = global::FreightExchange.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialTextAppearance = global::FreightExchange.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::FreightExchange.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialTextAppearance_lineHeight = global::FreightExchange.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialTextView = global::FreightExchange.Droid.Resource.Styleable.MaterialTextView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialTextView_android_lineHeight = global::FreightExchange.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialTextView_android_textAppearance = global::FreightExchange.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MaterialTextView_lineHeight = global::FreightExchange.Droid.Resource.Styleable.MaterialTextView_lineHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuGroup = global::FreightExchange.Droid.Resource.Styleable.MenuGroup;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FreightExchange.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuGroup_android_enabled = global::FreightExchange.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuGroup_android_id = global::FreightExchange.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuGroup_android_menuCategory = global::FreightExchange.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuGroup_android_orderInCategory = global::FreightExchange.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuGroup_android_visible = global::FreightExchange.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem = global::FreightExchange.Droid.Resource.Styleable.MenuItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_actionLayout = global::FreightExchange.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_actionProviderClass = global::FreightExchange.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_actionViewClass = global::FreightExchange.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_alphabeticModifiers = global::FreightExchange.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_checkable = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_checked = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_enabled = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_icon = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_id = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_menuCategory = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_numericShortcut = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_onClick = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_orderInCategory = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_title = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_titleCondensed = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_android_visible = global::FreightExchange.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_contentDescription = global::FreightExchange.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_iconTint = global::FreightExchange.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_iconTintMode = global::FreightExchange.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_numericModifiers = global::FreightExchange.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_showAsAction = global::FreightExchange.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuItem_tooltipText = global::FreightExchange.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView = global::FreightExchange.Droid.Resource.Styleable.MenuView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView_android_headerBackground = global::FreightExchange.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView_android_horizontalDivider = global::FreightExchange.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView_android_itemBackground = global::FreightExchange.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FreightExchange.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView_android_itemTextAppearance = global::FreightExchange.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView_android_verticalDivider = global::FreightExchange.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FreightExchange.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView_preserveIconSpacing = global::FreightExchange.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.MenuView_subMenuArrow = global::FreightExchange.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView = global::FreightExchange.Droid.Resource.Styleable.NavigationView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_android_background = global::FreightExchange.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FreightExchange.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_android_maxWidth = global::FreightExchange.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_elevation = global::FreightExchange.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_headerLayout = global::FreightExchange.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemBackground = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemHorizontalPadding = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemIconPadding = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemIconSize = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemIconSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemIconTint = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemMaxLines = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemShapeAppearance = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemShapeFillColor = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemShapeInsetStart = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemShapeInsetTop = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemTextAppearance = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_itemTextColor = global::FreightExchange.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.NavigationView_menu = global::FreightExchange.Droid.Resource.Styleable.NavigationView_menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.PopupWindow = global::FreightExchange.Droid.Resource.Styleable.PopupWindow;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.PopupWindowBackgroundState = global::FreightExchange.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FreightExchange.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FreightExchange.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.PopupWindow_android_popupBackground = global::FreightExchange.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.PopupWindow_overlapAnchor = global::FreightExchange.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecycleListView = global::FreightExchange.Droid.Resource.Styleable.RecycleListView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FreightExchange.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FreightExchange.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView = global::FreightExchange.Droid.Resource.Styleable.RecyclerView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_android_clipToPadding = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_android_orientation = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollEnabled = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_layoutManager = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_reverseLayout = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_spanCount = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.RecyclerView_stackFromEnd = global::FreightExchange.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ScrimInsetsFrameLayout = global::FreightExchange.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FreightExchange.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ScrollingViewBehavior_Layout = global::FreightExchange.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FreightExchange.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ScrollViewRendererTheme = global::FreightExchange.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::FreightExchange.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView = global::FreightExchange.Droid.Resource.Styleable.SearchView;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_android_focusable = global::FreightExchange.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_android_imeOptions = global::FreightExchange.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_android_inputType = global::FreightExchange.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_android_maxWidth = global::FreightExchange.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_closeIcon = global::FreightExchange.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_commitIcon = global::FreightExchange.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_defaultQueryHint = global::FreightExchange.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_goIcon = global::FreightExchange.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_iconifiedByDefault = global::FreightExchange.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_layout = global::FreightExchange.Droid.Resource.Styleable.SearchView_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_queryBackground = global::FreightExchange.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_queryHint = global::FreightExchange.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_searchHintIcon = global::FreightExchange.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_searchIcon = global::FreightExchange.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_submitBackground = global::FreightExchange.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_suggestionRowLayout = global::FreightExchange.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SearchView_voiceIcon = global::FreightExchange.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerFamily = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerSize = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::FreightExchange.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Snackbar = global::FreightExchange.Droid.Resource.Styleable.Snackbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SnackbarLayout = global::FreightExchange.Droid.Resource.Styleable.SnackbarLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::FreightExchange.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FreightExchange.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SnackbarLayout_animationMode = global::FreightExchange.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::FreightExchange.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SnackbarLayout_elevation = global::FreightExchange.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FreightExchange.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Snackbar_snackbarButtonStyle = global::FreightExchange.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Snackbar_snackbarStyle = global::FreightExchange.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Spinner = global::FreightExchange.Droid.Resource.Styleable.Spinner;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Spinner_android_dropDownWidth = global::FreightExchange.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Spinner_android_entries = global::FreightExchange.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Spinner_android_popupBackground = global::FreightExchange.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Spinner_android_prompt = global::FreightExchange.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Spinner_popupTheme = global::FreightExchange.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.StateListDrawable = global::FreightExchange.Droid.Resource.Styleable.StateListDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.StateListDrawableItem = global::FreightExchange.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.StateListDrawableItem_android_drawable = global::FreightExchange.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_constantSize = global::FreightExchange.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_dither = global::FreightExchange.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::FreightExchange.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::FreightExchange.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_variablePadding = global::FreightExchange.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_visible = global::FreightExchange.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwipeRefreshLayout = global::FreightExchange.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::FreightExchange.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_android_textOff = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_android_textOn = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_android_thumb = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_showText = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_splitTrack = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_switchMinWidth = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_switchPadding = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_thumbTint = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_thumbTintMode = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_track = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_trackTint = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchCompat_trackTintMode = global::FreightExchange.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchMaterial = global::FreightExchange.Droid.Resource.Styleable.SwitchMaterial;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::FreightExchange.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabItem = global::FreightExchange.Droid.Resource.Styleable.TabItem;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabItem_android_icon = global::FreightExchange.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabItem_android_layout = global::FreightExchange.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabItem_android_text = global::FreightExchange.Droid.Resource.Styleable.TabItem_android_text;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout = global::FreightExchange.Droid.Resource.Styleable.TabLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabBackground = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabContentStart = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabGravity = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabIconTint = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabIconTintMode = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicator = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorColor = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorGravity = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabInlineLabel = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabMaxWidth = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabMinWidth = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabMode = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabPadding = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabPaddingBottom = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabPaddingEnd = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabPaddingStart = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabPaddingTop = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabRippleColor = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabTextAppearance = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabTextColor = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TabLayout_tabUnboundedRipple = global::FreightExchange.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance = global::FreightExchange.Droid.Resource.Styleable.TextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_fontFamily = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_shadowColor = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_shadowDx = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_shadowDy = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_shadowRadius = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textColor = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textColorHint = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textColorLink = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textFontWeight = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textSize = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textStyle = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_android_typeface = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_fontFamily = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_fontVariationSettings = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_textAllCaps = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextAppearance_textLocale = global::FreightExchange.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_android_hint = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_android_textColorHint = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxStrokeColor = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterEnabled = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterMaxLength = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterTextColor = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_endIconCheckable = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_endIconContentDescription = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_endIconDrawable = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_endIconMode = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_endIconTint = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_endIconTintMode = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_errorEnabled = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_errorIconDrawable = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_errorIconTint = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_errorIconTintMode = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_errorTextColor = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_helperText = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_helperTextEnabled = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_helperTextTextColor = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_hintEnabled = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_hintTextColor = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_shapeAppearance = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_startIconCheckable = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_startIconContentDescription = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_startIconDrawable = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_startIconTint = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.TextInputLayout_startIconTintMode = global::FreightExchange.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ThemeEnforcement = global::FreightExchange.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::FreightExchange.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::FreightExchange.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::FreightExchange.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar = global::FreightExchange.Droid.Resource.Styleable.Toolbar;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_android_gravity = global::FreightExchange.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_android_minHeight = global::FreightExchange.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_buttonGravity = global::FreightExchange.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_collapseContentDescription = global::FreightExchange.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_collapseIcon = global::FreightExchange.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetEnd = global::FreightExchange.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FreightExchange.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetLeft = global::FreightExchange.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetRight = global::FreightExchange.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetStart = global::FreightExchange.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FreightExchange.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_logo = global::FreightExchange.Droid.Resource.Styleable.Toolbar_logo;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_logoDescription = global::FreightExchange.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_maxButtonHeight = global::FreightExchange.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_menu = global::FreightExchange.Droid.Resource.Styleable.Toolbar_menu;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_navigationContentDescription = global::FreightExchange.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_navigationIcon = global::FreightExchange.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_popupTheme = global::FreightExchange.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_subtitle = global::FreightExchange.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FreightExchange.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_subtitleTextColor = global::FreightExchange.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_title = global::FreightExchange.Droid.Resource.Styleable.Toolbar_title;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_titleMargin = global::FreightExchange.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_titleMarginBottom = global::FreightExchange.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_titleMarginEnd = global::FreightExchange.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_titleMargins = global::FreightExchange.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_titleMarginStart = global::FreightExchange.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_titleMarginTop = global::FreightExchange.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_titleTextAppearance = global::FreightExchange.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.Toolbar_titleTextColor = global::FreightExchange.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.View = global::FreightExchange.Droid.Resource.Styleable.View;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewBackgroundHelper = global::FreightExchange.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewBackgroundHelper_android_background = global::FreightExchange.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FreightExchange.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FreightExchange.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewPager2 = global::FreightExchange.Droid.Resource.Styleable.ViewPager2;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewPager2_android_orientation = global::FreightExchange.Droid.Resource.Styleable.ViewPager2_android_orientation;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewStubCompat = global::FreightExchange.Droid.Resource.Styleable.ViewStubCompat;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewStubCompat_android_id = global::FreightExchange.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FreightExchange.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.ViewStubCompat_android_layout = global::FreightExchange.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.View_android_focusable = global::FreightExchange.Droid.Resource.Styleable.View_android_focusable;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.View_android_theme = global::FreightExchange.Droid.Resource.Styleable.View_android_theme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.View_paddingEnd = global::FreightExchange.Droid.Resource.Styleable.View_paddingEnd;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.View_paddingStart = global::FreightExchange.Droid.Resource.Styleable.View_paddingStart;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Styleable.View_theme = global::FreightExchange.Droid.Resource.Styleable.View_theme;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Xml.image_share_filepaths = global::FreightExchange.Droid.Resource.Xml.image_share_filepaths;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Xml.standalone_badge = global::FreightExchange.Droid.Resource.Xml.standalone_badge;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Xml.standalone_badge_gravity_bottom_end = global::FreightExchange.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Xml.standalone_badge_gravity_bottom_start = global::FreightExchange.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.Resource.Xml.standalone_badge_gravity_top_start = global::FreightExchange.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_fade_in = global::FreightExchange.Droid.Resource.Animation.abc_fade_in;
 			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_fade_out = global::FreightExchange.Droid.Resource.Animation.abc_fade_out;
 			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::FreightExchange.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -20397,52 +24491,79 @@ namespace FreightExchange.Droid
 			public const int navigation_empty_icon = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int notification_action_background = 2131165335;
+			public const int NextPreviousButton = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int notification_bg = 2131165336;
+			public const int NextPreviousFill = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int notification_bg_low = 2131165337;
+			public const int NextPreviousOutline = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int notification_bg_low_normal = 2131165338;
+			public const int notification_action_background = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int notification_bg_low_pressed = 2131165339;
+			public const int notification_bg = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int notification_bg_normal = 2131165340;
+			public const int notification_bg_low = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int notification_bg_normal_pressed = 2131165341;
+			public const int notification_bg_low_normal = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int notification_icon_background = 2131165342;
+			public const int notification_bg_low_pressed = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int notification_template_icon_bg = 2131165343;
+			public const int notification_bg_normal = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int notification_template_icon_low_bg = 2131165344;
+			public const int notification_bg_normal_pressed = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int notification_tile_bg = 2131165345;
+			public const int notification_icon_background = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int notify_panel_notification_icon_bg = 2131165346;
+			public const int notification_template_icon_bg = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int preference_list_divider_material = 2131165347;
+			public const int notification_template_icon_low_bg = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int test_custom_background = 2131165348;
+			public const int notification_tile_bg = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int tooltip_frame_dark = 2131165349;
+			public const int notify_panel_notification_icon_bg = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int tooltip_frame_light = 2131165350;
+			public const int PauseFill = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int PauseOutline = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int PlayPauseButton = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int preference_list_divider_material = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int test_custom_background = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int Thumb = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int tooltip_frame_dark = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int tooltip_frame_light = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int TriangleFill = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int TriangleOutline = 2131165359;
 			
 			static Drawable()
 			{
@@ -20457,263 +24578,263 @@ namespace FreightExchange.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F08000E
-			public const int accelerate = 2131230734;
-			
-			// aapt resource value: 0x7F08000F
-			public const int accessibility_action_clickable_span = 2131230735;
-			
-			// aapt resource value: 0x7F080010
-			public const int accessibility_custom_action_0 = 2131230736;
-			
-			// aapt resource value: 0x7F080011
-			public const int accessibility_custom_action_1 = 2131230737;
-			
-			// aapt resource value: 0x7F080012
-			public const int accessibility_custom_action_10 = 2131230738;
-			
-			// aapt resource value: 0x7F080013
-			public const int accessibility_custom_action_11 = 2131230739;
-			
-			// aapt resource value: 0x7F080014
-			public const int accessibility_custom_action_12 = 2131230740;
-			
-			// aapt resource value: 0x7F080015
-			public const int accessibility_custom_action_13 = 2131230741;
-			
-			// aapt resource value: 0x7F080016
-			public const int accessibility_custom_action_14 = 2131230742;
-			
-			// aapt resource value: 0x7F080017
-			public const int accessibility_custom_action_15 = 2131230743;
-			
-			// aapt resource value: 0x7F080018
-			public const int accessibility_custom_action_16 = 2131230744;
-			
-			// aapt resource value: 0x7F080019
-			public const int accessibility_custom_action_17 = 2131230745;
-			
-			// aapt resource value: 0x7F08001A
-			public const int accessibility_custom_action_18 = 2131230746;
-			
-			// aapt resource value: 0x7F08001B
-			public const int accessibility_custom_action_19 = 2131230747;
-			
-			// aapt resource value: 0x7F08001C
-			public const int accessibility_custom_action_2 = 2131230748;
-			
-			// aapt resource value: 0x7F08001D
-			public const int accessibility_custom_action_20 = 2131230749;
-			
-			// aapt resource value: 0x7F08001E
-			public const int accessibility_custom_action_21 = 2131230750;
-			
-			// aapt resource value: 0x7F08001F
-			public const int accessibility_custom_action_22 = 2131230751;
-			
-			// aapt resource value: 0x7F080020
-			public const int accessibility_custom_action_23 = 2131230752;
-			
-			// aapt resource value: 0x7F080021
-			public const int accessibility_custom_action_24 = 2131230753;
-			
-			// aapt resource value: 0x7F080022
-			public const int accessibility_custom_action_25 = 2131230754;
-			
-			// aapt resource value: 0x7F080023
-			public const int accessibility_custom_action_26 = 2131230755;
-			
-			// aapt resource value: 0x7F080024
-			public const int accessibility_custom_action_27 = 2131230756;
-			
-			// aapt resource value: 0x7F080025
-			public const int accessibility_custom_action_28 = 2131230757;
-			
-			// aapt resource value: 0x7F080026
-			public const int accessibility_custom_action_29 = 2131230758;
-			
-			// aapt resource value: 0x7F080027
-			public const int accessibility_custom_action_3 = 2131230759;
-			
 			// aapt resource value: 0x7F080028
-			public const int accessibility_custom_action_30 = 2131230760;
+			public const int accelerate = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int accessibility_custom_action_31 = 2131230761;
+			public const int accessibility_action_clickable_span = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int accessibility_custom_action_4 = 2131230762;
+			public const int accessibility_custom_action_0 = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int accessibility_custom_action_5 = 2131230763;
+			public const int accessibility_custom_action_1 = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int accessibility_custom_action_6 = 2131230764;
+			public const int accessibility_custom_action_10 = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int accessibility_custom_action_7 = 2131230765;
+			public const int accessibility_custom_action_11 = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int accessibility_custom_action_8 = 2131230766;
+			public const int accessibility_custom_action_12 = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int accessibility_custom_action_9 = 2131230767;
+			public const int accessibility_custom_action_13 = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int action0 = 2131230768;
+			public const int accessibility_custom_action_14 = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int actionDown = 2131230769;
+			public const int accessibility_custom_action_15 = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int actionDownUp = 2131230770;
-			
-			// aapt resource value: 0x7F080045
-			public const int actions = 2131230789;
+			public const int accessibility_custom_action_16 = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int actionUp = 2131230771;
+			public const int accessibility_custom_action_17 = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int action_bar = 2131230772;
+			public const int accessibility_custom_action_18 = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int action_bar_activity_content = 2131230773;
+			public const int accessibility_custom_action_19 = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int action_bar_container = 2131230774;
+			public const int accessibility_custom_action_2 = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int action_bar_root = 2131230775;
+			public const int accessibility_custom_action_20 = 2131230775;
 			
 			// aapt resource value: 0x7F080038
-			public const int action_bar_spinner = 2131230776;
+			public const int accessibility_custom_action_21 = 2131230776;
 			
 			// aapt resource value: 0x7F080039
-			public const int action_bar_subtitle = 2131230777;
+			public const int accessibility_custom_action_22 = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int action_bar_title = 2131230778;
+			public const int accessibility_custom_action_23 = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int action_container = 2131230779;
+			public const int accessibility_custom_action_24 = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int action_context_bar = 2131230780;
+			public const int accessibility_custom_action_25 = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int action_divider = 2131230781;
+			public const int accessibility_custom_action_26 = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int action_image = 2131230782;
+			public const int accessibility_custom_action_27 = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int action_menu_divider = 2131230783;
+			public const int accessibility_custom_action_28 = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int action_menu_presenter = 2131230784;
+			public const int accessibility_custom_action_29 = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int action_mode_bar = 2131230785;
+			public const int accessibility_custom_action_3 = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int action_mode_bar_stub = 2131230786;
+			public const int accessibility_custom_action_30 = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int action_mode_close_button = 2131230787;
+			public const int accessibility_custom_action_31 = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int action_text = 2131230788;
+			public const int accessibility_custom_action_4 = 2131230788;
+			
+			// aapt resource value: 0x7F080045
+			public const int accessibility_custom_action_5 = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int activity_chooser_view_content = 2131230790;
+			public const int accessibility_custom_action_6 = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int add = 2131230791;
+			public const int accessibility_custom_action_7 = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int adjust_height = 2131230792;
+			public const int accessibility_custom_action_8 = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int adjust_width = 2131230793;
+			public const int accessibility_custom_action_9 = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int alertTitle = 2131230794;
+			public const int action0 = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int aligned = 2131230795;
+			public const int actionDown = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int all = 2131230796;
+			public const int actionDownUp = 2131230796;
+			
+			// aapt resource value: 0x7F08005F
+			public const int actions = 2131230815;
 			
 			// aapt resource value: 0x7F08004D
-			public const int allStates = 2131230797;
+			public const int actionUp = 2131230797;
+			
+			// aapt resource value: 0x7F08004E
+			public const int action_bar = 2131230798;
+			
+			// aapt resource value: 0x7F08004F
+			public const int action_bar_activity_content = 2131230799;
+			
+			// aapt resource value: 0x7F080050
+			public const int action_bar_container = 2131230800;
+			
+			// aapt resource value: 0x7F080051
+			public const int action_bar_root = 2131230801;
+			
+			// aapt resource value: 0x7F080052
+			public const int action_bar_spinner = 2131230802;
+			
+			// aapt resource value: 0x7F080053
+			public const int action_bar_subtitle = 2131230803;
+			
+			// aapt resource value: 0x7F080054
+			public const int action_bar_title = 2131230804;
+			
+			// aapt resource value: 0x7F080055
+			public const int action_container = 2131230805;
+			
+			// aapt resource value: 0x7F080056
+			public const int action_context_bar = 2131230806;
+			
+			// aapt resource value: 0x7F080057
+			public const int action_divider = 2131230807;
+			
+			// aapt resource value: 0x7F080058
+			public const int action_image = 2131230808;
+			
+			// aapt resource value: 0x7F080059
+			public const int action_menu_divider = 2131230809;
+			
+			// aapt resource value: 0x7F08005A
+			public const int action_menu_presenter = 2131230810;
+			
+			// aapt resource value: 0x7F08005B
+			public const int action_mode_bar = 2131230811;
+			
+			// aapt resource value: 0x7F08005C
+			public const int action_mode_bar_stub = 2131230812;
+			
+			// aapt resource value: 0x7F08005D
+			public const int action_mode_close_button = 2131230813;
+			
+			// aapt resource value: 0x7F08005E
+			public const int action_text = 2131230814;
+			
+			// aapt resource value: 0x7F080060
+			public const int activity_chooser_view_content = 2131230816;
+			
+			// aapt resource value: 0x7F080061
+			public const int add = 2131230817;
+			
+			// aapt resource value: 0x7F080062
+			public const int adjust_height = 2131230818;
+			
+			// aapt resource value: 0x7F080063
+			public const int adjust_width = 2131230819;
+			
+			// aapt resource value: 0x7F080064
+			public const int alertTitle = 2131230820;
+			
+			// aapt resource value: 0x7F080065
+			public const int aligned = 2131230821;
+			
+			// aapt resource value: 0x7F080066
+			public const int all = 2131230822;
+			
+			// aapt resource value: 0x7F080067
+			public const int allStates = 2131230823;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
-			// aapt resource value: 0x7F08004E
-			public const int always = 2131230798;
+			// aapt resource value: 0x7F080068
+			public const int always = 2131230824;
 			
-			// aapt resource value: 0x7F08004F
-			public const int animateToEnd = 2131230799;
+			// aapt resource value: 0x7F080069
+			public const int animateToEnd = 2131230825;
 			
-			// aapt resource value: 0x7F080050
-			public const int animateToStart = 2131230800;
+			// aapt resource value: 0x7F08006A
+			public const int animateToStart = 2131230826;
 			
-			// aapt resource value: 0x7F080052
-			public const int anticipate = 2131230802;
+			// aapt resource value: 0x7F08006C
+			public const int anticipate = 2131230828;
 			
-			// aapt resource value: 0x7F080051
-			public const int antiClockwise = 2131230801;
+			// aapt resource value: 0x7F08006B
+			public const int antiClockwise = 2131230827;
 			
-			// aapt resource value: 0x7F080053
-			public const int arc = 2131230803;
+			// aapt resource value: 0x7F08006D
+			public const int arc = 2131230829;
 			
-			// aapt resource value: 0x7F080054
-			public const int asConfigured = 2131230804;
+			// aapt resource value: 0x7F08006E
+			public const int asConfigured = 2131230830;
 			
-			// aapt resource value: 0x7F080055
-			public const int async = 2131230805;
+			// aapt resource value: 0x7F08006F
+			public const int async = 2131230831;
 			
-			// aapt resource value: 0x7F080056
-			public const int auto = 2131230806;
+			// aapt resource value: 0x7F080070
+			public const int auto = 2131230832;
 			
-			// aapt resource value: 0x7F080057
-			public const int autoComplete = 2131230807;
+			// aapt resource value: 0x7F080071
+			public const int autoComplete = 2131230833;
 			
-			// aapt resource value: 0x7F080058
-			public const int autoCompleteToEnd = 2131230808;
+			// aapt resource value: 0x7F080072
+			public const int autoCompleteToEnd = 2131230834;
 			
-			// aapt resource value: 0x7F080059
-			public const int autoCompleteToStart = 2131230809;
+			// aapt resource value: 0x7F080073
+			public const int autoCompleteToStart = 2131230835;
 			
-			// aapt resource value: 0x7F08005A
-			public const int barrier = 2131230810;
+			// aapt resource value: 0x7F080074
+			public const int barrier = 2131230836;
 			
-			// aapt resource value: 0x7F08005B
-			public const int baseline = 2131230811;
+			// aapt resource value: 0x7F080075
+			public const int baseline = 2131230837;
 			
-			// aapt resource value: 0x7F08005D
-			public const int beginning = 2131230813;
+			// aapt resource value: 0x7F080077
+			public const int beginning = 2131230839;
 			
-			// aapt resource value: 0x7F08005C
-			public const int beginOnFirstDraw = 2131230812;
+			// aapt resource value: 0x7F080076
+			public const int beginOnFirstDraw = 2131230838;
 			
-			// aapt resource value: 0x7F08005E
-			public const int bestChoice = 2131230814;
+			// aapt resource value: 0x7F080078
+			public const int bestChoice = 2131230840;
 			
-			// aapt resource value: 0x7F08005F
-			public const int blocking = 2131230815;
+			// aapt resource value: 0x7F080079
+			public const int blocking = 2131230841;
 			
-			// aapt resource value: 0x7F080060
-			public const int bottom = 2131230816;
+			// aapt resource value: 0x7F08007A
+			public const int bottom = 2131230842;
 			
-			// aapt resource value: 0x7F080061
-			public const int bottomtab_navarea = 2131230817;
+			// aapt resource value: 0x7F08007B
+			public const int bottomtab_navarea = 2131230843;
 			
-			// aapt resource value: 0x7F080062
-			public const int bottomtab_tabbar = 2131230818;
+			// aapt resource value: 0x7F08007C
+			public const int bottomtab_tabbar = 2131230844;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -20721,1244 +24842,1322 @@ namespace FreightExchange.Droid
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
-			// aapt resource value: 0x7F080063
-			public const int bounce = 2131230819;
-			
-			// aapt resource value: 0x7F080064
-			public const int bounceBoth = 2131230820;
-			
-			// aapt resource value: 0x7F080065
-			public const int bounceEnd = 2131230821;
-			
-			// aapt resource value: 0x7F080066
-			public const int bounceStart = 2131230822;
-			
-			// aapt resource value: 0x7F080067
-			public const int browser_actions_header_text = 2131230823;
-			
-			// aapt resource value: 0x7F08006A
-			public const int browser_actions_menu_items = 2131230826;
-			
-			// aapt resource value: 0x7F080068
-			public const int browser_actions_menu_item_icon = 2131230824;
-			
-			// aapt resource value: 0x7F080069
-			public const int browser_actions_menu_item_text = 2131230825;
-			
-			// aapt resource value: 0x7F08006B
-			public const int browser_actions_menu_view = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int buttonPanel = 2131230828;
-			
-			// aapt resource value: 0x7F08006D
-			public const int cache_measures = 2131230829;
-			
-			// aapt resource value: 0x7F08006E
-			public const int cancel_action = 2131230830;
-			
-			// aapt resource value: 0x7F08006F
-			public const int cancel_button = 2131230831;
-			
-			// aapt resource value: 0x7F080070
-			public const int carryVelocity = 2131230832;
-			
-			// aapt resource value: 0x7F080071
-			public const int center = 2131230833;
-			
-			// aapt resource value: 0x7F080072
-			public const int center_horizontal = 2131230834;
-			
-			// aapt resource value: 0x7F080073
-			public const int center_vertical = 2131230835;
-			
-			// aapt resource value: 0x7F080074
-			public const int chain = 2131230836;
-			
-			// aapt resource value: 0x7F080075
-			public const int chains = 2131230837;
-			
-			// aapt resource value: 0x7F080076
-			public const int checkbox = 2131230838;
-			
-			// aapt resource value: 0x7F080077
-			public const int @checked = 2131230839;
-			
-			// aapt resource value: 0x7F080078
-			public const int chip = 2131230840;
-			
-			// aapt resource value: 0x7F080079
-			public const int chip1 = 2131230841;
-			
-			// aapt resource value: 0x7F08007A
-			public const int chip2 = 2131230842;
-			
-			// aapt resource value: 0x7F08007B
-			public const int chip3 = 2131230843;
-			
-			// aapt resource value: 0x7F08007C
-			public const int chip_group = 2131230844;
-			
 			// aapt resource value: 0x7F08007D
-			public const int chronometer = 2131230845;
+			public const int bounce = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int circle_center = 2131230846;
+			public const int bounceBoth = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int clear_text = 2131230847;
+			public const int bounceEnd = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int clip_horizontal = 2131230848;
+			public const int bounceStart = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int clip_vertical = 2131230849;
-			
-			// aapt resource value: 0x7F080082
-			public const int clockwise = 2131230850;
-			
-			// aapt resource value: 0x7F080083
-			public const int closest = 2131230851;
+			public const int browser_actions_header_text = 2131230849;
 			
 			// aapt resource value: 0x7F080084
-			public const int collapseActionView = 2131230852;
+			public const int browser_actions_menu_items = 2131230852;
+			
+			// aapt resource value: 0x7F080082
+			public const int browser_actions_menu_item_icon = 2131230850;
+			
+			// aapt resource value: 0x7F080083
+			public const int browser_actions_menu_item_text = 2131230851;
 			
 			// aapt resource value: 0x7F080085
-			public const int confirm_button = 2131230853;
+			public const int browser_actions_menu_view = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int constraint = 2131230854;
+			public const int buttonPanel = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int container = 2131230855;
+			public const int cache_measures = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int content = 2131230856;
+			public const int cancel_action = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int contentPanel = 2131230857;
+			public const int cancel_button = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int contiguous = 2131230858;
+			public const int carryVelocity = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int continuousVelocity = 2131230859;
+			public const int center = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int coordinator = 2131230860;
+			public const int center_horizontal = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int cos = 2131230861;
+			public const int center_vertical = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int counterclockwise = 2131230862;
+			public const int chain = 2131230862;
+			
+			// aapt resource value: 0x7F08008F
+			public const int chains = 2131230863;
+			
+			// aapt resource value: 0x7F080090
+			public const int checkbox = 2131230864;
+			
+			// aapt resource value: 0x7F080091
+			public const int @checked = 2131230865;
+			
+			// aapt resource value: 0x7F080092
+			public const int chip = 2131230866;
+			
+			// aapt resource value: 0x7F080093
+			public const int chip1 = 2131230867;
+			
+			// aapt resource value: 0x7F080094
+			public const int chip2 = 2131230868;
+			
+			// aapt resource value: 0x7F080095
+			public const int chip3 = 2131230869;
+			
+			// aapt resource value: 0x7F080096
+			public const int chip_group = 2131230870;
+			
+			// aapt resource value: 0x7F080097
+			public const int chronometer = 2131230871;
+			
+			// aapt resource value: 0x7F080098
+			public const int circle_center = 2131230872;
+			
+			// aapt resource value: 0x7F080099
+			public const int clear_text = 2131230873;
+			
+			// aapt resource value: 0x7F08009A
+			public const int clip_horizontal = 2131230874;
+			
+			// aapt resource value: 0x7F08009B
+			public const int clip_vertical = 2131230875;
+			
+			// aapt resource value: 0x7F08009C
+			public const int clockwise = 2131230876;
+			
+			// aapt resource value: 0x7F08009D
+			public const int closest = 2131230877;
+			
+			// aapt resource value: 0x7F08009E
+			public const int collapseActionView = 2131230878;
+			
+			// aapt resource value: 0x7F08009F
+			public const int confirm_button = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int constraint = 2131230880;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int container = 2131230881;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int content = 2131230882;
+			
+			// aapt resource value: 0x7F0800A3
+			public const int contentPanel = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int contiguous = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int continuousVelocity = 2131230885;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int coordinator = 2131230886;
+			
+			// aapt resource value: 0x7F0800A7
+			public const int cos = 2131230887;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int counterclockwise = 2131230888;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F08008F
-			public const int currentState = 2131230863;
-			
-			// aapt resource value: 0x7F080090
-			public const int custom = 2131230864;
-			
-			// aapt resource value: 0x7F080091
-			public const int customPanel = 2131230865;
-			
-			// aapt resource value: 0x7F080092
-			public const int cut = 2131230866;
-			
-			// aapt resource value: 0x7F080093
-			public const int dark = 2131230867;
-			
-			// aapt resource value: 0x7F080094
-			public const int date_picker_actions = 2131230868;
-			
-			// aapt resource value: 0x7F080095
-			public const int decelerate = 2131230869;
-			
-			// aapt resource value: 0x7F080096
-			public const int decelerateAndComplete = 2131230870;
-			
-			// aapt resource value: 0x7F080097
-			public const int decor_content_parent = 2131230871;
-			
-			// aapt resource value: 0x7F080098
-			public const int default_activity_button = 2131230872;
-			
-			// aapt resource value: 0x7F080099
-			public const int deltaRelative = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int dependency_ordering = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int design_bottom_sheet = 2131230875;
-			
-			// aapt resource value: 0x7F08009C
-			public const int design_menu_item_action_area = 2131230876;
-			
-			// aapt resource value: 0x7F08009D
-			public const int design_menu_item_action_area_stub = 2131230877;
-			
-			// aapt resource value: 0x7F08009E
-			public const int design_menu_item_text = 2131230878;
-			
-			// aapt resource value: 0x7F08009F
-			public const int design_navigation_view = 2131230879;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int dialog_button = 2131230880;
-			
-			// aapt resource value: 0x7F0800A1
-			public const int dimensions = 2131230881;
-			
-			// aapt resource value: 0x7F0800A2
-			public const int direct = 2131230882;
-			
-			// aapt resource value: 0x7F0800A3
-			public const int disableHome = 2131230883;
-			
-			// aapt resource value: 0x7F0800A4
-			public const int disableIntraAutoTransition = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int disablePostScroll = 2131230885;
-			
-			// aapt resource value: 0x7F0800A6
-			public const int disableScroll = 2131230886;
-			
-			// aapt resource value: 0x7F0800A7
-			public const int disjoint = 2131230887;
-			
-			// aapt resource value: 0x7F0800A8
-			public const int dragAnticlockwise = 2131230888;
-			
-			// aapt resource value: 0x7F0800A9
-			public const int dragClockwise = 2131230889;
-			
-			// aapt resource value: 0x7F0800AA
-			public const int dragDown = 2131230890;
-			
-			// aapt resource value: 0x7F0800AB
-			public const int dragEnd = 2131230891;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int dragLeft = 2131230892;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int dragRight = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int dragStart = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int dragUp = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int dropdown_menu = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int easeIn = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int easeInOut = 2131230898;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int easeOut = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int east = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int edit_query = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int elastic = 2131230902;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int end = 2131230903;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int endToStart = 2131230904;
-			
-			// aapt resource value: 0x7F0800B9
-			public const int end_padder = 2131230905;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int enterAlways = 2131230906;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int enterAlwaysCollapsed = 2131230907;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int exitUntilCollapsed = 2131230908;
-			
-			// aapt resource value: 0x7F0800BE
-			public const int expanded_menu = 2131230910;
-			
-			// aapt resource value: 0x7F0800BD
-			public const int expand_activities_button = 2131230909;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int fade = 2131230911;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int fill = 2131230912;
-			
-			// aapt resource value: 0x7F0800C3
-			public const int filled = 2131230915;
-			
-			// aapt resource value: 0x7F0800C1
-			public const int fill_horizontal = 2131230913;
-			
-			// aapt resource value: 0x7F0800C2
-			public const int fill_vertical = 2131230914;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int fitToContents = 2131230916;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int @fixed = 2131230917;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int flip = 2131230918;
-			
-			// aapt resource value: 0x7F0800C7
-			public const int floating = 2131230919;
-			
-			// aapt resource value: 0x7F0800C8
-			public const int flyoutcontent_appbar = 2131230920;
-			
-			// aapt resource value: 0x7F0800C9
-			public const int forever = 2131230921;
-			
-			// aapt resource value: 0x7F0800CA
-			public const int fragment_container_view_tag = 2131230922;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int frost = 2131230923;
-			
 			// aapt resource value: 0x7F080004
-			public const int FUNCTION = 2131230724;
-			
-			// aapt resource value: 0x7F0800CC
-			public const int ghost_view = 2131230924;
-			
-			// aapt resource value: 0x7F0800CD
-			public const int ghost_view_holder = 2131230925;
-			
-			// aapt resource value: 0x7F0800CE
-			public const int gone = 2131230926;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int graph = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int graph_wrap = 2131230928;
-			
-			// aapt resource value: 0x7F0800D2
-			public const int grouping = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int groups = 2131230931;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int group_divider = 2131230929;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int guideline = 2131230932;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int header_title = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int hideable = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int home = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int homeAsUp = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int honorRequest = 2131230937;
-			
-			// aapt resource value: 0x7F0800DA
-			public const int horizontal_only = 2131230938;
-			
-			// aapt resource value: 0x7F0800DB
-			public const int icon = 2131230939;
-			
-			// aapt resource value: 0x7F0800DC
-			public const int icon_frame = 2131230940;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int icon_group = 2131230941;
-			
-			// aapt resource value: 0x7F0800DE
-			public const int icon_only = 2131230942;
-			
-			// aapt resource value: 0x7F0800DF
-			public const int ifRoom = 2131230943;
-			
-			// aapt resource value: 0x7F0800E0
-			public const int ignore = 2131230944;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int ignoreRequest = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int image = 2131230946;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int immediateStop = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int included = 2131230948;
-			
-			// aapt resource value: 0x7F0800E5
-			public const int info = 2131230949;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int invisible = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int inward = 2131230951;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int italic = 2131230952;
-			
-			// aapt resource value: 0x7F0800E9
-			public const int item_touch_helper_previous_elevation = 2131230953;
-			
-			// aapt resource value: 0x7F0800EA
-			public const int jumpToEnd = 2131230954;
-			
-			// aapt resource value: 0x7F0800EB
-			public const int jumpToStart = 2131230955;
-			
-			// aapt resource value: 0x7F0800EC
-			public const int labeled = 2131230956;
-			
-			// aapt resource value: 0x7F0800ED
-			public const int layout = 2131230957;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int left = 2131230958;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int leftToRight = 2131230959;
-			
-			// aapt resource value: 0x7F0800F0
-			public const int legacy = 2131230960;
-			
-			// aapt resource value: 0x7F0800F1
-			public const int light = 2131230961;
-			
-			// aapt resource value: 0x7F0800F2
-			public const int line1 = 2131230962;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int line3 = 2131230963;
-			
-			// aapt resource value: 0x7F0800F4
-			public const int linear = 2131230964;
-			
-			// aapt resource value: 0x7F0800F5
-			public const int listMode = 2131230965;
-			
-			// aapt resource value: 0x7F0800F6
-			public const int list_item = 2131230966;
-			
-			// aapt resource value: 0x7F0800F7
-			public const int main_appbar = 2131230967;
-			
-			// aapt resource value: 0x7F0800F8
-			public const int main_tablayout = 2131230968;
-			
-			// aapt resource value: 0x7F0800F9
-			public const int main_toolbar = 2131230969;
-			
-			// aapt resource value: 0x7F0800FA
-			public const int main_viewpager = 2131230970;
-			
-			// aapt resource value: 0x7F0800FB
-			public const int masked = 2131230971;
-			
-			// aapt resource value: 0x7F0800FC
-			public const int match_constraint = 2131230972;
-			
-			// aapt resource value: 0x7F0800FD
-			public const int match_parent = 2131230973;
-			
-			// aapt resource value: 0x7F0800FE
-			public const int material_clock_display = 2131230974;
-			
-			// aapt resource value: 0x7F0800FF
-			public const int material_clock_face = 2131230975;
-			
-			// aapt resource value: 0x7F080100
-			public const int material_clock_hand = 2131230976;
-			
-			// aapt resource value: 0x7F080101
-			public const int material_clock_period_am_button = 2131230977;
-			
-			// aapt resource value: 0x7F080102
-			public const int material_clock_period_pm_button = 2131230978;
-			
-			// aapt resource value: 0x7F080103
-			public const int material_clock_period_toggle = 2131230979;
-			
-			// aapt resource value: 0x7F080104
-			public const int material_hour_text_input = 2131230980;
-			
-			// aapt resource value: 0x7F080105
-			public const int material_hour_tv = 2131230981;
-			
-			// aapt resource value: 0x7F080106
-			public const int material_label = 2131230982;
-			
-			// aapt resource value: 0x7F080107
-			public const int material_minute_text_input = 2131230983;
-			
-			// aapt resource value: 0x7F080108
-			public const int material_minute_tv = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int material_textinput_timepicker = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int material_timepicker_cancel_button = 2131230986;
-			
-			// aapt resource value: 0x7F08010B
-			public const int material_timepicker_container = 2131230987;
-			
-			// aapt resource value: 0x7F08010C
-			public const int material_timepicker_edit_text = 2131230988;
-			
-			// aapt resource value: 0x7F08010D
-			public const int material_timepicker_mode_button = 2131230989;
-			
-			// aapt resource value: 0x7F08010E
-			public const int material_timepicker_ok_button = 2131230990;
-			
-			// aapt resource value: 0x7F08010F
-			public const int material_timepicker_view = 2131230991;
-			
-			// aapt resource value: 0x7F080110
-			public const int material_value_index = 2131230992;
-			
-			// aapt resource value: 0x7F080111
-			public const int media_actions = 2131230993;
-			
-			// aapt resource value: 0x7F080112
-			public const int media_controller_compat_view_tag = 2131230994;
-			
-			// aapt resource value: 0x7F080113
-			public const int message = 2131230995;
+			public const int CurrentExtentEndTimeLabel = 2131230724;
 			
 			// aapt resource value: 0x7F080005
-			public const int META = 2131230725;
-			
-			// aapt resource value: 0x7F080114
-			public const int middle = 2131230996;
-			
-			// aapt resource value: 0x7F080115
-			public const int mini = 2131230997;
-			
-			// aapt resource value: 0x7F080116
-			public const int month_grid = 2131230998;
-			
-			// aapt resource value: 0x7F080117
-			public const int month_navigation_bar = 2131230999;
-			
-			// aapt resource value: 0x7F080118
-			public const int month_navigation_fragment_toggle = 2131231000;
-			
-			// aapt resource value: 0x7F080119
-			public const int month_navigation_next = 2131231001;
-			
-			// aapt resource value: 0x7F08011A
-			public const int month_navigation_previous = 2131231002;
-			
-			// aapt resource value: 0x7F08011B
-			public const int month_title = 2131231003;
-			
-			// aapt resource value: 0x7F08011C
-			public const int motion_base = 2131231004;
-			
-			// aapt resource value: 0x7F08011D
-			public const int mtrl_anchor_parent = 2131231005;
-			
-			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_days_of_week = 2131231007;
-			
-			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_day_selector_frame = 2131231006;
-			
-			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_frame = 2131231008;
-			
-			// aapt resource value: 0x7F080121
-			public const int mtrl_calendar_main_pane = 2131231009;
-			
-			// aapt resource value: 0x7F080122
-			public const int mtrl_calendar_months = 2131231010;
-			
-			// aapt resource value: 0x7F080123
-			public const int mtrl_calendar_selection_frame = 2131231011;
-			
-			// aapt resource value: 0x7F080124
-			public const int mtrl_calendar_text_input_frame = 2131231012;
-			
-			// aapt resource value: 0x7F080125
-			public const int mtrl_calendar_year_selector_frame = 2131231013;
-			
-			// aapt resource value: 0x7F080126
-			public const int mtrl_card_checked_layer_id = 2131231014;
-			
-			// aapt resource value: 0x7F080127
-			public const int mtrl_child_content_container = 2131231015;
-			
-			// aapt resource value: 0x7F080128
-			public const int mtrl_internal_children_alpha_tag = 2131231016;
-			
-			// aapt resource value: 0x7F080129
-			public const int mtrl_motion_snapshot_view = 2131231017;
-			
-			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_fullscreen = 2131231018;
-			
-			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_header = 2131231019;
-			
-			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_header_selection_text = 2131231020;
-			
-			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_header_title_and_selection = 2131231021;
-			
-			// aapt resource value: 0x7F08012E
-			public const int mtrl_picker_header_toggle = 2131231022;
-			
-			// aapt resource value: 0x7F08012F
-			public const int mtrl_picker_text_input_date = 2131231023;
-			
-			// aapt resource value: 0x7F080130
-			public const int mtrl_picker_text_input_range_end = 2131231024;
-			
-			// aapt resource value: 0x7F080131
-			public const int mtrl_picker_text_input_range_start = 2131231025;
-			
-			// aapt resource value: 0x7F080132
-			public const int mtrl_picker_title_text = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int mtrl_view_tag_bottom_padding = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int multiply = 2131231028;
-			
-			// aapt resource value: 0x7F080136
-			public const int navigation_bar_item_icon_view = 2131231030;
-			
-			// aapt resource value: 0x7F080137
-			public const int navigation_bar_item_labels_group = 2131231031;
-			
-			// aapt resource value: 0x7F080138
-			public const int navigation_bar_item_large_label_view = 2131231032;
-			
-			// aapt resource value: 0x7F080139
-			public const int navigation_bar_item_small_label_view = 2131231033;
-			
-			// aapt resource value: 0x7F08013A
-			public const int navigation_header_container = 2131231034;
-			
-			// aapt resource value: 0x7F080135
-			public const int nav_controller_view_tag = 2131231029;
-			
-			// aapt resource value: 0x7F08013B
-			public const int never = 2131231035;
-			
-			// aapt resource value: 0x7F08013C
-			public const int neverCompleteToEnd = 2131231036;
-			
-			// aapt resource value: 0x7F08013D
-			public const int neverCompleteToStart = 2131231037;
-			
-			// aapt resource value: 0x7F080140
-			public const int none = 2131231040;
-			
-			// aapt resource value: 0x7F080141
-			public const int normal = 2131231041;
-			
-			// aapt resource value: 0x7F080142
-			public const int north = 2131231042;
-			
-			// aapt resource value: 0x7F08013E
-			public const int noScroll = 2131231038;
-			
-			// aapt resource value: 0x7F08013F
-			public const int noState = 2131231039;
-			
-			// aapt resource value: 0x7F080143
-			public const int notification_background = 2131231043;
-			
-			// aapt resource value: 0x7F080144
-			public const int notification_main_column = 2131231044;
-			
-			// aapt resource value: 0x7F080145
-			public const int notification_main_column_container = 2131231045;
+			public const int CurrentExtentFill = 2131230725;
 			
 			// aapt resource value: 0x7F080006
-			public const int NO_DEBUG = 2131230726;
+			public const int CurrentExtentStartTimeLabel = 2131230726;
 			
-			// aapt resource value: 0x7F080146
-			public const int off = 2131231046;
+			// aapt resource value: 0x7F0800A9
+			public const int currentState = 2131230889;
 			
-			// aapt resource value: 0x7F080147
-			public const int on = 2131231047;
+			// aapt resource value: 0x7F0800AA
+			public const int custom = 2131230890;
 			
-			// aapt resource value: 0x7F080148
-			public const int outline = 2131231048;
+			// aapt resource value: 0x7F0800AB
+			public const int customPanel = 2131230891;
 			
-			// aapt resource value: 0x7F080149
-			public const int outward = 2131231049;
+			// aapt resource value: 0x7F0800AC
+			public const int cut = 2131230892;
 			
-			// aapt resource value: 0x7F08014A
-			public const int overshoot = 2131231050;
+			// aapt resource value: 0x7F0800AD
+			public const int dark = 2131230893;
 			
-			// aapt resource value: 0x7F08014B
-			public const int packed = 2131231051;
+			// aapt resource value: 0x7F0800AE
+			public const int date_picker_actions = 2131230894;
 			
-			// aapt resource value: 0x7F08014C
-			public const int parallax = 2131231052;
+			// aapt resource value: 0x7F0800AF
+			public const int decelerate = 2131230895;
 			
-			// aapt resource value: 0x7F08014D
-			public const int parent = 2131231053;
+			// aapt resource value: 0x7F0800B0
+			public const int decelerateAndComplete = 2131230896;
 			
-			// aapt resource value: 0x7F08014E
-			public const int parentPanel = 2131231054;
+			// aapt resource value: 0x7F0800B1
+			public const int decor_content_parent = 2131230897;
 			
-			// aapt resource value: 0x7F08014F
-			public const int parentRelative = 2131231055;
+			// aapt resource value: 0x7F0800B2
+			public const int default_activity_button = 2131230898;
 			
-			// aapt resource value: 0x7F080150
-			public const int parent_matrix = 2131231056;
+			// aapt resource value: 0x7F0800B3
+			public const int deltaRelative = 2131230899;
 			
-			// aapt resource value: 0x7F080151
-			public const int password_toggle = 2131231057;
+			// aapt resource value: 0x7F0800B4
+			public const int dependency_ordering = 2131230900;
 			
-			// aapt resource value: 0x7F080152
-			public const int path = 2131231058;
+			// aapt resource value: 0x7F0800B5
+			public const int design_bottom_sheet = 2131230901;
 			
-			// aapt resource value: 0x7F080153
-			public const int pathRelative = 2131231059;
+			// aapt resource value: 0x7F0800B6
+			public const int design_menu_item_action_area = 2131230902;
 			
-			// aapt resource value: 0x7F080154
-			public const int peekHeight = 2131231060;
+			// aapt resource value: 0x7F0800B7
+			public const int design_menu_item_action_area_stub = 2131230903;
 			
-			// aapt resource value: 0x7F080155
-			public const int percent = 2131231061;
+			// aapt resource value: 0x7F0800B8
+			public const int design_menu_item_text = 2131230904;
 			
-			// aapt resource value: 0x7F080156
-			public const int pin = 2131231062;
+			// aapt resource value: 0x7F0800B9
+			public const int design_navigation_view = 2131230905;
 			
-			// aapt resource value: 0x7F080157
-			public const int position = 2131231063;
+			// aapt resource value: 0x7F0800BA
+			public const int dialog_button = 2131230906;
 			
-			// aapt resource value: 0x7F080158
-			public const int postLayout = 2131231064;
+			// aapt resource value: 0x7F0800BB
+			public const int dimensions = 2131230907;
 			
-			// aapt resource value: 0x7F080159
-			public const int progress_circular = 2131231065;
+			// aapt resource value: 0x7F0800BC
+			public const int direct = 2131230908;
 			
-			// aapt resource value: 0x7F08015A
-			public const int progress_horizontal = 2131231066;
+			// aapt resource value: 0x7F0800BD
+			public const int disableHome = 2131230909;
 			
-			// aapt resource value: 0x7F08015B
-			public const int radio = 2131231067;
+			// aapt resource value: 0x7F0800BE
+			public const int disableIntraAutoTransition = 2131230910;
 			
-			// aapt resource value: 0x7F08015C
-			public const int ratio = 2131231068;
+			// aapt resource value: 0x7F0800BF
+			public const int disablePostScroll = 2131230911;
 			
-			// aapt resource value: 0x7F08015D
-			public const int rectangles = 2131231069;
+			// aapt resource value: 0x7F0800C0
+			public const int disableScroll = 2131230912;
 			
-			// aapt resource value: 0x7F08015E
-			public const int recycler_view = 2131231070;
+			// aapt resource value: 0x7F0800C1
+			public const int disjoint = 2131230913;
 			
-			// aapt resource value: 0x7F08015F
-			public const int reverseSawtooth = 2131231071;
+			// aapt resource value: 0x7F0800C2
+			public const int dragAnticlockwise = 2131230914;
 			
-			// aapt resource value: 0x7F080160
-			public const int right = 2131231072;
+			// aapt resource value: 0x7F0800C3
+			public const int dragClockwise = 2131230915;
 			
-			// aapt resource value: 0x7F080161
-			public const int rightToLeft = 2131231073;
+			// aapt resource value: 0x7F0800C4
+			public const int dragDown = 2131230916;
 			
-			// aapt resource value: 0x7F080162
-			public const int right_icon = 2131231074;
+			// aapt resource value: 0x7F0800C5
+			public const int dragEnd = 2131230917;
 			
-			// aapt resource value: 0x7F080163
-			public const int right_side = 2131231075;
+			// aapt resource value: 0x7F0800C6
+			public const int dragLeft = 2131230918;
 			
-			// aapt resource value: 0x7F080164
-			public const int rounded = 2131231076;
+			// aapt resource value: 0x7F0800C7
+			public const int dragRight = 2131230919;
 			
-			// aapt resource value: 0x7F080165
-			public const int row_index_key = 2131231077;
+			// aapt resource value: 0x7F0800C8
+			public const int dragStart = 2131230920;
 			
-			// aapt resource value: 0x7F080166
-			public const int save_non_transition_alpha = 2131231078;
+			// aapt resource value: 0x7F0800C9
+			public const int dragUp = 2131230921;
 			
-			// aapt resource value: 0x7F080167
-			public const int save_overlay_view = 2131231079;
+			// aapt resource value: 0x7F0800CA
+			public const int dropdown_menu = 2131230922;
 			
-			// aapt resource value: 0x7F080168
-			public const int sawtooth = 2131231080;
+			// aapt resource value: 0x7F0800CB
+			public const int easeIn = 2131230923;
 			
-			// aapt resource value: 0x7F080169
-			public const int scale = 2131231081;
+			// aapt resource value: 0x7F0800CC
+			public const int easeInOut = 2131230924;
 			
-			// aapt resource value: 0x7F08016A
-			public const int screen = 2131231082;
+			// aapt resource value: 0x7F0800CD
+			public const int easeOut = 2131230925;
 			
-			// aapt resource value: 0x7F08016B
-			public const int scroll = 2131231083;
+			// aapt resource value: 0x7F0800CE
+			public const int east = 2131230926;
 			
-			// aapt resource value: 0x7F08016F
-			public const int scrollable = 2131231087;
+			// aapt resource value: 0x7F0800CF
+			public const int edit_query = 2131230927;
 			
-			// aapt resource value: 0x7F08016C
-			public const int scrollIndicatorDown = 2131231084;
+			// aapt resource value: 0x7F0800D0
+			public const int elastic = 2131230928;
 			
-			// aapt resource value: 0x7F08016D
-			public const int scrollIndicatorUp = 2131231085;
+			// aapt resource value: 0x7F0800D1
+			public const int end = 2131230929;
 			
-			// aapt resource value: 0x7F08016E
-			public const int scrollView = 2131231086;
+			// aapt resource value: 0x7F0800D2
+			public const int endToStart = 2131230930;
 			
-			// aapt resource value: 0x7F080170
-			public const int search_badge = 2131231088;
+			// aapt resource value: 0x7F0800D3
+			public const int end_padder = 2131230931;
 			
-			// aapt resource value: 0x7F080171
-			public const int search_bar = 2131231089;
+			// aapt resource value: 0x7F0800D4
+			public const int enterAlways = 2131230932;
 			
-			// aapt resource value: 0x7F080172
-			public const int search_button = 2131231090;
+			// aapt resource value: 0x7F0800D5
+			public const int enterAlwaysCollapsed = 2131230933;
 			
-			// aapt resource value: 0x7F080173
-			public const int search_close_btn = 2131231091;
+			// aapt resource value: 0x7F0800D6
+			public const int exitUntilCollapsed = 2131230934;
 			
-			// aapt resource value: 0x7F080174
-			public const int search_edit_frame = 2131231092;
+			// aapt resource value: 0x7F0800D8
+			public const int expanded_menu = 2131230936;
 			
-			// aapt resource value: 0x7F080175
-			public const int search_go_btn = 2131231093;
+			// aapt resource value: 0x7F0800D7
+			public const int expand_activities_button = 2131230935;
 			
-			// aapt resource value: 0x7F080176
-			public const int search_mag_icon = 2131231094;
+			// aapt resource value: 0x7F0800D9
+			public const int fade = 2131230937;
 			
-			// aapt resource value: 0x7F080177
-			public const int search_plate = 2131231095;
+			// aapt resource value: 0x7F0800DA
+			public const int fill = 2131230938;
 			
-			// aapt resource value: 0x7F080178
-			public const int search_src_text = 2131231096;
+			// aapt resource value: 0x7F0800DD
+			public const int filled = 2131230941;
 			
-			// aapt resource value: 0x7F080179
-			public const int search_voice_btn = 2131231097;
+			// aapt resource value: 0x7F0800DB
+			public const int fill_horizontal = 2131230939;
 			
-			// aapt resource value: 0x7F08017A
-			public const int seekbar = 2131231098;
+			// aapt resource value: 0x7F0800DC
+			public const int fill_vertical = 2131230940;
 			
-			// aapt resource value: 0x7F08017B
-			public const int seekbar_value = 2131231099;
+			// aapt resource value: 0x7F0800DE
+			public const int fitToContents = 2131230942;
 			
-			// aapt resource value: 0x7F08017D
-			public const int selected = 2131231101;
+			// aapt resource value: 0x7F0800DF
+			public const int @fixed = 2131230943;
 			
-			// aapt resource value: 0x7F08017E
-			public const int selection_type = 2131231102;
+			// aapt resource value: 0x7F0800E0
+			public const int flip = 2131230944;
 			
-			// aapt resource value: 0x7F08017C
-			public const int select_dialog_listview = 2131231100;
+			// aapt resource value: 0x7F0800E1
+			public const int floating = 2131230945;
 			
-			// aapt resource value: 0x7F08017F
-			public const int sharedValueSet = 2131231103;
+			// aapt resource value: 0x7F0800E2
+			public const int flyoutcontent_appbar = 2131230946;
 			
-			// aapt resource value: 0x7F080180
-			public const int sharedValueUnset = 2131231104;
+			// aapt resource value: 0x7F0800E3
+			public const int forever = 2131230947;
 			
-			// aapt resource value: 0x7F080181
-			public const int shellcontent_appbar = 2131231105;
+			// aapt resource value: 0x7F0800E4
+			public const int fragment_container_view_tag = 2131230948;
 			
-			// aapt resource value: 0x7F080182
-			public const int shellcontent_toolbar = 2131231106;
-			
-			// aapt resource value: 0x7F080007
-			public const int SHIFT = 2131230727;
-			
-			// aapt resource value: 0x7F080183
-			public const int shortcut = 2131231107;
-			
-			// aapt resource value: 0x7F080184
-			public const int showCustom = 2131231108;
-			
-			// aapt resource value: 0x7F080185
-			public const int showHome = 2131231109;
-			
-			// aapt resource value: 0x7F080186
-			public const int showTitle = 2131231110;
+			// aapt resource value: 0x7F0800E5
+			public const int frost = 2131230949;
 			
 			// aapt resource value: 0x7F080008
-			public const int SHOW_ALL = 2131230728;
+			public const int FullExtentEndGuide = 2131230728;
 			
 			// aapt resource value: 0x7F080009
-			public const int SHOW_PATH = 2131230729;
+			public const int FullExtentEndTimeLabel = 2131230729;
 			
 			// aapt resource value: 0x7F08000A
-			public const int SHOW_PROGRESS = 2131230730;
-			
-			// aapt resource value: 0x7F080187
-			public const int sin = 2131231111;
-			
-			// aapt resource value: 0x7F080188
-			public const int skipCollapsed = 2131231112;
-			
-			// aapt resource value: 0x7F080189
-			public const int skipped = 2131231113;
-			
-			// aapt resource value: 0x7F08018A
-			public const int slide = 2131231114;
-			
-			// aapt resource value: 0x7F08018B
-			public const int sliding_tabs = 2131231115;
-			
-			// aapt resource value: 0x7F08018C
-			public const int snackbar_action = 2131231116;
-			
-			// aapt resource value: 0x7F08018D
-			public const int snackbar_text = 2131231117;
-			
-			// aapt resource value: 0x7F08018E
-			public const int snap = 2131231118;
-			
-			// aapt resource value: 0x7F08018F
-			public const int snapMargins = 2131231119;
-			
-			// aapt resource value: 0x7F080190
-			public const int south = 2131231120;
-			
-			// aapt resource value: 0x7F080191
-			public const int spacer = 2131231121;
-			
-			// aapt resource value: 0x7F080192
-			public const int special_effects_controller_view_tag = 2131231122;
-			
-			// aapt resource value: 0x7F080193
-			public const int spinner = 2131231123;
-			
-			// aapt resource value: 0x7F080194
-			public const int spline = 2131231124;
-			
-			// aapt resource value: 0x7F080195
-			public const int split_action_bar = 2131231125;
-			
-			// aapt resource value: 0x7F080196
-			public const int spread = 2131231126;
-			
-			// aapt resource value: 0x7F080197
-			public const int spread_inside = 2131231127;
-			
-			// aapt resource value: 0x7F080198
-			public const int spring = 2131231128;
-			
-			// aapt resource value: 0x7F080199
-			public const int square = 2131231129;
-			
-			// aapt resource value: 0x7F08019A
-			public const int src_atop = 2131231130;
-			
-			// aapt resource value: 0x7F08019B
-			public const int src_in = 2131231131;
-			
-			// aapt resource value: 0x7F08019C
-			public const int src_over = 2131231132;
-			
-			// aapt resource value: 0x7F08019D
-			public const int standard = 2131231133;
-			
-			// aapt resource value: 0x7F08019E
-			public const int start = 2131231134;
-			
-			// aapt resource value: 0x7F08019F
-			public const int startHorizontal = 2131231135;
-			
-			// aapt resource value: 0x7F0801A0
-			public const int startToEnd = 2131231136;
-			
-			// aapt resource value: 0x7F0801A1
-			public const int startVertical = 2131231137;
-			
-			// aapt resource value: 0x7F0801A2
-			public const int staticLayout = 2131231138;
-			
-			// aapt resource value: 0x7F0801A3
-			public const int staticPostLayout = 2131231139;
-			
-			// aapt resource value: 0x7F0801A4
-			public const int status_bar_latest_event_content = 2131231140;
-			
-			// aapt resource value: 0x7F0801A5
-			public const int stop = 2131231141;
-			
-			// aapt resource value: 0x7F0801A6
-			public const int stretch = 2131231142;
-			
-			// aapt resource value: 0x7F0801A7
-			public const int submenuarrow = 2131231143;
-			
-			// aapt resource value: 0x7F0801A8
-			public const int submit_area = 2131231144;
-			
-			// aapt resource value: 0x7F0801A9
-			public const int supportScrollUp = 2131231145;
-			
-			// aapt resource value: 0x7F0801AA
-			public const int switchWidget = 2131231146;
+			public const int FullExtentEndTimeTickmark = 2131230730;
 			
 			// aapt resource value: 0x7F08000B
-			public const int SYM = 2131230731;
-			
-			// aapt resource value: 0x7F0801AB
-			public const int tabMode = 2131231147;
-			
-			// aapt resource value: 0x7F0801AC
-			public const int tag_accessibility_actions = 2131231148;
-			
-			// aapt resource value: 0x7F0801AD
-			public const int tag_accessibility_clickable_spans = 2131231149;
-			
-			// aapt resource value: 0x7F0801AE
-			public const int tag_accessibility_heading = 2131231150;
-			
-			// aapt resource value: 0x7F0801AF
-			public const int tag_accessibility_pane_title = 2131231151;
-			
-			// aapt resource value: 0x7F0801B0
-			public const int tag_on_apply_window_listener = 2131231152;
-			
-			// aapt resource value: 0x7F0801B1
-			public const int tag_on_receive_content_listener = 2131231153;
-			
-			// aapt resource value: 0x7F0801B2
-			public const int tag_on_receive_content_mime_types = 2131231154;
-			
-			// aapt resource value: 0x7F0801B3
-			public const int tag_screen_reader_focusable = 2131231155;
-			
-			// aapt resource value: 0x7F0801B4
-			public const int tag_state_description = 2131231156;
-			
-			// aapt resource value: 0x7F0801B5
-			public const int tag_transition_group = 2131231157;
-			
-			// aapt resource value: 0x7F0801B6
-			public const int tag_unhandled_key_event_manager = 2131231158;
-			
-			// aapt resource value: 0x7F0801B7
-			public const int tag_unhandled_key_listeners = 2131231159;
-			
-			// aapt resource value: 0x7F0801B8
-			public const int tag_window_insets_animation_callback = 2131231160;
-			
-			// aapt resource value: 0x7F0801B9
-			public const int test_checkbox_android_button_tint = 2131231161;
-			
-			// aapt resource value: 0x7F0801BA
-			public const int test_checkbox_app_button_tint = 2131231162;
-			
-			// aapt resource value: 0x7F0801BB
-			public const int test_radiobutton_android_button_tint = 2131231163;
-			
-			// aapt resource value: 0x7F0801BC
-			public const int test_radiobutton_app_button_tint = 2131231164;
-			
-			// aapt resource value: 0x7F0801BD
-			public const int text = 2131231165;
-			
-			// aapt resource value: 0x7F0801BE
-			public const int text2 = 2131231166;
-			
-			// aapt resource value: 0x7F0801BF
-			public const int textEnd = 2131231167;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int textinput_counter = 2131231175;
-			
-			// aapt resource value: 0x7F0801C8
-			public const int textinput_error = 2131231176;
-			
-			// aapt resource value: 0x7F0801C9
-			public const int textinput_helper_text = 2131231177;
-			
-			// aapt resource value: 0x7F0801CA
-			public const int textinput_placeholder = 2131231178;
-			
-			// aapt resource value: 0x7F0801CB
-			public const int textinput_prefix_text = 2131231179;
-			
-			// aapt resource value: 0x7F0801CC
-			public const int textinput_suffix_text = 2131231180;
-			
-			// aapt resource value: 0x7F0801C0
-			public const int textSpacerNoButtons = 2131231168;
-			
-			// aapt resource value: 0x7F0801C1
-			public const int textSpacerNoTitle = 2131231169;
-			
-			// aapt resource value: 0x7F0801C2
-			public const int textStart = 2131231170;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int textTop = 2131231171;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int text_input_end_icon = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int text_input_error_icon = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int text_input_start_icon = 2131231174;
-			
-			// aapt resource value: 0x7F0801CD
-			public const int time = 2131231181;
-			
-			// aapt resource value: 0x7F0801CE
-			public const int title = 2131231182;
-			
-			// aapt resource value: 0x7F0801CF
-			public const int titleDividerNoCustom = 2131231183;
-			
-			// aapt resource value: 0x7F0801D0
-			public const int title_template = 2131231184;
-			
-			// aapt resource value: 0x7F0801D1
-			public const int toggle = 2131231185;
-			
-			// aapt resource value: 0x7F0801D2
-			public const int toolbar = 2131231186;
-			
-			// aapt resource value: 0x7F0801D3
-			public const int top = 2131231187;
-			
-			// aapt resource value: 0x7F0801D4
-			public const int topPanel = 2131231188;
+			public const int FullExtentStartGuide = 2131230731;
 			
 			// aapt resource value: 0x7F08000C
-			public const int TOP_END = 2131230732;
+			public const int FullExtentStartTimeLabel = 2131230732;
 			
 			// aapt resource value: 0x7F08000D
-			public const int TOP_START = 2131230733;
+			public const int FullExtentStartTimeTickmark = 2131230733;
+			
+			// aapt resource value: 0x7F080007
+			public const int FUNCTION = 2131230727;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int ghost_view = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int ghost_view_holder = 2131230951;
+			
+			// aapt resource value: 0x7F0800E8
+			public const int gone = 2131230952;
+			
+			// aapt resource value: 0x7F0800E9
+			public const int graph = 2131230953;
+			
+			// aapt resource value: 0x7F0800EA
+			public const int graph_wrap = 2131230954;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int grouping = 2131230956;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int groups = 2131230957;
+			
+			// aapt resource value: 0x7F0800EB
+			public const int group_divider = 2131230955;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int guideline = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int header_title = 2131230959;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int hideable = 2131230960;
+			
+			// aapt resource value: 0x7F0800F1
+			public const int home = 2131230961;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int homeAsUp = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int honorRequest = 2131230963;
+			
+			// aapt resource value: 0x7F0800F4
+			public const int horizontal_only = 2131230964;
+			
+			// aapt resource value: 0x7F0800F5
+			public const int icon = 2131230965;
+			
+			// aapt resource value: 0x7F0800F6
+			public const int icon_frame = 2131230966;
+			
+			// aapt resource value: 0x7F0800F7
+			public const int icon_group = 2131230967;
+			
+			// aapt resource value: 0x7F0800F8
+			public const int icon_only = 2131230968;
+			
+			// aapt resource value: 0x7F0800F9
+			public const int ifRoom = 2131230969;
+			
+			// aapt resource value: 0x7F0800FA
+			public const int ignore = 2131230970;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int ignoreRequest = 2131230971;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int image = 2131230972;
+			
+			// aapt resource value: 0x7F0800FD
+			public const int immediateStop = 2131230973;
+			
+			// aapt resource value: 0x7F0800FE
+			public const int included = 2131230974;
+			
+			// aapt resource value: 0x7F0800FF
+			public const int info = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int invisible = 2131230976;
+			
+			// aapt resource value: 0x7F080101
+			public const int inward = 2131230977;
+			
+			// aapt resource value: 0x7F080102
+			public const int italic = 2131230978;
+			
+			// aapt resource value: 0x7F080103
+			public const int item_touch_helper_previous_elevation = 2131230979;
+			
+			// aapt resource value: 0x7F080104
+			public const int jumpToEnd = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int jumpToStart = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int labeled = 2131230982;
+			
+			// aapt resource value: 0x7F080107
+			public const int layout = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int left = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int leftToRight = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int legacy = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int light = 2131230987;
+			
+			// aapt resource value: 0x7F08010C
+			public const int line1 = 2131230988;
+			
+			// aapt resource value: 0x7F08010D
+			public const int line3 = 2131230989;
+			
+			// aapt resource value: 0x7F08010E
+			public const int linear = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int listMode = 2131230991;
+			
+			// aapt resource value: 0x7F080110
+			public const int list_item = 2131230992;
+			
+			// aapt resource value: 0x7F080111
+			public const int main_appbar = 2131230993;
+			
+			// aapt resource value: 0x7F080112
+			public const int main_tablayout = 2131230994;
+			
+			// aapt resource value: 0x7F080113
+			public const int main_toolbar = 2131230995;
+			
+			// aapt resource value: 0x7F080114
+			public const int main_viewpager = 2131230996;
+			
+			// aapt resource value: 0x7F080115
+			public const int masked = 2131230997;
+			
+			// aapt resource value: 0x7F080116
+			public const int match_constraint = 2131230998;
+			
+			// aapt resource value: 0x7F080117
+			public const int match_parent = 2131230999;
+			
+			// aapt resource value: 0x7F080118
+			public const int material_clock_display = 2131231000;
+			
+			// aapt resource value: 0x7F080119
+			public const int material_clock_face = 2131231001;
+			
+			// aapt resource value: 0x7F08011A
+			public const int material_clock_hand = 2131231002;
+			
+			// aapt resource value: 0x7F08011B
+			public const int material_clock_period_am_button = 2131231003;
+			
+			// aapt resource value: 0x7F08011C
+			public const int material_clock_period_pm_button = 2131231004;
+			
+			// aapt resource value: 0x7F08011D
+			public const int material_clock_period_toggle = 2131231005;
+			
+			// aapt resource value: 0x7F08011E
+			public const int material_hour_text_input = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int material_hour_tv = 2131231007;
+			
+			// aapt resource value: 0x7F080120
+			public const int material_label = 2131231008;
+			
+			// aapt resource value: 0x7F080121
+			public const int material_minute_text_input = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int material_minute_tv = 2131231010;
+			
+			// aapt resource value: 0x7F080123
+			public const int material_textinput_timepicker = 2131231011;
+			
+			// aapt resource value: 0x7F080124
+			public const int material_timepicker_cancel_button = 2131231012;
+			
+			// aapt resource value: 0x7F080125
+			public const int material_timepicker_container = 2131231013;
+			
+			// aapt resource value: 0x7F080126
+			public const int material_timepicker_edit_text = 2131231014;
+			
+			// aapt resource value: 0x7F080127
+			public const int material_timepicker_mode_button = 2131231015;
+			
+			// aapt resource value: 0x7F080128
+			public const int material_timepicker_ok_button = 2131231016;
+			
+			// aapt resource value: 0x7F080129
+			public const int material_timepicker_view = 2131231017;
+			
+			// aapt resource value: 0x7F08012A
+			public const int material_value_index = 2131231018;
+			
+			// aapt resource value: 0x7F08000F
+			public const int MaxThumb = 2131230735;
+			
+			// aapt resource value: 0x7F080010
+			public const int MaxThumbCenter = 2131230736;
+			
+			// aapt resource value: 0x7F08012B
+			public const int media_actions = 2131231019;
+			
+			// aapt resource value: 0x7F08012C
+			public const int media_controller_compat_view_tag = 2131231020;
+			
+			// aapt resource value: 0x7F08012D
+			public const int message = 2131231021;
+			
+			// aapt resource value: 0x7F08000E
+			public const int META = 2131230734;
+			
+			// aapt resource value: 0x7F08012E
+			public const int middle = 2131231022;
+			
+			// aapt resource value: 0x7F08012F
+			public const int mini = 2131231023;
+			
+			// aapt resource value: 0x7F080011
+			public const int MinThumb = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int MinThumbCenter = 2131230738;
+			
+			// aapt resource value: 0x7F080130
+			public const int month_grid = 2131231024;
+			
+			// aapt resource value: 0x7F080131
+			public const int month_navigation_bar = 2131231025;
+			
+			// aapt resource value: 0x7F080132
+			public const int month_navigation_fragment_toggle = 2131231026;
+			
+			// aapt resource value: 0x7F080133
+			public const int month_navigation_next = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int month_navigation_previous = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int month_title = 2131231029;
+			
+			// aapt resource value: 0x7F080136
+			public const int motion_base = 2131231030;
+			
+			// aapt resource value: 0x7F080137
+			public const int mtrl_anchor_parent = 2131231031;
+			
+			// aapt resource value: 0x7F080139
+			public const int mtrl_calendar_days_of_week = 2131231033;
+			
+			// aapt resource value: 0x7F080138
+			public const int mtrl_calendar_day_selector_frame = 2131231032;
+			
+			// aapt resource value: 0x7F08013A
+			public const int mtrl_calendar_frame = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int mtrl_calendar_main_pane = 2131231035;
+			
+			// aapt resource value: 0x7F08013C
+			public const int mtrl_calendar_months = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int mtrl_calendar_selection_frame = 2131231037;
+			
+			// aapt resource value: 0x7F08013E
+			public const int mtrl_calendar_text_input_frame = 2131231038;
+			
+			// aapt resource value: 0x7F08013F
+			public const int mtrl_calendar_year_selector_frame = 2131231039;
+			
+			// aapt resource value: 0x7F080140
+			public const int mtrl_card_checked_layer_id = 2131231040;
+			
+			// aapt resource value: 0x7F080141
+			public const int mtrl_child_content_container = 2131231041;
+			
+			// aapt resource value: 0x7F080142
+			public const int mtrl_internal_children_alpha_tag = 2131231042;
+			
+			// aapt resource value: 0x7F080143
+			public const int mtrl_motion_snapshot_view = 2131231043;
+			
+			// aapt resource value: 0x7F080144
+			public const int mtrl_picker_fullscreen = 2131231044;
+			
+			// aapt resource value: 0x7F080145
+			public const int mtrl_picker_header = 2131231045;
+			
+			// aapt resource value: 0x7F080146
+			public const int mtrl_picker_header_selection_text = 2131231046;
+			
+			// aapt resource value: 0x7F080147
+			public const int mtrl_picker_header_title_and_selection = 2131231047;
+			
+			// aapt resource value: 0x7F080148
+			public const int mtrl_picker_header_toggle = 2131231048;
+			
+			// aapt resource value: 0x7F080149
+			public const int mtrl_picker_text_input_date = 2131231049;
+			
+			// aapt resource value: 0x7F08014A
+			public const int mtrl_picker_text_input_range_end = 2131231050;
+			
+			// aapt resource value: 0x7F08014B
+			public const int mtrl_picker_text_input_range_start = 2131231051;
+			
+			// aapt resource value: 0x7F08014C
+			public const int mtrl_picker_title_text = 2131231052;
+			
+			// aapt resource value: 0x7F08014D
+			public const int mtrl_view_tag_bottom_padding = 2131231053;
+			
+			// aapt resource value: 0x7F08014E
+			public const int multiply = 2131231054;
+			
+			// aapt resource value: 0x7F080150
+			public const int navigation_bar_item_icon_view = 2131231056;
+			
+			// aapt resource value: 0x7F080151
+			public const int navigation_bar_item_labels_group = 2131231057;
+			
+			// aapt resource value: 0x7F080152
+			public const int navigation_bar_item_large_label_view = 2131231058;
+			
+			// aapt resource value: 0x7F080153
+			public const int navigation_bar_item_small_label_view = 2131231059;
+			
+			// aapt resource value: 0x7F080154
+			public const int navigation_header_container = 2131231060;
+			
+			// aapt resource value: 0x7F08014F
+			public const int nav_controller_view_tag = 2131231055;
+			
+			// aapt resource value: 0x7F080155
+			public const int never = 2131231061;
+			
+			// aapt resource value: 0x7F080156
+			public const int neverCompleteToEnd = 2131231062;
+			
+			// aapt resource value: 0x7F080157
+			public const int neverCompleteToStart = 2131231063;
+			
+			// aapt resource value: 0x7F080014
+			public const int NextButton = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int NextButtonOutline = 2131230741;
+			
+			// aapt resource value: 0x7F08015A
+			public const int none = 2131231066;
+			
+			// aapt resource value: 0x7F08015B
+			public const int normal = 2131231067;
+			
+			// aapt resource value: 0x7F08015C
+			public const int north = 2131231068;
+			
+			// aapt resource value: 0x7F080158
+			public const int noScroll = 2131231064;
+			
+			// aapt resource value: 0x7F080159
+			public const int noState = 2131231065;
+			
+			// aapt resource value: 0x7F08015D
+			public const int notification_background = 2131231069;
+			
+			// aapt resource value: 0x7F08015E
+			public const int notification_main_column = 2131231070;
+			
+			// aapt resource value: 0x7F08015F
+			public const int notification_main_column_container = 2131231071;
+			
+			// aapt resource value: 0x7F080013
+			public const int NO_DEBUG = 2131230739;
+			
+			// aapt resource value: 0x7F080160
+			public const int off = 2131231072;
+			
+			// aapt resource value: 0x7F080161
+			public const int on = 2131231073;
+			
+			// aapt resource value: 0x7F080162
+			public const int outline = 2131231074;
+			
+			// aapt resource value: 0x7F080163
+			public const int outward = 2131231075;
+			
+			// aapt resource value: 0x7F080164
+			public const int overshoot = 2131231076;
+			
+			// aapt resource value: 0x7F080165
+			public const int packed = 2131231077;
+			
+			// aapt resource value: 0x7F080166
+			public const int parallax = 2131231078;
+			
+			// aapt resource value: 0x7F080167
+			public const int parent = 2131231079;
+			
+			// aapt resource value: 0x7F080168
+			public const int parentPanel = 2131231080;
+			
+			// aapt resource value: 0x7F080169
+			public const int parentRelative = 2131231081;
+			
+			// aapt resource value: 0x7F08016A
+			public const int parent_matrix = 2131231082;
+			
+			// aapt resource value: 0x7F08016B
+			public const int password_toggle = 2131231083;
+			
+			// aapt resource value: 0x7F08016C
+			public const int path = 2131231084;
+			
+			// aapt resource value: 0x7F08016D
+			public const int pathRelative = 2131231085;
+			
+			// aapt resource value: 0x7F080016
+			public const int PauseButtonOutline = 2131230742;
+			
+			// aapt resource value: 0x7F08016E
+			public const int peekHeight = 2131231086;
+			
+			// aapt resource value: 0x7F08016F
+			public const int percent = 2131231087;
+			
+			// aapt resource value: 0x7F080170
+			public const int pin = 2131231088;
+			
+			// aapt resource value: 0x7F080017
+			public const int PinnedMaxThumb = 2131230743;
+			
+			// aapt resource value: 0x7F080018
+			public const int PinnedMinThumb = 2131230744;
+			
+			// aapt resource value: 0x7F080019
+			public const int PlayButtonOutline = 2131230745;
+			
+			// aapt resource value: 0x7F08001A
+			public const int PlayPauseButton = 2131230746;
+			
+			// aapt resource value: 0x7F080171
+			public const int position = 2131231089;
+			
+			// aapt resource value: 0x7F080172
+			public const int postLayout = 2131231090;
+			
+			// aapt resource value: 0x7F08001B
+			public const int PreviousButton = 2131230747;
+			
+			// aapt resource value: 0x7F08001C
+			public const int PreviousButtonOutline = 2131230748;
+			
+			// aapt resource value: 0x7F080173
+			public const int progress_circular = 2131231091;
+			
+			// aapt resource value: 0x7F080174
+			public const int progress_horizontal = 2131231092;
+			
+			// aapt resource value: 0x7F080175
+			public const int radio = 2131231093;
+			
+			// aapt resource value: 0x7F080176
+			public const int ratio = 2131231094;
+			
+			// aapt resource value: 0x7F080177
+			public const int rectangles = 2131231095;
+			
+			// aapt resource value: 0x7F080178
+			public const int recycler_view = 2131231096;
+			
+			// aapt resource value: 0x7F080179
+			public const int reverseSawtooth = 2131231097;
+			
+			// aapt resource value: 0x7F08017A
+			public const int right = 2131231098;
+			
+			// aapt resource value: 0x7F08017B
+			public const int rightToLeft = 2131231099;
+			
+			// aapt resource value: 0x7F08017C
+			public const int right_icon = 2131231100;
+			
+			// aapt resource value: 0x7F08017D
+			public const int right_side = 2131231101;
+			
+			// aapt resource value: 0x7F08017E
+			public const int rounded = 2131231102;
+			
+			// aapt resource value: 0x7F08017F
+			public const int row_index_key = 2131231103;
+			
+			// aapt resource value: 0x7F080180
+			public const int save_non_transition_alpha = 2131231104;
+			
+			// aapt resource value: 0x7F080181
+			public const int save_overlay_view = 2131231105;
+			
+			// aapt resource value: 0x7F080182
+			public const int sawtooth = 2131231106;
+			
+			// aapt resource value: 0x7F080183
+			public const int scale = 2131231107;
+			
+			// aapt resource value: 0x7F080184
+			public const int screen = 2131231108;
+			
+			// aapt resource value: 0x7F080185
+			public const int scroll = 2131231109;
+			
+			// aapt resource value: 0x7F080189
+			public const int scrollable = 2131231113;
+			
+			// aapt resource value: 0x7F080186
+			public const int scrollIndicatorDown = 2131231110;
+			
+			// aapt resource value: 0x7F080187
+			public const int scrollIndicatorUp = 2131231111;
+			
+			// aapt resource value: 0x7F080188
+			public const int scrollView = 2131231112;
+			
+			// aapt resource value: 0x7F08018A
+			public const int search_badge = 2131231114;
+			
+			// aapt resource value: 0x7F08018B
+			public const int search_bar = 2131231115;
+			
+			// aapt resource value: 0x7F08018C
+			public const int search_button = 2131231116;
+			
+			// aapt resource value: 0x7F08018D
+			public const int search_close_btn = 2131231117;
+			
+			// aapt resource value: 0x7F08018E
+			public const int search_edit_frame = 2131231118;
+			
+			// aapt resource value: 0x7F08018F
+			public const int search_go_btn = 2131231119;
+			
+			// aapt resource value: 0x7F080190
+			public const int search_mag_icon = 2131231120;
+			
+			// aapt resource value: 0x7F080191
+			public const int search_plate = 2131231121;
+			
+			// aapt resource value: 0x7F080192
+			public const int search_src_text = 2131231122;
+			
+			// aapt resource value: 0x7F080193
+			public const int search_voice_btn = 2131231123;
+			
+			// aapt resource value: 0x7F080194
+			public const int seekbar = 2131231124;
+			
+			// aapt resource value: 0x7F080195
+			public const int seekbar_value = 2131231125;
+			
+			// aapt resource value: 0x7F080197
+			public const int selected = 2131231127;
+			
+			// aapt resource value: 0x7F080198
+			public const int selection_type = 2131231128;
+			
+			// aapt resource value: 0x7F080196
+			public const int select_dialog_listview = 2131231126;
+			
+			// aapt resource value: 0x7F080199
+			public const int sharedValueSet = 2131231129;
+			
+			// aapt resource value: 0x7F08019A
+			public const int sharedValueUnset = 2131231130;
+			
+			// aapt resource value: 0x7F08019B
+			public const int shellcontent_appbar = 2131231131;
+			
+			// aapt resource value: 0x7F08019C
+			public const int shellcontent_toolbar = 2131231132;
+			
+			// aapt resource value: 0x7F08001D
+			public const int SHIFT = 2131230749;
+			
+			// aapt resource value: 0x7F08019D
+			public const int shortcut = 2131231133;
+			
+			// aapt resource value: 0x7F08019E
+			public const int showCustom = 2131231134;
+			
+			// aapt resource value: 0x7F08019F
+			public const int showHome = 2131231135;
+			
+			// aapt resource value: 0x7F0801A0
+			public const int showTitle = 2131231136;
+			
+			// aapt resource value: 0x7F08001E
+			public const int SHOW_ALL = 2131230750;
+			
+			// aapt resource value: 0x7F08001F
+			public const int SHOW_PATH = 2131230751;
+			
+			// aapt resource value: 0x7F080020
+			public const int SHOW_PROGRESS = 2131230752;
+			
+			// aapt resource value: 0x7F0801A1
+			public const int sin = 2131231137;
+			
+			// aapt resource value: 0x7F0801A2
+			public const int skipCollapsed = 2131231138;
+			
+			// aapt resource value: 0x7F0801A3
+			public const int skipped = 2131231139;
+			
+			// aapt resource value: 0x7F0801A4
+			public const int slide = 2131231140;
+			
+			// aapt resource value: 0x7F080022
+			public const int SliderTrack = 2131230754;
+			
+			// aapt resource value: 0x7F080023
+			public const int SliderTrackOutline = 2131230755;
+			
+			// aapt resource value: 0x7F0801A5
+			public const int sliding_tabs = 2131231141;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int snackbar_action = 2131231142;
+			
+			// aapt resource value: 0x7F0801A7
+			public const int snackbar_text = 2131231143;
+			
+			// aapt resource value: 0x7F0801A8
+			public const int snap = 2131231144;
+			
+			// aapt resource value: 0x7F0801A9
+			public const int snapMargins = 2131231145;
+			
+			// aapt resource value: 0x7F0801AA
+			public const int south = 2131231146;
+			
+			// aapt resource value: 0x7F0801AB
+			public const int spacer = 2131231147;
+			
+			// aapt resource value: 0x7F0801AC
+			public const int special_effects_controller_view_tag = 2131231148;
+			
+			// aapt resource value: 0x7F0801AD
+			public const int spinner = 2131231149;
+			
+			// aapt resource value: 0x7F0801AE
+			public const int spline = 2131231150;
+			
+			// aapt resource value: 0x7F0801AF
+			public const int split_action_bar = 2131231151;
+			
+			// aapt resource value: 0x7F0801B0
+			public const int spread = 2131231152;
+			
+			// aapt resource value: 0x7F0801B1
+			public const int spread_inside = 2131231153;
+			
+			// aapt resource value: 0x7F0801B2
+			public const int spring = 2131231154;
+			
+			// aapt resource value: 0x7F0801B3
+			public const int square = 2131231155;
+			
+			// aapt resource value: 0x7F0801B4
+			public const int src_atop = 2131231156;
+			
+			// aapt resource value: 0x7F0801B5
+			public const int src_in = 2131231157;
+			
+			// aapt resource value: 0x7F0801B6
+			public const int src_over = 2131231158;
+			
+			// aapt resource value: 0x7F0801B7
+			public const int standard = 2131231159;
+			
+			// aapt resource value: 0x7F0801B8
+			public const int start = 2131231160;
+			
+			// aapt resource value: 0x7F0801B9
+			public const int startHorizontal = 2131231161;
+			
+			// aapt resource value: 0x7F0801BA
+			public const int startToEnd = 2131231162;
+			
+			// aapt resource value: 0x7F0801BB
+			public const int startVertical = 2131231163;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int staticLayout = 2131231164;
+			
+			// aapt resource value: 0x7F0801BD
+			public const int staticPostLayout = 2131231165;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int status_bar_latest_event_content = 2131231166;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int stop = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int stretch = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int submenuarrow = 2131231169;
+			
+			// aapt resource value: 0x7F0801C2
+			public const int submit_area = 2131231170;
+			
+			// aapt resource value: 0x7F0801C3
+			public const int supportScrollUp = 2131231171;
+			
+			// aapt resource value: 0x7F0801C4
+			public const int switchWidget = 2131231172;
+			
+			// aapt resource value: 0x7F080021
+			public const int SYM = 2131230753;
+			
+			// aapt resource value: 0x7F0801C5
+			public const int tabMode = 2131231173;
+			
+			// aapt resource value: 0x7F0801C6
+			public const int tag_accessibility_actions = 2131231174;
+			
+			// aapt resource value: 0x7F0801C7
+			public const int tag_accessibility_clickable_spans = 2131231175;
+			
+			// aapt resource value: 0x7F0801C8
+			public const int tag_accessibility_heading = 2131231176;
+			
+			// aapt resource value: 0x7F0801C9
+			public const int tag_accessibility_pane_title = 2131231177;
+			
+			// aapt resource value: 0x7F0801CA
+			public const int tag_on_apply_window_listener = 2131231178;
+			
+			// aapt resource value: 0x7F0801CB
+			public const int tag_on_receive_content_listener = 2131231179;
+			
+			// aapt resource value: 0x7F0801CC
+			public const int tag_on_receive_content_mime_types = 2131231180;
+			
+			// aapt resource value: 0x7F0801CD
+			public const int tag_screen_reader_focusable = 2131231181;
+			
+			// aapt resource value: 0x7F0801CE
+			public const int tag_state_description = 2131231182;
+			
+			// aapt resource value: 0x7F0801CF
+			public const int tag_transition_group = 2131231183;
+			
+			// aapt resource value: 0x7F0801D0
+			public const int tag_unhandled_key_event_manager = 2131231184;
+			
+			// aapt resource value: 0x7F0801D1
+			public const int tag_unhandled_key_listeners = 2131231185;
+			
+			// aapt resource value: 0x7F0801D2
+			public const int tag_window_insets_animation_callback = 2131231186;
+			
+			// aapt resource value: 0x7F0801D3
+			public const int test_checkbox_android_button_tint = 2131231187;
+			
+			// aapt resource value: 0x7F0801D4
+			public const int test_checkbox_app_button_tint = 2131231188;
 			
 			// aapt resource value: 0x7F0801D5
-			public const int touch_outside = 2131231189;
+			public const int test_radiobutton_android_button_tint = 2131231189;
 			
 			// aapt resource value: 0x7F0801D6
-			public const int transitionToEnd = 2131231190;
+			public const int test_radiobutton_app_button_tint = 2131231190;
 			
 			// aapt resource value: 0x7F0801D7
-			public const int transitionToStart = 2131231191;
+			public const int text = 2131231191;
 			
 			// aapt resource value: 0x7F0801D8
-			public const int transition_current_scene = 2131231192;
+			public const int text2 = 2131231192;
 			
 			// aapt resource value: 0x7F0801D9
-			public const int transition_layout_save = 2131231193;
-			
-			// aapt resource value: 0x7F0801DA
-			public const int transition_position = 2131231194;
-			
-			// aapt resource value: 0x7F0801DB
-			public const int transition_scene_layoutid_cache = 2131231195;
-			
-			// aapt resource value: 0x7F0801DC
-			public const int transition_transform = 2131231196;
-			
-			// aapt resource value: 0x7F0801DD
-			public const int triangle = 2131231197;
-			
-			// aapt resource value: 0x7F0801DE
-			public const int @unchecked = 2131231198;
-			
-			// aapt resource value: 0x7F0801DF
-			public const int uniform = 2131231199;
-			
-			// aapt resource value: 0x7F0801E0
-			public const int unlabeled = 2131231200;
+			public const int textEnd = 2131231193;
 			
 			// aapt resource value: 0x7F0801E1
-			public const int up = 2131231201;
+			public const int textinput_counter = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int useLogo = 2131231202;
+			public const int textinput_error = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int vertical_only = 2131231203;
+			public const int textinput_helper_text = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int view_offset_helper = 2131231204;
+			public const int textinput_placeholder = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int view_transition = 2131231205;
+			public const int textinput_prefix_text = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int view_tree_lifecycle_owner = 2131231206;
+			public const int textinput_suffix_text = 2131231206;
+			
+			// aapt resource value: 0x7F0801DA
+			public const int textSpacerNoButtons = 2131231194;
+			
+			// aapt resource value: 0x7F0801DB
+			public const int textSpacerNoTitle = 2131231195;
+			
+			// aapt resource value: 0x7F0801DC
+			public const int textStart = 2131231196;
+			
+			// aapt resource value: 0x7F0801DD
+			public const int textTop = 2131231197;
+			
+			// aapt resource value: 0x7F0801DE
+			public const int text_input_end_icon = 2131231198;
+			
+			// aapt resource value: 0x7F0801DF
+			public const int text_input_error_icon = 2131231199;
+			
+			// aapt resource value: 0x7F0801E0
+			public const int text_input_start_icon = 2131231200;
+			
+			// aapt resource value: 0x7F080026
+			public const int ThumbGuideStart = 2131230758;
+			
+			// aapt resource value: 0x7F080027
+			public const int Tickmarks = 2131230759;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int view_tree_saved_state_registry_owner = 2131231207;
+			public const int time = 2131231207;
 			
 			// aapt resource value: 0x7F0801E8
-			public const int view_tree_view_model_store_owner = 2131231208;
+			public const int title = 2131231208;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int visible = 2131231209;
+			public const int titleDividerNoCustom = 2131231209;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int visible_removing_fragment_view_tag = 2131231210;
+			public const int title_template = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int west = 2131231211;
+			public const int toggle = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int wide = 2131231212;
-			
-			// aapt resource value: 0x7F0801EE
-			public const int withinBounds = 2131231214;
+			public const int toolbar = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int withText = 2131231213;
+			public const int top = 2131231213;
+			
+			// aapt resource value: 0x7F0801EE
+			public const int topPanel = 2131231214;
+			
+			// aapt resource value: 0x7F080024
+			public const int TOP_END = 2131230756;
+			
+			// aapt resource value: 0x7F080025
+			public const int TOP_START = 2131230757;
 			
 			// aapt resource value: 0x7F0801EF
-			public const int wrap = 2131231215;
+			public const int touch_outside = 2131231215;
 			
 			// aapt resource value: 0x7F0801F0
-			public const int wrap_content = 2131231216;
+			public const int transitionToEnd = 2131231216;
 			
 			// aapt resource value: 0x7F0801F1
-			public const int wrap_content_constrained = 2131231217;
+			public const int transitionToStart = 2131231217;
 			
 			// aapt resource value: 0x7F0801F2
-			public const int x_left = 2131231218;
+			public const int transition_current_scene = 2131231218;
 			
 			// aapt resource value: 0x7F0801F3
-			public const int x_right = 2131231219;
+			public const int transition_layout_save = 2131231219;
 			
 			// aapt resource value: 0x7F0801F4
-			public const int zero_corner_chip = 2131231220;
+			public const int transition_position = 2131231220;
+			
+			// aapt resource value: 0x7F0801F5
+			public const int transition_scene_layoutid_cache = 2131231221;
+			
+			// aapt resource value: 0x7F0801F6
+			public const int transition_transform = 2131231222;
+			
+			// aapt resource value: 0x7F0801F7
+			public const int triangle = 2131231223;
+			
+			// aapt resource value: 0x7F0801F8
+			public const int @unchecked = 2131231224;
+			
+			// aapt resource value: 0x7F0801F9
+			public const int uniform = 2131231225;
+			
+			// aapt resource value: 0x7F0801FA
+			public const int unlabeled = 2131231226;
+			
+			// aapt resource value: 0x7F0801FB
+			public const int up = 2131231227;
+			
+			// aapt resource value: 0x7F0801FC
+			public const int useLogo = 2131231228;
+			
+			// aapt resource value: 0x7F0801FD
+			public const int vertical_only = 2131231229;
+			
+			// aapt resource value: 0x7F0801FE
+			public const int view_offset_helper = 2131231230;
+			
+			// aapt resource value: 0x7F0801FF
+			public const int view_transition = 2131231231;
+			
+			// aapt resource value: 0x7F080200
+			public const int view_tree_lifecycle_owner = 2131231232;
+			
+			// aapt resource value: 0x7F080201
+			public const int view_tree_saved_state_registry_owner = 2131231233;
+			
+			// aapt resource value: 0x7F080202
+			public const int view_tree_view_model_store_owner = 2131231234;
+			
+			// aapt resource value: 0x7F080203
+			public const int visible = 2131231235;
+			
+			// aapt resource value: 0x7F080204
+			public const int visible_removing_fragment_view_tag = 2131231236;
+			
+			// aapt resource value: 0x7F080205
+			public const int west = 2131231237;
+			
+			// aapt resource value: 0x7F080206
+			public const int wide = 2131231238;
+			
+			// aapt resource value: 0x7F080208
+			public const int withinBounds = 2131231240;
+			
+			// aapt resource value: 0x7F080207
+			public const int withText = 2131231239;
+			
+			// aapt resource value: 0x7F080209
+			public const int wrap = 2131231241;
+			
+			// aapt resource value: 0x7F08020A
+			public const int wrap_content = 2131231242;
+			
+			// aapt resource value: 0x7F08020B
+			public const int wrap_content_constrained = 2131231243;
+			
+			// aapt resource value: 0x7F08020C
+			public const int x_left = 2131231244;
+			
+			// aapt resource value: 0x7F08020D
+			public const int x_right = 2131231245;
+			
+			// aapt resource value: 0x7F08020E
+			public const int zero_corner_chip = 2131231246;
 			
 			static Id()
 			{
@@ -22567,7 +26766,10 @@ namespace FreightExchange.Droid
 			public const int text_view_with_theme_line_height = 2131427474;
 			
 			// aapt resource value: 0x7F0B0094
-			public const int Toolbar = 2131427476;
+			public const int TimeSlider = 2131427476;
+			
+			// aapt resource value: 0x7F0B0095
+			public const int Toolbar = 2131427477;
 			
 			static Layout()
 			{

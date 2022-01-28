@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.Contracts.ContractViewPage"
+             Title="Contract Info"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Frame" x:Key="FrameContractInfo">
+                <Setter Property="BackgroundColor" Value="{StaticResource PaleSpringBud}"/>
+                <Setter Property="Padding" Value="12"/>
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Start" Padding="12">
+            <Frame Padding="12" Style="{StaticResource FrameContractInfo}">
+                <StackLayout>
+                    <Label Text="{Binding Transporter.Role}" FontSize="Large" TextColor="Black"/>
+                    <StackLayout Padding="8,0,0,0">
+                        <Label Text="{Binding Transporter.Name}" Style="{StaticResource TitleStyle}" />
+                        <Label Text="{Binding Transporter.SurName}" Style="{StaticResource TitleStyle}"/>
+                        <Label Text="{Binding Transporter.Email}" Style="{StaticResource TitleStyle}"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame Padding="12" Style="{StaticResource FrameContractInfo}">
+                <StackLayout>
+                    <Label Text="{Binding Sender.Role}" FontSize="Large" TextColor="Black"/>
+                    <StackLayout Padding="8,0,0,0">
+                        <Label Text="{Binding Sender.Name}" Style="{StaticResource TitleStyle}" />
+                        <Label Text="{Binding Sender.SurName}" Style="{StaticResource TitleStyle}"/>
+                        <Label Text="{Binding Sender.Email}" Style="{StaticResource TitleStyle}"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame Padding="12" Style="{StaticResource FrameContractInfo}">
+                <StackLayout>
+                    <Label Text="{Binding StartPlace , StringFormat='Start Place: {0}'}" Style="{StaticResource TitleStyle}"/>
+                    <Label Text="{Binding EndPlace, StringFormat='End Place: {0}'}" Style="{StaticResource TitleStyle}"/>
+                    <Label Text="{Binding Price, StringFormat='Price: {0:F2} RON'}" Style="{StaticResource TitleStyle}"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Padding="12" Style="{StaticResource FrameContractInfo}">
+                <StackLayout>
+                    <Label Text="{Binding FreightDetailes, StringFormat='     Info Freight: &#x0a;{0}'}" Style="{StaticResource TitleStyle}"/>
+                    <Label Text="{Binding TruckDetailes, StringFormat='     Info Truck: &#x0a;{0}'}" Style="{StaticResource TitleStyle}" TextColor="Black" />
+                </StackLayout>
+            </Frame>
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

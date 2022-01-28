@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.Contracts.ContractsListPage"
+             Title="{Binding PageTitle}">
+    <ContentPage.Content>
+        <StackLayout>
+            <RefreshView IsRefreshing="{Binding IsRefreshing}"
+                         Command="{Binding RefreshCommand}">
+                <CollectionView x:Name="ContractsList"
+                            SelectionMode="Single"
+                            SelectedItem="{Binding SelectedElement}"
+                            ItemsSource="{Binding ListOfContracts}">
+
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="1" HorizontalItemSpacing="7" VerticalItemSpacing="7"/>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <SwipeView>
+                                <SwipeView.RightItems>
+                                    <SwipeItems >
+                                        <SwipeItemView Command="{Binding Path=BindingContext.Delete, Source={Reference ContractsList}}" CommandParameter="{Binding .}" >
+                                            <Button Text="trash" CornerRadius="5" FontSize="25" FontFamily="FAS" BackgroundColor="Red"/>
+                                        </SwipeItemView>
+                                    </SwipeItems>
+                                </SwipeView.RightItems>
+                                <Frame Style="{StaticResource FrameList}" Padding="4,0,2,0">
+                                    <Grid Padding="4,4,0,8" RowSpacing="4">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="auto" />
+                                        </Grid.RowDefinitions>
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto" />
+                                            <ColumnDefinition Width="1.5*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="StartAndExpand" Spacing="8">
+                                            <Label Text="{Binding StartPlace, StringFormat='F: {0}'}"
+                                                   FontAttributes="Bold"
+                                                   FontSize="Medium"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                            <Label Text="{Binding EndPlace, StringFormat='T: {0}'}"
+                                                   FontAttributes="Bold"
+                                                   FontSize="Medium"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                        </StackLayout>
+
+                                        <StackLayout Grid.Row="1" Grid.Column="1" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="StartAndExpand" Spacing="8">
+                                            <Label Text="{Binding Price, StringFormat='Price: {0:F2}'}"
+                                                   Grid.Row="1"
+                                                   FontAttributes="Italic"
+                                                   FontSize="Small"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                            <Label Text="{Binding FreightDetailes }"
+                                                   Grid.Row="1"
+                                                   FontAttributes="Italic"
+                                                   FontSize="Small"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                        </StackLayout>
+
+                                     
+                                    </Grid>
+                                </Frame>
+                            </SwipeView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

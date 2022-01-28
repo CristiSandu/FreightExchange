@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.Carriers.CarrierFormPage"
+             Title="Carrier Form"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="8" Spacing="18">
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Start Date/Place"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <DatePicker Grid.Column="0" Date="{Binding CarrierModel.StartDate}"/>
+                            <Entry Grid.Column="1" Placeholder="StartPlace" Text="{Binding CarrierModel.StartPlace}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="End Date/Place"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <DatePicker Grid.Column="0" Date="{Binding CarrierModel.EndDate}"/>
+                            <Entry Grid.Column="1" Placeholder="EndPlace" Text="{Binding CarrierModel.EndPlace}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Truck Informations" />
+                        <Entry Placeholder="Truck Type ex:Merceds" Text="{Binding CarrierModel.TruckType}" />
+
+                        <Entry Placeholder="Volume in m^3" Keyboard="Numeric" Text="{Binding CarrierModel.Volume}"/>
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+
+                            </Grid.ColumnDefinitions>
+
+                            <Entry Grid.Column="0" Placeholder="lungime" Keyboard="Numeric"  Text="{Binding CarrierModel.Dimentions.Lenght}"/>
+                            <Entry Grid.Column="1" Placeholder="latime" Keyboard="Numeric" Text="{Binding CarrierModel.Dimentions.Width}"/>
+                            <Entry Grid.Column="2" Placeholder="inalitime" Keyboard="Numeric" Text="{Binding CarrierModel.Dimentions.Height}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Weight(T)" />
+                        <Entry Placeholder="Greutate(T): 100T" Keyboard="Numeric" Text="{Binding CarrierModel.Weight}"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Prices Lei/Kg"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Entry Grid.Column="0" Placeholder="Price Empty price/kg:" Keyboard="Numeric" Text="{Binding CarrierModel.EnptyPrice}"/>
+                            <Entry Grid.Column="1" Placeholder="Price Full price/kg:" Keyboard="Numeric" Text="{Binding CarrierModel.FullPrice}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+                
+                <Frame Style="{StaticResource FrameAddNews}">
+                    <StackLayout Spacing="-5">
+                        <Label Text="Carrier Informations"/>
+                        <Grid RowSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Entry Placeholder="Telefon: 0775592485" Keyboard="Numeric" Text="{Binding CarrierModel.Phone}"/>
+                            <Entry Grid.Row="1" Placeholder="Email: crystisasndu3@gmail.com" Keyboard="Email" Text="{Binding CarrierModel.Email}"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="44">
+                    <Button Text="Save" TextTransform="None" Style="{StaticResource ButtonCheckedStyle}" Command="{Binding SaveCommand}"/>
+                    <Button Text="Cancel" TextTransform="None" Style="{StaticResource ButtonUnCheckStyle}" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

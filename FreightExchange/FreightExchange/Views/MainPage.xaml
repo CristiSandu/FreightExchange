@@ -15,6 +15,8 @@
             <Label Text="{Binding User.Role}" />
             <Label Text="{Binding User.Email}" />
 
+            <Button Text="Add Offert" Clicked="Button_Clicked"/>
+            <Button Text="Add Offert" Clicked="Button_Clicked_1"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

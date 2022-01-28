@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreightExchange.Views.Orders.OrdersOffertsList"
+             Title="{Binding PageTitle}"
+             >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Command="{Binding AddNewElementCommand}"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="4">
+            <RefreshView IsRefreshing="{Binding IsRefreshing}"
+                         Command="{Binding RefreshCommand}">
+                <CollectionView x:Name="ordersList"
+                                SelectionMode="Single"
+                                SelectedItem="{Binding SelectedElement}"
+                                ItemsSource="{Binding ListOf}">
+
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="1" HorizontalItemSpacing="7" VerticalItemSpacing="7"/>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <SwipeView>
+                                <SwipeView.RightItems>
+                                    <SwipeItems >
+                                        <SwipeItemView Command="{Binding Path=BindingContext.Delete, Source={Reference ordersList}}" CommandParameter="{Binding .}" >
+                                            <Button Text="trash" CornerRadius="5" FontSize="25" FontFamily="FAS" BackgroundColor="Red"/>
+                                        </SwipeItemView>
+                                    </SwipeItems>
+                                </SwipeView.RightItems>
+                                <Frame Style="{StaticResource FrameList}" Padding="4,0,2,0">
+                                    <Grid Padding="4,4,0,8" RowSpacing="4">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="auto" />
+                                        </Grid.RowDefinitions>
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto" />
+                                            <ColumnDefinition Width="1.5*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="StartAndExpand" Spacing="8">
+                                            <Label Text="{Binding StartPlace, StringFormat='F: {0}'}"
+                                                   FontAttributes="Bold"
+                                                   FontSize="Medium"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                            <Label Text="{Binding EndPlace, StringFormat='T: {0}'}"
+                                                   FontAttributes="Bold"
+                                                   FontSize="Medium"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                        </StackLayout>
+
+                                        <StackLayout Grid.Row="1" Grid.Column="1" Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="StartAndExpand" Spacing="8">
+                                            <Label Text="{Binding StartDate, StringFormat='S: {0:dd.MM.yyyy}'}"
+                                                   Grid.Row="1"
+                                                   FontAttributes="Italic"
+                                                   FontSize="Small"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                            <Label Text="{Binding EndDate ,StringFormat='E: {0:dd.MM.yyyy}'}"
+                                                   Grid.Row="1"
+                                                   FontAttributes="Italic"
+                                                   FontSize="Small"
+                                                   HorizontalOptions="Start"
+                                                   TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                                   Style="{StaticResource TitleStyle}"/>
+                                        </StackLayout>
+
+                                        <Label Grid.Column="1"
+                                               Grid.Row="1"
+                                               HorizontalOptions="EndAndExpand"
+                                               Text="{Binding Id}"
+                                               TextColor="{AppThemeBinding Light={StaticResource BackgroundLight}, Dark={StaticResource BackgroundLight}}"
+                                               FontAttributes="Bold"
+                                               FontSize="Small"
+                                               Style="{StaticResource TitleStyle}"/>
+                                    </Grid>
+                                </Frame>
+                            </SwipeView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
