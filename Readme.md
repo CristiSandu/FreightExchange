@@ -4,5 +4,5 @@ A Mobile App made with **Xamarin Forms** and **Firebase** using **ArgGIS .NET AP
 
 ## 📱Frontend  
 
-![](/FreightExchange/Mocks/Picture4.png)
-![](/FreightExchange/Mocks/Picture9.png)
+![](/Mocks/Picture4.png)
+![](/Mocks/Picture9.png)
